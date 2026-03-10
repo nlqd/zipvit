@@ -272,15 +272,21 @@ function showDistricts(mergerSlug, oldSlug) {
   document.getElementById("search").value = "";
   document.getElementById("region-filters").style.display = "none";
 
-  map.setView([provInfo.lat, provInfo.lng], 10);
+  // If districts have coordinates, fit bounds; else center on province
+  var geocodedDistricts = detail.districts.filter(function (d) { return d.lat && d.lng; });
+  if (geocodedDistricts.length > 1) {
+    map.fitBounds(L.latLngBounds(geocodedDistricts.map(function (d) { return [d.lat, d.lng]; })).pad(0.2));
+  } else {
+    map.setView([provInfo.lat, provInfo.lng], 10);
+  }
 
   var list = document.getElementById("list");
   list.innerHTML = "";
 
   detail.districts.forEach(function (d, idx) {
     var angle = (idx / detail.districts.length) * 2 * Math.PI;
-    var dlat = provInfo.lat + 0.08 * Math.cos(angle);
-    var dlng = provInfo.lng + 0.08 * Math.sin(angle);
+    var dlat = d.lat || (provInfo.lat + 0.08 * Math.cos(angle));
+    var dlng = d.lng || (provInfo.lng + 0.08 * Math.sin(angle));
 
     var hasWards = d.wards && d.wards.length > 0;
 
@@ -335,10 +341,15 @@ function showWards(mergerSlug, oldSlug, district) {
   var list = document.getElementById("list");
   list.innerHTML = "";
 
+  // Use district center if geocoded, else province center
+  var centerLat = district.lat || provInfo.lat;
+  var centerLng = district.lng || provInfo.lng;
+  if (district.lat && district.lng) map.setView([district.lat, district.lng], 13);
+
   district.wards.forEach(function (w, idx) {
     var angle = (idx / district.wards.length) * 2 * Math.PI;
-    var wlat = provInfo.lat + 0.02 * Math.cos(angle);
-    var wlng = provInfo.lng + 0.02 * Math.sin(angle);
+    var wlat = w.lat || (centerLat + 0.02 * Math.cos(angle));
+    var wlng = w.lng || (centerLng + 0.02 * Math.sin(angle));
 
     addMarker(wlat, wlng, "#43a047", w.zip,
       "<strong>" + w.name + "</strong><br/>" +
