@@ -1,0 +1,784 @@
+[
+  {
+    "name": "Hồ Chí Minh",
+    "slug": "ho-chi-minh",
+    "zip": "70000",
+    "districts": [
+      {
+        "name": "Huyện Bình Chánh",
+        "zip": "71800",
+        "wards": [
+          {
+            "name": "Thị trấn Tân Túc",
+            "zip": "71806"
+          },
+          {
+            "name": "Xã An Phú Tây",
+            "zip": "71808"
+          },
+          {
+            "name": "Xã Bình Chánh",
+            "zip": "71814"
+          },
+          {
+            "name": "Xã Bình Hưng",
+            "zip": "71813"
+          },
+          {
+            "name": "Xã Bình Lợi",
+            "zip": "71818"
+          },
+          {
+            "name": "Xã Đa Phước",
+            "zip": "71810"
+          },
+          {
+            "name": "Xã Hưng Long",
+            "zip": "71809"
+          },
+          {
+            "name": "Xã Lê Minh Xuân",
+            "zip": "71817"
+          },
+          {
+            "name": "Xã Phạm Văn Hai",
+            "zip": "71820"
+          },
+          {
+            "name": "Xã Phong Phú",
+            "zip": "71812"
+          },
+          {
+            "name": "Xã Quy Đức",
+            "zip": "71810"
+          },
+          {
+            "name": "Xã Tân Kiên",
+            "zip": "71815"
+          },
+          {
+            "name": "Xã Tân Nhựt",
+            "zip": "71816"
+          },
+          {
+            "name": "Xã Tân Quý Tây",
+            "zip": "71807"
+          },
+          {
+            "name": "Xã Trung phúc huyện trùng khánh tỉnh cao bằng",
+            "zip": "71819"
+          },
+          {
+            "name": "Xã Vĩnh Lộc A",
+            "zip": "71821"
+          }
+        ]
+      },
+      {
+        "name": "Huyện Cần Giờ",
+        "zip": "73300",
+        "wards": [
+          {
+            "name": "Thị trấn Cần Thạnh",
+            "zip": "73306"
+          },
+          {
+            "name": "Xã An Thới Đông",
+            "zip": "73311"
+          },
+          {
+            "name": "Xã Bình Khánh",
+            "zip": "73310"
+          },
+          {
+            "name": "Xã Long Hòa",
+            "zip": "73307"
+          },
+          {
+            "name": "Xã Lý Nhơn",
+            "zip": "73312"
+          },
+          {
+            "name": "Xã Tam Thôn Hiệp",
+            "zip": "73309"
+          },
+          {
+            "name": "Xã Thạnh An",
+            "zip": "73308"
+          }
+        ]
+      },
+      {
+        "name": "Huyện Củ Chi",
+        "zip": "71600",
+        "wards": [
+          {
+            "name": "Thị trấn Củ Chi",
+            "zip": "71606"
+          },
+          {
+            "name": "Xã An Nhơn Tây",
+            "zip": "71619"
+          },
+          {
+            "name": "Xã An Phú",
+            "zip": "71620"
+          },
+          {
+            "name": "Xã Bình Mỹ",
+            "zip": "71611"
+          },
+          {
+            "name": "Xã Hòa Phú",
+            "zip": "71612"
+          },
+          {
+            "name": "Xã Nhuận Đức",
+            "zip": "71618"
+          },
+          {
+            "name": "Xã Phạm Văn Cội",
+            "zip": "71617"
+          },
+          {
+            "name": "Xã Phú Hòa Đông",
+            "zip": "71616"
+          },
+          {
+            "name": "Xã Phú Mỹ Hưng",
+            "zip": "71621"
+          },
+          {
+            "name": "Xã Phước Hiệp",
+            "zip": "71626"
+          },
+          {
+            "name": "Xã Phước Thạnh",
+            "zip": "71624"
+          },
+          {
+            "name": "Xã Phước Vĩnh An",
+            "zip": "71615"
+          },
+          {
+            "name": "Xã Tân An Hội",
+            "zip": "71607"
+          },
+          {
+            "name": "Xã Tân Phú Trung",
+            "zip": "71609"
+          },
+          {
+            "name": "Xã Tân Thạnh Đông",
+            "zip": "71610"
+          },
+          {
+            "name": "Xã Tân Thạnh Tây",
+            "zip": "71614"
+          },
+          {
+            "name": "Xã Tân Thông Hội",
+            "zip": "71608"
+          },
+          {
+            "name": "Xã Thái Mỹ",
+            "zip": "71625"
+          },
+          {
+            "name": "Xã Trung An",
+            "zip": "71613"
+          },
+          {
+            "name": "Xã Trung Lập Hạ",
+            "zip": "71623"
+          },
+          {
+            "name": "Xã Trung Lập Thượng",
+            "zip": "71622"
+          }
+        ]
+      },
+      {
+        "name": "Huyện Hóc Môn",
+        "zip": "71700",
+        "wards": []
+      },
+      {
+        "name": "Huyện Nhà Bè",
+        "zip": "73200",
+        "wards": []
+      },
+      {
+        "name": "Quận 1",
+        "zip": "71000",
+        "wards": []
+      },
+      {
+        "name": "Quận 10",
+        "zip": "72500",
+        "wards": []
+      },
+      {
+        "name": "Quận 11",
+        "zip": "72600",
+        "wards": []
+      },
+      {
+        "name": "Quận 12",
+        "zip": "71500",
+        "wards": []
+      },
+      {
+        "name": "Quận 2",
+        "zip": "71100",
+        "wards": []
+      },
+      {
+        "name": "Quận 3",
+        "zip": "72400",
+        "wards": []
+      },
+      {
+        "name": "Quận 4",
+        "zip": "72800",
+        "wards": []
+      },
+      {
+        "name": "Quận 5",
+        "zip": "72700",
+        "wards": []
+      },
+      {
+        "name": "Quận 6",
+        "zip": "73100",
+        "wards": []
+      },
+      {
+        "name": "Quận 7",
+        "zip": "72900",
+        "wards": []
+      },
+      {
+        "name": "Quận 8",
+        "zip": "73000",
+        "wards": []
+      },
+      {
+        "name": "Quận 9",
+        "zip": "71200",
+        "wards": []
+      },
+      {
+        "name": "Quận Bình Tân",
+        "zip": "71900",
+        "wards": []
+      },
+      {
+        "name": "Quận Bình Thạnh",
+        "zip": "72300",
+        "wards": []
+      },
+      {
+        "name": "Quận Gò Vấp",
+        "zip": "71400",
+        "wards": []
+      },
+      {
+        "name": "Quận Phú Nhuận",
+        "zip": "72200",
+        "wards": []
+      },
+      {
+        "name": "Quận Tân Bình",
+        "zip": "72100",
+        "wards": []
+      },
+      {
+        "name": "Quận Tân Phú",
+        "zip": "72000",
+        "wards": []
+      },
+      {
+        "name": "Quận Thủ Đức",
+        "zip": "71300",
+        "wards": []
+      }
+    ]
+  },
+  {
+    "name": "Hà Nội",
+    "slug": "ha-noi",
+    "zip": "10000",
+    "districts": [
+      {
+        "name": "Huyện Ba Vì",
+        "zip": "12600",
+        "wards": [
+          {
+            "name": "Thị trấn Tây Đằng",
+            "zip": "12606"
+          },
+          {
+            "name": "Xã Ba Trại",
+            "zip": "12626"
+          },
+          {
+            "name": "Xã Ba Vì",
+            "zip": "12629"
+          },
+          {
+            "name": "Xã Cẩm Lĩnh",
+            "zip": "12622"
+          },
+          {
+            "name": "Xã Cam Thượng",
+            "zip": "12636"
+          },
+          {
+            "name": "Xã Châu Sơn",
+            "zip": "12611"
+          },
+          {
+            "name": "Xã Chu Minh",
+            "zip": "12607"
+          },
+          {
+            "name": "Xã Cổ Đô",
+            "zip": "12614"
+          },
+          {
+            "name": "Xã Đông Quang",
+            "zip": "12635"
+          },
+          {
+            "name": "Xã Đồng Thái",
+            "zip": "12619"
+          },
+          {
+            "name": "Xã Khánh Thượng",
+            "zip": "12628"
+          },
+          {
+            "name": "Xã Minh Châu",
+            "zip": "12608"
+          },
+          {
+            "name": "Xã Minh Quang",
+            "zip": "12627"
+          },
+          {
+            "name": "Xã Phong Vân",
+            "zip": "12617"
+          },
+          {
+            "name": "Xã Phú Châu",
+            "zip": "12609"
+          },
+          {
+            "name": "Xã Phú Cường",
+            "zip": "12613"
+          },
+          {
+            "name": "Xã Phú Đông",
+            "zip": "12616"
+          },
+          {
+            "name": "Xã Phú Phương",
+            "zip": "12610"
+          },
+          {
+            "name": "Xã Phú Sơn",
+            "zip": "12621"
+          },
+          {
+            "name": "Xã Sơn Đà",
+            "zip": "12624"
+          },
+          {
+            "name": "Xã Tản Hồng",
+            "zip": "12612"
+          },
+          {
+            "name": "Xã Tản Lĩnh",
+            "zip": "12632"
+          },
+          {
+            "name": "Xã Thái Hòa",
+            "zip": "12618"
+          },
+          {
+            "name": "Xã Thuần Mỹ",
+            "zip": "12625"
+          },
+          {
+            "name": "Xã Thụy An",
+            "zip": "12633"
+          },
+          {
+            "name": "Xã Tiên Phong",
+            "zip": "12634"
+          },
+          {
+            "name": "Xã Tòng Bạt",
+            "zip": "12623"
+          },
+          {
+            "name": "Xã Vân Hòa",
+            "zip": "12631"
+          },
+          {
+            "name": "Xã Vạn Thắng",
+            "zip": "12615"
+          },
+          {
+            "name": "Xã Vật Lại",
+            "zip": "12620"
+          },
+          {
+            "name": "Xã Yên Bài",
+            "zip": "12630"
+          }
+        ]
+      },
+      {
+        "name": "Huyện Chương Mỹ",
+        "zip": "13400",
+        "wards": [
+          {
+            "name": "Thị trấn Chúc Sơn",
+            "zip": "13406"
+          },
+          {
+            "name": "Thị trấn Xuân Mai",
+            "zip": "13417"
+          },
+          {
+            "name": "Xã Đại Yên",
+            "zip": "13435"
+          },
+          {
+            "name": "Xã Đồng Lạc",
+            "zip": "13424"
+          },
+          {
+            "name": "Xã Đồng Phú",
+            "zip": "13426"
+          },
+          {
+            "name": "Xã Đông Phương Yên",
+            "zip": "13412"
+          },
+          {
+            "name": "Xã Đông Sơn",
+            "zip": "13415"
+          },
+          {
+            "name": "Xã Hòa Chính",
+            "zip": "13427"
+          },
+          {
+            "name": "Xã Hoàng Diệu",
+            "zip": "13431"
+          },
+          {
+            "name": "Xã Hoàng Văn Thụ",
+            "zip": "13420"
+          },
+          {
+            "name": "Xã Hồng Phong",
+            "zip": "13425"
+          },
+          {
+            "name": "Xã Hợp Đồng",
+            "zip": "13433"
+          },
+          {
+            "name": "Xã Hữu Văn",
+            "zip": "13421"
+          },
+          {
+            "name": "Xã Lam Điền",
+            "zip": "13436"
+          },
+          {
+            "name": "Xã Mỹ Lương",
+            "zip": "13422"
+          },
+          {
+            "name": "Xã Nam Phương Tiến",
+            "zip": "13418"
+          },
+          {
+            "name": "Xã Ngọc Hòa",
+            "zip": "13409"
+          },
+          {
+            "name": "Xã Phú Nam An",
+            "zip": "13428"
+          },
+          {
+            "name": "Xã Phú Nghĩa",
+            "zip": "13411"
+          },
+          {
+            "name": "Xã Phụng Châu",
+            "zip": "13407"
+          },
+          {
+            "name": "Xã Quảng Bị",
+            "zip": "13432"
+          },
+          {
+            "name": "Xã Tân Tiến",
+            "zip": "13419"
+          },
+          {
+            "name": "Xã Thanh Bình",
+            "zip": "13414"
+          },
+          {
+            "name": "Xã Thượng Vực",
+            "zip": "13430"
+          },
+          {
+            "name": "Xã Thụy Hương",
+            "zip": "13437"
+          },
+          {
+            "name": "Xã Thủy Xuân Tiên",
+            "zip": "13416"
+          },
+          {
+            "name": "Xã Tiên Phương",
+            "zip": "13408"
+          },
+          {
+            "name": "Xã Tốt Động",
+            "zip": "13434"
+          },
+          {
+            "name": "Xã Trần Phú",
+            "zip": "13423"
+          },
+          {
+            "name": "Xã Trung Hòa",
+            "zip": "13413"
+          },
+          {
+            "name": "Xã Trường Yên",
+            "zip": "13410"
+          },
+          {
+            "name": "Xã Văn Võ",
+            "zip": "13429"
+          }
+        ]
+      },
+      {
+        "name": "Huyện Đan Phượng",
+        "zip": "13000",
+        "wards": [
+          {
+            "name": "Thị trấn Phùng",
+            "zip": "13006"
+          },
+          {
+            "name": "Xã Đan Phượng",
+            "zip": "13007"
+          },
+          {
+            "name": "Xã Đồng Tháp",
+            "zip": "13020"
+          },
+          {
+            "name": "Xã Hạ Mỗ",
+            "zip": "13009"
+          },
+          {
+            "name": "Xã Hồng Hà",
+            "zip": "13015"
+          },
+          {
+            "name": "Xã Liên Hà",
+            "zip": "13013"
+          },
+          {
+            "name": "Xã Liên Hồng",
+            "zip": "13014"
+          },
+          {
+            "name": "Xã Liên Trung",
+            "zip": "13012"
+          },
+          {
+            "name": "Xã Phương Đình",
+            "zip": "13019"
+          },
+          {
+            "name": "Xã Song Phượng",
+            "zip": "13021"
+          },
+          {
+            "name": "Xã Tân Hội",
+            "zip": "13010"
+          },
+          {
+            "name": "Xã Tân Lập",
+            "zip": "13011"
+          },
+          {
+            "name": "Xã Thọ An",
+            "zip": "13018"
+          },
+          {
+            "name": "Xã Thọ Xuân",
+            "zip": "13017"
+          },
+          {
+            "name": "Xã Thượng Mỗ",
+            "zip": "13008"
+          },
+          {
+            "name": "Xã Trung Châu",
+            "zip": "13016"
+          }
+        ]
+      },
+      {
+        "name": "Huyện Đông Anh",
+        "zip": "12300",
+        "wards": []
+      },
+      {
+        "name": "Huyện Gia Lâm",
+        "zip": "12400",
+        "wards": []
+      },
+      {
+        "name": "Huyện Hoài Đức",
+        "zip": "13200",
+        "wards": []
+      },
+      {
+        "name": "Huyện Mê Linh",
+        "zip": "12900",
+        "wards": []
+      },
+      {
+        "name": "Huyện Mỹ Đức",
+        "zip": "13700",
+        "wards": []
+      },
+      {
+        "name": "Huyện Phú Xuyên",
+        "zip": "13900",
+        "wards": []
+      },
+      {
+        "name": "Huyện Phúc Thọ",
+        "zip": "12800",
+        "wards": []
+      },
+      {
+        "name": "Huyện Quốc Oai",
+        "zip": "13300",
+        "wards": []
+      },
+      {
+        "name": "Huyện Sóc Sơn",
+        "zip": "12200",
+        "wards": []
+      },
+      {
+        "name": "Huyện Thạch Thất",
+        "zip": "13100",
+        "wards": []
+      },
+      {
+        "name": "Huyện Thanh Oai",
+        "zip": "13500",
+        "wards": []
+      },
+      {
+        "name": "Huyện Thanh Trì",
+        "zip": "12500",
+        "wards": []
+      },
+      {
+        "name": "Huyện Thường Tín",
+        "zip": "13600",
+        "wards": []
+      },
+      {
+        "name": "Huyện Ứng Hòa",
+        "zip": "13800",
+        "wards": []
+      },
+      {
+        "name": "Quận Ba Đình",
+        "zip": "11100",
+        "wards": []
+      },
+      {
+        "name": "Quận Bắc Từ Liêm",
+        "zip": "11900",
+        "wards": []
+      },
+      {
+        "name": "Quận Cầu Giấy",
+        "zip": "11300",
+        "wards": []
+      },
+      {
+        "name": "Quận Đống Đa",
+        "zip": "11500",
+        "wards": []
+      },
+      {
+        "name": "Quận Hà Đông",
+        "zip": "12100",
+        "wards": []
+      },
+      {
+        "name": "Quận Hai Bà Trưng",
+        "zip": "11600",
+        "wards": []
+      },
+      {
+        "name": "Quận Hoàn Kiếm",
+        "zip": "11000",
+        "wards": []
+      },
+      {
+        "name": "Quận Hoàng Mai",
+        "zip": "11700",
+        "wards": []
+      },
+      {
+        "name": "Quận Long Biên",
+        "zip": "11800",
+        "wards": []
+      },
+      {
+        "name": "Quận Nam Từ Liêm",
+        "zip": "12000",
+        "wards": []
+      },
+      {
+        "name": "Quận Tây Hồ",
+        "zip": "11200",
+        "wards": []
+      },
+      {
+        "name": "Quận Thanh Xuân",
+        "zip": "11400",
+        "wards": []
+      },
+      {
+        "name": "Thị xã Sơn Tây",
+        "zip": "12700",
+        "wards": []
+      }
+    ]
+  }
+]
