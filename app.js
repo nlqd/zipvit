@@ -344,7 +344,12 @@ function showWards(mergerSlug, oldSlug, district) {
   // Use district center if geocoded, else province center
   var centerLat = district.lat || provInfo.lat;
   var centerLng = district.lng || provInfo.lng;
-  if (district.lat && district.lng) map.setView([district.lat, district.lng], 13);
+  var geocodedWards = district.wards.filter(function (w) { return w.lat && w.lng; });
+  if (geocodedWards.length > 1) {
+    map.fitBounds(L.latLngBounds(geocodedWards.map(function (w) { return [w.lat, w.lng]; })).pad(0.2));
+  } else if (district.lat && district.lng) {
+    map.setView([district.lat, district.lng], 13);
+  }
 
   district.wards.forEach(function (w, idx) {
     var angle = (idx / district.wards.length) * 2 * Math.PI;
