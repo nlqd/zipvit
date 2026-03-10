@@ -5,6 +5,7 @@
 # Usage: ./scrape.sh
 # Requires: rodney, jq
 #
+# Supports resuming — skips provinces already in data/provinces.json.
 # Data source: mabuudien.net (Decision 2475/QD-BTTTT)
 
 set -euo pipefail
@@ -20,25 +21,40 @@ log() { echo "[$(date +%H:%M:%S)] $*" >&2; }
 log "Starting browser..."
 rodney start --quiet 2>/dev/null || rodney start
 
-# --- Step 2: Get province list ---
+# --- Step 2: Get unique province list ---
 log "Fetching province list..."
 rodney open "https://mabuudien.net/" >/dev/null
 rodney waitstable >/dev/null
 sleep 2
 
-PROVINCES=$(rodney js "JSON.stringify(Array.from(document.querySelectorAll('.content__city--south__list--regions__city a')).map(a => ({name: a.innerText.trim(), slug: a.href.replace('https://mabuudien.net/ma-buu-dien-','')})))")
+# Deduplicate: site has desktop + mobile nav = 126 links for 63 provinces
+PROVINCES=$(rodney js "JSON.stringify(Array.from(new Set(Array.from(document.querySelectorAll('.content__city--south__list--regions__city a')).map(a => a.href.replace('https://mabuudien.net/ma-buu-dien-','')))).map(slug => ({slug: slug, name: document.querySelector('a[href=\"https://mabuudien.net/ma-buu-dien-' + slug + '\"]').innerText.trim()})))")
 
 PROVINCE_COUNT=$(echo "$PROVINCES" | jq 'length')
-log "Found $PROVINCE_COUNT provinces"
+log "Found $PROVINCE_COUNT unique provinces"
 
-echo "$PROVINCES" | jq '.' > "$DATA_DIR/province_list.json"
+# --- Step 3: Load existing progress ---
+if [ -f "$DATA_DIR/provinces.json" ]; then
+  RESULT=$(cat "$DATA_DIR/provinces.json")
+  DONE_SLUGS=$(echo "$RESULT" | jq -r '[.[].slug] | join(",")')
+  DONE_COUNT=$(echo "$RESULT" | jq 'length')
+  log "Resuming: $DONE_COUNT provinces already scraped"
+else
+  RESULT="[]"
+  DONE_SLUGS=""
+  DONE_COUNT=0
+fi
 
-# --- Step 3: Scrape each province → districts → wards ---
-RESULT="[]"
-
+# --- Step 4: Scrape each province → districts → wards ---
 for i in $(seq 0 $((PROVINCE_COUNT - 1))); do
   PNAME=$(echo "$PROVINCES" | jq -r ".[$i].name")
   PSLUG=$(echo "$PROVINCES" | jq -r ".[$i].slug")
+
+  # Skip if already scraped
+  if echo ",$DONE_SLUGS," | grep -q ",$PSLUG,"; then
+    log "[$((i+1))/$PROVINCE_COUNT] SKIP (already done): $PNAME ($PSLUG)"
+    continue
+  fi
 
   log "[$((i+1))/$PROVINCE_COUNT] Province: $PNAME ($PSLUG)"
 
@@ -92,16 +108,18 @@ for i in $(seq 0 $((PROVINCE_COUNT - 1))); do
     --argjson districts "$DISTRICTS_WITH_WARDS" \
     '. + [{name: $name, slug: $slug, zip: $zip, districts: $districts}]')
 
+  DONE_COUNT=$((DONE_COUNT + 1))
+  DONE_SLUGS="$DONE_SLUGS,$PSLUG"
+
   # Save incremental progress
   echo "$RESULT" | jq '.' > "$DATA_DIR/provinces.json"
-  log "  Saved progress ($((i+1))/$PROVINCE_COUNT provinces)"
+  log "  Saved progress ($DONE_COUNT/$PROVINCE_COUNT provinces done)"
 done
 
-# --- Step 4: Cleanup ---
+# --- Step 5: Cleanup ---
 rodney stop 2>/dev/null
-rm -f "$DATA_DIR/province_list.json"
 
 log "Done! Data saved to $DATA_DIR/provinces.json"
-log "Provinces: $PROVINCE_COUNT"
+log "Provinces: $(echo "$RESULT" | jq 'length')"
 log "Total districts: $(echo "$RESULT" | jq '[.[].districts | length] | add')"
 log "Total wards: $(echo "$RESULT" | jq '[.[].districts[].wards | length] | add')"
