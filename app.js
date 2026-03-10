@@ -36,7 +36,7 @@ fetch("data/provinces.json")
     if (data) {
       detailData = {};
       data.forEach(function (p) { detailData[p.slug] = p; });
-      if (currentLevel === "province") showProvinces();
+      if (currentLevel === "province") { showProvinces(); applyQParam(); }
     }
   })
   .catch(function () { detailData = null; });
@@ -474,4 +474,14 @@ if (location.hash) {
   setTimeout(function () { clearInterval(_initInterval); if (!detailData) showProvinces(); }, 3000);
 } else {
   showProvinces();
+  applyQParam();
+}
+
+// Support ?q= query parameter for Google SearchAction
+var _qParam = new URLSearchParams(location.search).get("q");
+function applyQParam() {
+  if (!_qParam) return;
+  document.getElementById("search").value = _qParam;
+  applyFilter();
+  _qParam = null;
 }
