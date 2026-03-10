@@ -3,21 +3,75 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Vietnam Zip Code Map</title>
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <title>Mã Bưu Điện Việt Nam - Vietnam Zip Code Map</title>
+  <meta name="description" content="Tra cứu mã bưu điện Việt Nam (zip code) theo tỉnh, quận huyện, phường xã trên bản đồ. Cập nhật 34 tỉnh thành 2025. Search all 11,000+ Vietnam postal codes by province, district, ward.">
+  <meta name="keywords" content="mã bưu điện, zip code vietnam, mã bưu chính, postal code, bưu điện việt nam, tra cứu mã bưu điện, vietnam zip code map, zipcode">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://nlqd.github.io/zipvit/">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Mã Bưu Điện Việt Nam - Vietnam Zip Code Map">
+  <meta property="og:description" content="Tra cứu mã bưu điện Việt Nam theo tỉnh, quận huyện, phường xã trên bản đồ. 34 tỉnh thành, 709 quận huyện, 11,000+ phường xã.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://nlqd.github.io/zipvit/">
+  <meta property="og:locale" content="vi_VN">
+  <meta property="og:site_name" content="Vietnam Zip Code Map">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Mã Bưu Điện Việt Nam - Vietnam Zip Code Map">
+  <meta name="twitter:description" content="Tra cứu mã bưu điện Việt Nam theo tỉnh, quận huyện, phường xã trên bản đồ tương tác.">
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Vietnam Zip Code Map",
+    "alternateName": "Mã Bưu Điện Việt Nam",
+    "url": "https://nlqd.github.io/zipvit/",
+    "description": "Interactive map of all Vietnam zip codes. Search by province, district, or ward.",
+    "applicationCategory": "UtilityApplication",
+    "operatingSystem": "Any",
+    "inLanguage": ["vi", "en"],
+    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "VND" },
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://nlqd.github.io/zipvit/#{search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="anonymous" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div id="sidebar">
-    <h1>Vietnam Zip Codes</h1>
-    <input type="text" id="search" placeholder="Search province, district, ward, or zip..." autocomplete="off" />
-    <div id="breadcrumb"></div>
-    <div id="region-filters"></div>
-    <ul id="list"></ul>
-  </div>
-  <div id="map"></div>
+  <aside id="sidebar">
+    <header>
+      <h1>Mã Bưu Điện Việt Nam</h1>
+      <label for="search" class="sr-only">Tìm kiếm mã bưu điện</label>
+      <input type="search" id="search" placeholder="Tìm tỉnh, quận huyện, phường xã, hoặc mã zip..." autocomplete="off" />
+    </header>
+    <nav id="breadcrumb" aria-label="Breadcrumb"></nav>
+    <div id="region-filters" role="group" aria-label="Filter by region"></div>
+    <ul id="list" role="list"></ul>
+    <footer id="sidebar-footer">
+      <p>Dữ liệu mã bưu điện theo QĐ 2475/QĐ-BTTTT. Bản đồ cập nhật 34 tỉnh thành theo NQ 60-NQ/TW (01/07/2025).</p>
+      <p class="stale-warning">⚠ Dữ liệu có thể chưa cập nhật mới nhất. Vui lòng kiểm tra lại với bưu điện địa phương.</p>
+    </footer>
+  </aside>
+  <main id="map" role="application" aria-label="Vietnam zip code map"></main>
 
-  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <noscript>
+    <div style="padding:2em;max-width:600px;margin:auto">
+      <h1>Mã Bưu Điện Việt Nam - Vietnam Zip Code Map</h1>
+      <p>Tra cứu mã bưu điện (zip code / postal code) Việt Nam theo 34 tỉnh thành, 709 quận huyện, hơn 11,000 phường xã. Cập nhật theo Nghị quyết 60-NQ/TW 2025.</p>
+      <p>This application requires JavaScript to display the interactive map. Please enable JavaScript in your browser.</p>
+    </div>
+  </noscript>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin="anonymous"></script>
   <script src="zipcodes.js"></script>
   <script src="mergers.js"></script>
   <script src="app.js"></script>

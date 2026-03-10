@@ -392,5 +392,86 @@ function applyFilter() {
 
 document.getElementById("search").addEventListener("input", applyFilter);
 
+// --- Hash routing & dynamic title ---
+
+var BASE_TITLE = "Mã Bưu Điện Việt Nam";
+
+function updateTitle() {
+  var parts = [BASE_TITLE];
+  if (currentLevel === "old-province" && currentProvince) {
+    parts.unshift(currentProvince.name);
+  } else if (currentLevel === "district" && currentOldProvince) {
+    parts.unshift(oldBySlug[currentOldProvince].name);
+  } else if (currentLevel === "ward" && currentDistrict && currentOldProvince) {
+    parts.unshift(currentDistrict.name + ", " + oldBySlug[currentOldProvince].name);
+  }
+  document.title = parts.join(" - ");
+}
+
+function pushHash() {
+  var hash = "";
+  if (currentLevel === "old-province" && currentProvince) {
+    hash = "#/" + currentProvince.slug;
+  } else if (currentLevel === "district" && currentProvince && currentOldProvince) {
+    hash = "#/" + currentProvince.slug + "/" + currentOldProvince;
+  } else if (currentLevel === "ward" && currentProvince && currentOldProvince && currentDistrict) {
+    var dslug = currentDistrict.name.toLowerCase().replace(/\s+/g, "-");
+    hash = "#/" + currentProvince.slug + "/" + currentOldProvince + "/" + dslug;
+  }
+  if (hash && location.hash !== hash) {
+    history.pushState(null, "", hash);
+  } else if (!hash && location.hash) {
+    history.pushState(null, "", location.pathname);
+  }
+  updateTitle();
+}
+
+// Wrap navigation functions to push hash
+var _showProvinces = showProvinces;
+showProvinces = function () { _showProvinces(); pushHash(); };
+var _showOldProvinces = showOldProvinces;
+showOldProvinces = function (s) { _showOldProvinces(s); pushHash(); };
+var _showDistricts = showDistricts;
+showDistricts = function (a, b) { _showDistricts(a, b); pushHash(); };
+var _showWards = showWards;
+showWards = function (a, b, c) { _showWards(a, b, c); pushHash(); };
+
+function handleHash() {
+  var hash = location.hash.replace(/^#\/?/, "");
+  if (!hash) { showProvinces(); return; }
+  var parts = hash.split("/");
+
+  var merger = PROVINCE_MERGERS.find(function (m) { return m.slug === parts[0]; });
+  if (!merger) { showProvinces(); return; }
+
+  if (parts.length === 1) {
+    showOldProvinces(merger.slug);
+  } else if (parts.length === 2) {
+    showDistricts(merger.slug, parts[1]);
+  } else if (parts.length >= 3) {
+    // Find the district by slug-ified name
+    var detail = detailData && detailData[parts[1]];
+    if (detail) {
+      var dslug = parts[2];
+      var district = detail.districts.find(function (d) {
+        return d.name.toLowerCase().replace(/\s+/g, "-") === dslug;
+      });
+      if (district) { showWards(merger.slug, parts[1], district); return; }
+    }
+    showDistricts(merger.slug, parts[1]);
+  }
+}
+
+window.addEventListener("popstate", handleHash);
+
 // --- Init ---
-showProvinces();
+if (location.hash) {
+  // Wait for detailData to load before routing
+  var _initInterval = setInterval(function () {
+    if (detailData) { clearInterval(_initInterval); handleHash(); }
+  }, 100);
+  // Fallback: show provinces after 3s if data never loads
+  setTimeout(function () { clearInterval(_initInterval); if (!detailData) showProvinces(); }, 3000);
+} else {
+  showProvinces();
+}

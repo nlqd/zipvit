@@ -166,6 +166,30 @@ body {
   white-space: nowrap;
 }
 
+#sidebar-footer {
+  padding: 10px 12px;
+  font-size: 0.7rem;
+  color: #888;
+  border-top: 1px solid #eee;
+  line-height: 1.4;
+}
+
+#sidebar-footer .stale-warning {
+  color: #b71c1c;
+  margin-top: 4px;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
 @media (max-width: 768px) {
   body {
     flex-direction: column;

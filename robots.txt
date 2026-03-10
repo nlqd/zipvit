@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://nlqd.github.io/zipvit/sitemap.xml
