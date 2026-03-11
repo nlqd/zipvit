@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://nlqd.github.io/zipvit/sitemap.xml
+Sitemap: https://zipcode.dzungngo.com/sitemap.xml
