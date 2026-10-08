@@ -1,0 +1,3322 @@
+province	stt	name	zip
+TỈNH AN GIANG	1	X. An Phú	90456
+TỈNH AN GIANG	2	X. Vĩnh Hậu	90469
+TỈNH AN GIANG	3	X. Nhơn Hội	90462
+TỈNH AN GIANG	4	X. Khánh Bình	90461
+TỈNH AN GIANG	5	X. Phú Hữu	90458
+TỈNH AN GIANG	6	X. Tân An	90413
+TỈNH AN GIANG	7	X. Châu Phong	90415
+TỈNH AN GIANG	8	X. Vĩnh Xương	90410
+TỈNH AN GIANG	9	X. Phú Tân	90324
+TỈNH AN GIANG	10	X. Phú An	90308
+TỈNH AN GIANG	11	X. Bình Thạnh Đông	90320
+TỈNH AN GIANG	12	X. Chợ Vàm	90310
+TỈNH AN GIANG	13	X. Hoà Lạc	90315
+TỈNH AN GIANG	14	X. Phú Lâm	90311
+TỈNH AN GIANG	15	X. Châu Phú	90619
+TỈNH AN GIANG	16	X. Mỹ Đức	90610
+TỈNH AN GIANG	17	X. Vĩnh Thạnh Trung	90607
+TỈNH AN GIANG	18	X. Bình Mỹ	90617
+TỈNH AN GIANG	19	X. Thạnh Mỹ Tây	90613
+TỈNH AN GIANG	20	X. An Cư	90708
+TỈNH AN GIANG	21	X. Núi Cấm	90720
+TỈNH AN GIANG	22	X. Ba Chúc	90809
+TỈNH AN GIANG	23	X. Tri Tôn	90806
+TỈNH AN GIANG	24	X. Ô Lâm	90817
+TỈNH AN GIANG	25	X. Cô Tô	90818
+TỈNH AN GIANG	26	X. Vĩnh Gia	90811
+TỈNH AN GIANG	27	X. An Châu	90906
+TỈNH AN GIANG	28	X. Bình Hòa	90908
+TỈNH AN GIANG	29	X. Cần Đăng	90910
+TỈNH AN GIANG	30	X. Vĩnh Hanh	90911
+TỈNH AN GIANG	31	X. Vĩnh An	90913
+TỈNH AN GIANG	32	X. Chợ Mới	90206
+TỈNH AN GIANG	33	X. Cù Lao Giêng	90224
+TỈNH AN GIANG	34	X. Hội An	90221
+TỈNH AN GIANG	35	X. Long Điền	90225
+TỈNH AN GIANG	36	X. Nhơn Mỹ	90209
+TỈNH AN GIANG	37	X. Long Kiến	90217
+TỈNH AN GIANG	38	X. Thoại Sơn	90973
+TỈNH AN GIANG	39	X. Óc Eo	90969
+TỈNH AN GIANG	40	X. Định Mỹ	90963
+TỈNH AN GIANG	41	X. Phú Hòa	90961
+TỈNH AN GIANG	42	X. Vĩnh Trạch	90962
+TỈNH AN GIANG	43	X. Tây Phú	90966
+TỈNH AN GIANG	44	P. Long Xuyên	90119
+TỈNH AN GIANG	45	P. Bình Đức	90112
+TỈNH AN GIANG	46	P. Mỹ Thới	90117
+TỈNH AN GIANG	47	P. Châu Đốc	90513
+TỈNH AN GIANG	48	P. Vĩnh Tế	90509
+TỈNH AN GIANG	49	P. Tân Châu	90420
+TỈNH AN GIANG	50	P. Long Phú	90418
+TỈNH AN GIANG	51	P. Tịnh Biên	90706
+TỈNH AN GIANG	52	P. Thới Sơn	90712
+TỈNH AN GIANG	53	P. Chi Lăng	90715
+TỈNH AN GIANG	54	X. Mỹ Hoà Hưng	90111
+TỈNH AN GIANG	55	X. Vĩnh Bình	92114
+TỈNH AN GIANG	56	X. Vĩnh Thuận	92112
+TỈNH AN GIANG	57	X. Vĩnh Phong	92113
+TỈNH AN GIANG	58	X. Vĩnh Hòa	92008
+TỈNH AN GIANG	59	X. U Minh Thượng	92012
+TỈNH AN GIANG	60	X. Đông Hòa	91908
+TỈNH AN GIANG	61	X. Tân Thạnh	91910
+TỈNH AN GIANG	62	X. Đông Hưng	91918
+TỈNH AN GIANG	63	X. An Minh	91917
+TỈNH AN GIANG	64	X. Vân Khánh	91913
+TỈNH AN GIANG	65	X. Tây Yên	91809
+TỈNH AN GIANG	66	X. Đông Thái	91813
+TỈNH AN GIANG	67	X. An Biên	91815
+TỈNH AN GIANG	68	X. Định Hòa	92210
+TỈNH AN GIANG	69	X. Gò Quao	92206
+TỈNH AN GIANG	70	X. Vĩnh Hòa Hưng	92217
+TỈNH AN GIANG	71	X. Vĩnh Tuy	92216
+TỈNH AN GIANG	72	X. Giồng Riềng	92306
+TỈNH AN GIANG	73	X. Thạnh Hưng	92308
+TỈNH AN GIANG	74	X. Long Thạnh	92313
+TỈNH AN GIANG	75	X. Hòa Hưng	92320
+TỈNH AN GIANG	76	X. Ngọc Chúc	92317
+TỈNH AN GIANG	77	X. Hòa Thuận	92316
+TỈNH AN GIANG	78	X. Tân Hội	91210
+TỈNH AN GIANG	79	X. Tân Hiệp	91206
+TỈNH AN GIANG	80	X. Thạnh Đông	91217
+TỈNH AN GIANG	81	X. Thạnh Lộc	91711
+TỈNH AN GIANG	82	X. Châu Thành	91717
+TỈNH AN GIANG	83	X. Bình An	91714
+TỈNH AN GIANG	84	X. Hòn Đất	91306
+TỈNH AN GIANG	85	X. Sơn Kiên	91313
+TỈNH AN GIANG	86	X. Mỹ Thuận	91319
+TỈNH AN GIANG	87	X. Hòa Điền	91608
+TỈNH AN GIANG	88	X. Kiên Lương	91606
+TỈNH AN GIANG	89	X. Giang Thành	91411
+TỈNH AN GIANG	90	X. Vĩnh Điều	91408
+TỈNH AN GIANG	91	P. Vĩnh Thông	91110
+TỈNH AN GIANG	92	P. Rạch Giá	91118
+TỈNH AN GIANG	93	P. Hà Tiên	91513
+TỈNH AN GIANG	94	P. Tô Châu	91510
+TỈNH AN GIANG	95	Đặc khu Kiên Hải	92410
+TỈNH AN GIANG	96	Đặc khu Phú Quốc	92516
+TỈNH AN GIANG	97	Đặc khu Thổ Châu	92515
+TỈNH AN GIANG	98	X. Bình Giang	91310
+TỈNH AN GIANG	99	X. Bình Sơn	91309
+TỈNH AN GIANG	100	X. Hòn Nghệ	91613
+TỈNH AN GIANG	101	X. Sơn Hải	91612
+TỈNH AN GIANG	102	X. Tiên Hải	91511
+TỈNH BẮC NINH	1	X. Chi Lăng	16819
+TỈNH BẮC NINH	2	X. Phù Lãng	16826
+TỈNH BẮC NINH	3	X. Yên Phong	16220
+TỈNH BẮC NINH	4	X. Văn Môn	16218
+TỈNH BẮC NINH	5	X. Tam Giang	16215
+TỈNH BẮC NINH	6	X. Yên Trung	16213
+TỈNH BẮC NINH	7	X. Tam Đa	16211
+TỈNH BẮC NINH	8	X. Tiên Du	16420
+TỈNH BẮC NINH	9	X. Liên Bão	16419
+TỈNH BẮC NINH	10	X. Tân Chi	16416
+TỈNH BẮC NINH	11	X. Đại Đồng	16410
+TỈNH BẮC NINH	12	X. Phật Tích	16413
+TỈNH BẮC NINH	13	X. Gia Bình	16706
+TỈNH BẮC NINH	14	X. Nhân Thắng	16708
+TỈNH BẮC NINH	15	X. Đại Lai	16713
+TỈNH BẮC NINH	16	X. Cao Đức	16710
+TỈNH BẮC NINH	17	X. Đông Cứu	16717
+TỈNH BẮC NINH	18	X. Lương Tài	16620
+TỈNH BẮC NINH	19	X. Lâm Thao	16618
+TỈNH BẮC NINH	20	X. Trung Chính	16607
+TỈNH BẮC NINH	21	X. Trung Kênh	16611
+TỈNH BẮC NINH	22	P. Kinh Bắc	16114
+TỈNH BẮC NINH	23	P. Võ Cường	16118
+TỈNH BẮC NINH	24	P. Vũ Ninh	16111
+TỈNH BẮC NINH	25	P. Hạp Lĩnh	16120
+TỈNH BẮC NINH	26	P. Nam Sơn	16121
+TỈNH BẮC NINH	27	P. Từ Sơn	16318
+TỈNH BẮC NINH	28	P. Tam Sơn	16309
+TỈNH BẮC NINH	29	P. Đồng Nguyên	16307
+TỈNH BẮC NINH	30	P. Phù Khê	16312
+TỈNH BẮC NINH	31	P. Thuận Thành	16524
+TỈNH BẮC NINH	32	P. Mão Điền	16522
+TỈNH BẮC NINH	33	P. Trạm Lộ	16520
+TỈNH BẮC NINH	34	P. Trí Quả	16510
+TỈNH BẮC NINH	35	P. Song Liễu	16514
+TỈNH BẮC NINH	36	P. Ninh Xá	16518
+TỈNH BẮC NINH	37	P. Quế Võ	16827
+TỈNH BẮC NINH	38	P. Phương Liễu	16814
+TỈNH BẮC NINH	39	P. Nhân Hòa	16811
+TỈNH BẮC NINH	40	P. Đào Viên	16822
+TỈNH BẮC NINH	41	P. Bồng Lai	16820
+TỈNH BẮC NINH	42	X. Đại Sơn	26414
+TỈNH BẮC NINH	43	X. Sơn Động	26429
+TỈNH BẮC NINH	44	X. Tây Yên Tử	26427
+TỈNH BẮC NINH	45	X. Dương Hưu	26422
+TỈNH BẮC NINH	46	X. Yên Định	26418
+TỈNH BẮC NINH	47	X. An Lạc	26421
+TỈNH BẮC NINH	48	X. Vân Sơn	26410
+TỈNH BẮC NINH	49	X. Biển Động	26512
+TỈNH BẮC NINH	50	X. Lục Ngạn	26536
+TỈNH BẮC NINH	51	X. Đèo Gia	26534
+TỈNH BẮC NINH	52	X. Sơn Hải	26519
+TỈNH BẮC NINH	53	X. Tân Sơn	26517
+TỈNH BẮC NINH	54	X. Biên Sơn	26521
+TỈNH BẮC NINH	55	X. Sa Lý	26514
+TỈNH BẮC NINH	56	X. Nam Dương	26529
+TỈNH BẮC NINH	57	X. Kiên Lao	26526
+TỈNH BẮC NINH	58	X. Lục Sơn	26332
+TỈNH BẮC NINH	59	X. Trường Sơn	26330
+TỈNH BẮC NINH	60	X. Cẩm Lý	26321
+TỈNH BẮC NINH	61	X. Đông Phú	26310
+TỈNH BẮC NINH	62	X. Nghĩa Phương	26327
+TỈNH BẮC NINH	63	X. Lục Nam	26333
+TỈNH BẮC NINH	64	X. Bắc Lũng	26322
+TỈNH BẮC NINH	65	X. Bảo Đài	26313
+TỈNH BẮC NINH	66	X. Lạng Giang	26629
+TỈNH BẮC NINH	67	X. Mỹ Thái	26622
+TỈNH BẮC NINH	68	X. Kép	26610
+TỈNH BẮC NINH	69	X. Tân Dĩnh	26626
+TỈNH BẮC NINH	70	X. Tiên Lục	26618
+TỈNH BẮC NINH	71	X. Yên Thế	26727
+TỈNH BẮC NINH	72	X. Bố Hạ	26723
+TỈNH BẮC NINH	73	X. Đồng Kỳ	26724
+TỈNH BẮC NINH	74	X. Xuân Lương	26713
+TỈNH BẮC NINH	75	X. Tam Tiến	26714
+TỈNH BẮC NINH	76	X. Tân Yên	26830
+TỈNH BẮC NINH	77	X. Ngọc Thiện	26825
+TỈNH BẮC NINH	78	X. Nhã Nam	26811
+TỈNH BẮC NINH	79	X. Phúc Hòa	26809
+TỈNH BẮC NINH	80	X. Quang Trung	26813
+TỈNH BẮC NINH	81	X. Hợp Thịnh	26920
+TỈNH BẮC NINH	82	X. Hiệp Hòa	26932
+TỈNH BẮC NINH	83	X. Hoàng Vân	26912
+TỈNH BẮC NINH	84	X. Đồng Việt	26226
+TỈNH BẮC NINH	85	X. Xuân Cẩm	26924
+TỈNH BẮC NINH	86	P. Chũ	26506
+TỈNH BẮC NINH	87	P. Phượng Sơn	26531
+TỈNH BẮC NINH	88	P. Tự Lạn	26162
+TỈNH BẮC NINH	89	P. Việt Yên	26175
+TỈNH BẮC NINH	90	P. Nếnh	26169
+TỈNH BẮC NINH	91	P. Vân Hà	26166
+TỈNH BẮC NINH	92	P. Bắc Giang	26122
+TỈNH BẮC NINH	93	P. Đa Mai	26113
+TỈNH BẮC NINH	94	P. Tiền Phong	26219
+TỈNH BẮC NINH	95	P. Tân An	26215
+TỈNH BẮC NINH	96	P. Yên Dũng	26227
+TỈNH BẮC NINH	97	P. Tân Tiến	26117
+TỈNH BẮC NINH	98	P. Cảnh Thụy	26207
+TỈNH BẮC NINH	99	X. Tuấn Đạo	26425
+TỈNH CÀ MAU	1	X. Tân Thuận	98721
+TỈNH CÀ MAU	2	X. Tân Tiến	98720
+TỈNH CÀ MAU	3	X. Tạ An Khương	98708
+TỈNH CÀ MAU	4	X. Trần Phán	98710
+TỈNH CÀ MAU	5	X. Thanh Tùng	98717
+TỈNH CÀ MAU	6	X. Đầm Dơi	98706
+TỈNH CÀ MAU	7	X. Quách Phẩm	98716
+TỈNH CÀ MAU	8	X. U Minh	98314
+TỈNH CÀ MAU	9	X. Nguyễn Phích	98312
+TỈNH CÀ MAU	10	X. Khánh Lâm	98311
+TỈNH CÀ MAU	11	X. Khánh An	98313
+TỈNH CÀ MAU	12	X. Phan Ngọc Hiển	98913
+TỈNH CÀ MAU	13	X. Đất Mũi	98912
+TỈNH CÀ MAU	14	X. Tân Ân	98914
+TỈNH CÀ MAU	15	X. Khánh Bình	98413
+TỈNH CÀ MAU	16	X. Đá Bạc	98419
+TỈNH CÀ MAU	17	X. Khánh Hưng	98409
+TỈNH CÀ MAU	18	X. Sông Đốc	98417
+TỈNH CÀ MAU	19	X. Trần Văn Thời	98406
+TỈNH CÀ MAU	20	X. Thới Bình	98206
+TỈNH CÀ MAU	21	X. Trí Phải	98207
+TỈNH CÀ MAU	22	X. Tân Lộc	98216
+TỈNH CÀ MAU	23	X. Biển Bạch	98211
+TỈNH CÀ MAU	24	X. Đất Mới	98810
+TỈNH CÀ MAU	25	X. Năm Căn	98806
+TỈNH CÀ MAU	26	X. Tam Giang	98812
+TỈNH CÀ MAU	27	X. Cái Đôi Vàm	98507
+TỈNH CÀ MAU	28	X. Nguyễn Việt Khái	98515
+TỈNH CÀ MAU	29	X. Phú Tân	98511
+TỈNH CÀ MAU	30	X. Phú Mỹ	98512
+TỈNH CÀ MAU	31	X. Lương Thế Trân	98616
+TỈNH CÀ MAU	32	X. Tân Hưng	98611
+TỈNH CÀ MAU	33	X. Hưng Mỹ	98613
+TỈNH CÀ MAU	34	X. Cái Nước	98606
+TỈNH CÀ MAU	35	P. An Xuyên	98113
+TỈNH CÀ MAU	36	P. Lý Văn Lâm	98121
+TỈNH CÀ MAU	37	P. Tân Thành	98112
+TỈNH CÀ MAU	38	P. Hòa Thành	98120
+TỈNH CÀ MAU	39	X. Hồ Thị Kỷ	98217
+TỈNH CÀ MAU	40	X. Phong Thạnh	97517
+TỈNH CÀ MAU	41	X. Hồng Dân	97315
+TỈNH CÀ MAU	42	X. Vĩnh Lộc	97307
+TỈNH CÀ MAU	43	X. Ninh Thạnh Lợi	97310
+TỈNH CÀ MAU	44	X. Ninh Quới	97313
+TỈNH CÀ MAU	45	X. Gành Hào	97606
+TỈNH CÀ MAU	46	X. Định Thành	97614
+TỈNH CÀ MAU	47	X. An Trạch	97613
+TỈNH CÀ MAU	48	X. Long Điền	97611
+TỈNH CÀ MAU	49	X. Đông Hải	97617
+TỈNH CÀ MAU	50	X. Hòa Bình	97706
+TỈNH CÀ MAU	51	X. Vĩnh Mỹ	97714
+TỈNH CÀ MAU	52	X. Vĩnh Hậu	97712
+TỈNH CÀ MAU	53	X. Phước Long	97406
+TỈNH CÀ MAU	54	X. Vĩnh Phước	97414
+TỈNH CÀ MAU	55	X. Phong Hiệp	97415
+TỈNH CÀ MAU	56	X. Vĩnh Thanh	97411
+TỈNH CÀ MAU	57	X. Vĩnh Lợi	97214
+TỈNH CÀ MAU	58	X. Hưng Hội	97209
+TỈNH CÀ MAU	59	X. Châu Thới	97206
+TỈNH CÀ MAU	60	P. Bạc Liêu	97116
+TỈNH CÀ MAU	61	P. Vĩnh Trạch	97112
+TỈNH CÀ MAU	62	P. Hiệp Thành	97114
+TỈNH CÀ MAU	63	P. Giá Rai	97516
+TỈNH CÀ MAU	64	P. Láng Tròn	97508
+TỈNH CAO BẰNG	1	X. Quảng Lâm	21416
+TỈNH CAO BẰNG	2	X. Nam Quang	21414
+TỈNH CAO BẰNG	3	X. Lý Bôn	21410
+TỈNH CAO BẰNG	4	X. Bảo Lâm	21420
+TỈNH CAO BẰNG	5	X. Yên Thổ	21418
+TỈNH CAO BẰNG	6	X. Sơn Lộ	21365
+TỈNH CAO BẰNG	7	X. Hưng Đạo	21363
+TỈNH CAO BẰNG	8	X. Bảo Lạc	21356
+TỈNH CAO BẰNG	9	X. Cốc Pàng	21359
+TỈNH CAO BẰNG	10	X. Cô Ba	21357
+TỈNH CAO BẰNG	11	X. Khánh Xuân	21372
+TỈNH CAO BẰNG	12	X. Xuân Trường	21370
+TỈNH CAO BẰNG	13	X. Huy Giáp	21368
+TỈNH CAO BẰNG	14	X. Ca Thành	21512
+TỈNH CAO BẰNG	15	X. Phan Thanh	21516
+TỈNH CAO BẰNG	16	X. Thành Công	21517
+TỈNH CAO BẰNG	17	X. Tam Kim	21520
+TỈNH CAO BẰNG	18	X. Nguyên Bình	21506
+TỈNH CAO BẰNG	19	X. Tĩnh Túc	21514
+TỈNH CAO BẰNG	20	X. Minh Tâm	21524
+TỈNH CAO BẰNG	21	X. Thanh Long	21233
+TỈNH CAO BẰNG	22	X. Cần Yên	21229
+TỈNH CAO BẰNG	23	X. Thông Nông	21225
+TỈNH CAO BẰNG	24	X. Trường Hà	21214
+TỈNH CAO BẰNG	25	X. Hà Quảng	21226
+TỈNH CAO BẰNG	26	X. Lũng Nặm	21212
+TỈNH CAO BẰNG	27	X. Tổng Cọt	21224
+TỈNH CAO BẰNG	28	X. Nam Tuấn	21157
+TỈNH CAO BẰNG	29	X. Hòa An	21177
+TỈNH CAO BẰNG	30	X. Bạch Đằng	21166
+TỈNH CAO BẰNG	31	X. Nguyễn Huệ	21172
+TỈNH CAO BẰNG	32	X. Minh Khai	21615
+TỈNH CAO BẰNG	33	X. Canh Tân	21614
+TỈNH CAO BẰNG	34	X. Kim Đồng	21613
+TỈNH CAO BẰNG	35	X. Thạch An	21622
+TỈNH CAO BẰNG	36	X. Đông Khê	21606
+TỈNH CAO BẰNG	37	X. Đức Long	21608
+TỈNH CAO BẰNG	38	X. Phục Hòa	21665
+TỈNH CAO BẰNG	39	X. Bế Văn Đàn	21926
+TỈNH CAO BẰNG	40	X. Độc Lập	21907
+TỈNH CAO BẰNG	41	X. Quảng Uyên	21906
+TỈNH CAO BẰNG	42	X. Hạnh Phúc	21918
+TỈNH CAO BẰNG	43	X. Quang Hán	21830
+TỈNH CAO BẰNG	44	X. Trà Lĩnh	21826
+TỈNH CAO BẰNG	45	X. Quang Trung	21828
+TỈNH CAO BẰNG	46	X. Đoài Dương	21818
+TỈNH CAO BẰNG	47	X. Trùng Khánh	21806
+TỈNH CAO BẰNG	48	X. Đàm Thủy	21825
+TỈNH CAO BẰNG	49	X. Đình Phong	21808
+TỈNH CAO BẰNG	50	X. Hạ Lang	21720
+TỈNH CAO BẰNG	51	X. Lý Quốc	21709
+TỈNH CAO BẰNG	52	X. Vinh Quý	21715
+TỈNH CAO BẰNG	53	X. Quang Long	21707
+TỈNH CAO BẰNG	54	P. Thục Phán	21117
+TỈNH CAO BẰNG	55	P. Nùng Trí Cao	21118
+TỈNH CAO BẰNG	56	P. Tân Giang	21112
+TP. CẦN THƠ	1	P. Ninh Kiều	94119
+TP. CẦN THƠ	2	P. Cái Khế	94107
+TP. CẦN THƠ	3	P. Tân An	94120
+TP. CẦN THƠ	4	P. An Bình	94118
+TP. CẦN THƠ	5	P. Thới An Đông	94210
+TP. CẦN THƠ	6	P. Bình Thủy	94206
+TP. CẦN THƠ	7	P. Long Tuyền	94211
+TP. CẦN THƠ	8	P. Cái Răng	94913
+TP. CẦN THƠ	9	P. Hưng Phú	94912
+TP. CẦN THƠ	10	P. Ô Môn	94313
+TP. CẦN THƠ	11	P. Phước Thới	94308
+TP. CẦN THƠ	12	P. Thới Long	94310
+TP. CẦN THƠ	13	P. Trung Nhứt	94409
+TP. CẦN THƠ	14	P. Thuận Hưng	94413
+TP. CẦN THƠ	15	P. Thốt Nốt	94406
+TP. CẦN THƠ	16	X. Phong Điền	94806
+TP. CẦN THƠ	17	X. Nhơn Ái	94811
+TP. CẦN THƠ	18	X. Thới Lai	94706
+TP. CẦN THƠ	19	X. Đông Thuận	94712
+TP. CẦN THƠ	20	X. Trường Xuân	94716
+TP. CẦN THƠ	21	X. Trường Thành	94718
+TP. CẦN THƠ	22	X. Cờ Đỏ	94606
+TP. CẦN THƠ	23	X. Đông Hiệp	94615
+TP. CẦN THƠ	24	X. Trung Hưng	94610
+TP. CẦN THƠ	25	X. Vĩnh Thạnh	94506
+TP. CẦN THƠ	26	X. Vĩnh Trinh	94516
+TP. CẦN THƠ	27	X. Thạnh An	94512
+TP. CẦN THƠ	28	X. Thạnh Quới	94508
+TP. CẦN THƠ	29	P. Tân Lộc	94412
+TP. CẦN THƠ	30	X. Trường Long	94810
+TP. CẦN THƠ	31	X. Thạnh Phú	94611
+TP. CẦN THƠ	32	X. Thới Hưng	94607
+TP. CẦN THƠ	33	P. Vị Thanh	95115
+TP. CẦN THƠ	34	P. Vị Tân	95109
+TP. CẦN THƠ	35	P. Long Bình	95411
+TP. CẦN THƠ	36	P. Long Mỹ	95415
+TP. CẦN THƠ	37	P. Long Phú 1	95409
+TP. CẦN THƠ	38	P. Đại Thành	95607
+TP. CẦN THƠ	39	P. Ngã Bảy	95606
+TP. CẦN THƠ	40	X. Hỏa Lựu	95112
+TP. CẦN THƠ	41	X. Vị Thủy	95216
+TP. CẦN THƠ	42	X. Vĩnh Thuận Đông	95313
+TP. CẦN THƠ	43	X. Vị Thanh 1	95212
+TP. CẦN THƠ	44	X. Vĩnh Tường	95209
+TP. CẦN THƠ	45	X. Vĩnh Viễn	95306
+TP. CẦN THƠ	46	X. Xà Phiên	95310
+TP. CẦN THƠ	47	X. Lương Tâm	95309
+TP. CẦN THƠ	48	X. Thạnh Xuân	95813
+TP. CẦN THƠ	49	X. Tân Hòa	95811
+TP. CẦN THƠ	50	X. Trường Long Tây	95810
+TP. CẦN THƠ	51	X. Châu Thành	95715
+TP. CẦN THƠ	52	X. Đông Phước	95716
+TP. CẦN THƠ	53	X. Phú Hữu	95707
+TP. CẦN THƠ	54	X. Tân Bình	95516
+TP. CẦN THƠ	55	X. Hòa An	95518
+TP. CẦN THƠ	56	X. Phương Bình	95519
+TP. CẦN THƠ	57	X. Tân Phước Hưng	95511
+TP. CẦN THƠ	58	X. Hiệp Hưng	95509
+TP. CẦN THƠ	59	X. Phụng Hiệp	95507
+TP. CẦN THƠ	60	X. Thạnh Hòa	95514
+TP. CẦN THƠ	61	P. Phú Lợi	96116
+TP. CẦN THƠ	62	P. Sóc Trăng	96117
+TP. CẦN THƠ	63	P. Mỹ Xuyên	96118
+TP. CẦN THƠ	64	P. Vĩnh Phước	96813
+TP. CẦN THƠ	65	P. Vĩnh Châu	96816
+TP. CẦN THƠ	66	P. Khánh Hòa	96811
+TP. CẦN THƠ	67	P. Ngã Năm	96514
+TP. CẦN THƠ	68	P. Mỹ Quới	96510
+TP. CẦN THƠ	69	X. Hòa Tú	96617
+TP. CẦN THƠ	70	X. Gia Hòa	96618
+TP. CẦN THƠ	71	X. Nhu Gia	96619
+TP. CẦN THƠ	72	X. Ngọc Tố	96612
+TP. CẦN THƠ	73	X. Trường Khánh	96211
+TP. CẦN THƠ	74	X. Đại Ngãi	96209
+TP. CẦN THƠ	75	X. Tân Thạnh	96214
+TP. CẦN THƠ	76	X. Long Phú	96216
+TP. CẦN THƠ	77	X. Nhơn Mỹ	96310
+TP. CẦN THƠ	78	X. An Lạc Thôn	96313
+TP. CẦN THƠ	79	X. Kế Sách	96306
+TP. CẦN THƠ	80	X. Thới An Hội	96307
+TP. CẦN THƠ	81	X. Đại Hải	96317
+TP. CẦN THƠ	82	X. Phú Tâm	96407
+TP. CẦN THƠ	83	X. An Ninh	96411
+TP. CẦN THƠ	84	X. Thuận Hòa	96409
+TP. CẦN THƠ	85	X. Hồ Đắc Kiện	96408
+TP. CẦN THƠ	86	X. Mỹ Tú	96460
+TP. CẦN THƠ	87	X. Long Hưng	96457
+TP. CẦN THƠ	88	X. Mỹ Hương	96459
+TP. CẦN THƠ	89	X. Tân Long	96513
+TP. CẦN THƠ	90	X. Phú Lộc	96556
+TP. CẦN THƠ	91	X. Vĩnh Lợi	96564
+TP. CẦN THƠ	92	X. Lâm Tân	96560
+TP. CẦN THƠ	93	X. Thạnh Thới An	96715
+TP. CẦN THƠ	94	X. Tài Văn	96714
+TP. CẦN THƠ	95	X. Liêu Tú	96711
+TP. CẦN THƠ	96	X. Lịch Hội Thượng	96709
+TP. CẦN THƠ	97	X. Trần Đề	96706
+TP. CẦN THƠ	98	X. An Thạnh	96914
+TP. CẦN THƠ	99	X. Cù Lao Dung	96915
+TP. CẦN THƠ	100	X. Phong Nẫm	96312
+TP. CẦN THƠ	101	X. Mỹ Phước	96461
+TP. CẦN THƠ	102	X. Lai Hòa	96815
+TP. CẦN THƠ	103	X. Vĩnh Hải	96809
+TP. ĐÀ NẴNG	1	P. Hải Châu	50206
+TP. ĐÀ NẴNG	2	P. Hòa Cường	50219
+TP. ĐÀ NẴNG	3	P. Thanh Khê	50316
+TP. ĐÀ NẴNG	4	P. An Khê	50309
+TP. ĐÀ NẴNG	5	P. An Hải	50413
+TP. ĐÀ NẴNG	6	P. Sơn Trà	50414
+TP. ĐÀ NẴNG	7	P. Ngũ Hành Sơn	50510
+TP. ĐÀ NẴNG	8	P. Hòa Khánh	50613
+TP. ĐÀ NẴNG	9	P. Hải Vân	50611
+TP. ĐÀ NẴNG	10	P. Liên Chiểu	50612
+TP. ĐÀ NẴNG	11	P. Cẩm Lệ	50712
+TP. ĐÀ NẴNG	12	P. Hòa Xuân	50707
+TP. ĐÀ NẴNG	13	X. Hòa Vang	50817
+TP. ĐÀ NẴNG	14	X. Hòa Tiến	50814
+TP. ĐÀ NẴNG	15	X. Bà Nà	50818
+TP. ĐÀ NẴNG	16	Đặc khu Hoàng Sa	50906
+TP. ĐÀ NẴNG	17	P. Tam Kỳ	51119
+TP. ĐÀ NẴNG	18	P. Quảng Phú	51120
+TP. ĐÀ NẴNG	19	P. Hương Trà	51122
+TP. ĐÀ NẴNG	20	P. Bàn Thạch	51121
+TP. ĐÀ NẴNG	21	P. Điện Bàn	51426
+TP. ĐÀ NẴNG	22	P. Điện Bàn Đông	51427
+TP. ĐÀ NẴNG	23	P. An Thắng	51428
+TP. ĐÀ NẴNG	24	P. Điện Bàn Bắc	51429
+TP. ĐÀ NẴNG	25	P. Hội An	51319
+TP. ĐÀ NẴNG	26	P. Hội An Đông	51320
+TP. ĐÀ NẴNG	27	P. Hội An Tây	51321
+TP. ĐÀ NẴNG	28	X. Núi Thành	52806
+TP. ĐÀ NẴNG	29	X. Tam Mỹ	52823
+TP. ĐÀ NẴNG	30	X. Tam Anh	52824
+TP. ĐÀ NẴNG	31	X. Đức Phú	52825
+TP. ĐÀ NẴNG	32	X. Tam Xuân	52826
+TP. ĐÀ NẴNG	33	X. Tây Hồ	52717
+TP. ĐÀ NẴNG	34	X. Chiên Đàn	52718
+TP. ĐÀ NẴNG	35	X. Phú Ninh	52719
+TP. ĐÀ NẴNG	36	X. Lãnh Ngọc	52621
+TP. ĐÀ NẴNG	37	X. Tiên Phước	52622
+TP. ĐÀ NẴNG	38	X. Thạnh Bình	52623
+TP. ĐÀ NẴNG	39	X. Sơn Cẩm Hà	52624
+TP. ĐÀ NẴNG	40	X. Trà Liên	52519
+TP. ĐÀ NẴNG	41	X. Trà Giáp	52517
+TP. ĐÀ NẴNG	42	X. Trà Tân	52511
+TP. ĐÀ NẴNG	43	X. Trà Đốc	52509
+TP. ĐÀ NẴNG	44	X. Trà My	52506
+TP. ĐÀ NẴNG	45	X. Nam Trà My	52416
+TP. ĐÀ NẴNG	46	X. Trà Tập	52407
+TP. ĐÀ NẴNG	47	X. Trà Vân	52414
+TP. ĐÀ NẴNG	48	X. Trà Linh	52410
+TP. ĐÀ NẴNG	49	X. Trà Leng	52409
+TP. ĐÀ NẴNG	50	X. Thăng Bình	51228
+TP. ĐÀ NẴNG	51	X. Thăng An	51229
+TP. ĐÀ NẴNG	52	X. Thăng Trường	51230
+TP. ĐÀ NẴNG	53	X. Thăng Điền	51231
+TP. ĐÀ NẴNG	54	X. Thăng Phú	51232
+TP. ĐÀ NẴNG	55	X. Đồng Dương	51233
+TP. ĐÀ NẴNG	56	X. Quế Sơn Trung	52122
+TP. ĐÀ NẴNG	57	X. Quế Sơn	52121
+TP. ĐÀ NẴNG	58	X. Xuân Phú	52120
+TP. ĐÀ NẴNG	59	X. Nông Sơn	52123
+TP. ĐÀ NẴNG	60	X. Quế Phước	52124
+TP. ĐÀ NẴNG	61	X. Duy Nghĩa	51510
+TP. ĐÀ NẴNG	62	X. Nam Phước	51506
+TP. ĐÀ NẴNG	63	X. Duy Xuyên	51520
+TP. ĐÀ NẴNG	64	X. Thu Bồn	51521
+TP. ĐÀ NẴNG	65	X. Điện Bàn Tây	51430
+TP. ĐÀ NẴNG	66	X. Gò Nổi	51431
+TP. ĐÀ NẴNG	67	X. Đại Lộc	51624
+TP. ĐÀ NẴNG	68	X. Hà Nha	51625
+TP. ĐÀ NẴNG	69	X. Thượng Đức	51626
+TP. ĐÀ NẴNG	70	X. Vu Gia	51627
+TP. ĐÀ NẴNG	71	X. Phú Thuận	51628
+TP. ĐÀ NẴNG	72	X. Thạnh Mỹ	51906
+TP. ĐÀ NẴNG	73	X. Bến Giằng	51918
+TP. ĐÀ NẴNG	74	X. Nam Giang	51919
+TP. ĐÀ NẴNG	75	X. Đắc Pring	51915
+TP. ĐÀ NẴNG	76	X. La Dêê	51911
+TP. ĐÀ NẴNG	77	X. La Êê	51909
+TP. ĐÀ NẴNG	78	X. Sông Vàng	51718
+TP. ĐÀ NẴNG	79	X. Sông Kôn	51708
+TP. ĐÀ NẴNG	80	X. Đông Giang	51717
+TP. ĐÀ NẴNG	81	X. Bến Hiên	51719
+TP. ĐÀ NẴNG	82	X. AVương	51807
+TP. ĐÀ NẴNG	83	X. Tây Giang	51816
+TP. ĐÀ NẴNG	84	X. Hùng Sơn	51817
+TP. ĐÀ NẴNG	85	X. Hiệp Đức	52218
+TP. ĐÀ NẴNG	86	X. Việt An	52219
+TP. ĐÀ NẴNG	87	X. Phước Trà	52214
+TP. ĐÀ NẴNG	88	X. Khâm Đức	52306
+TP. ĐÀ NẴNG	89	X. Phước Năng	52309
+TP. ĐÀ NẴNG	90	X. Phước Chánh	52311
+TP. ĐÀ NẴNG	91	X. Phước Thành	52314
+TP. ĐÀ NẴNG	92	X. Phước Hiệp	52317
+TP. ĐÀ NẴNG	93	X. Tân Hiệp	51318
+TP. ĐÀ NẴNG	94	X. Tam Hải	52809
+TỈNH ĐẮK LẮK	1	X. Hòa Phú	63121
+TỈNH ĐẮK LẮK	2	X. Ea Drông	64017
+TỈNH ĐẮK LẮK	3	X. Ea Súp	63706
+TỈNH ĐẮK LẮK	4	X. Ea Rốk	63709
+TỈNH ĐẮK LẮK	5	X. Ea Bung	63714
+TỈNH ĐẮK LẮK	6	X. Ea Wer	63806
+TỈNH ĐẮK LẮK	7	X. Ea Nuôl	63808
+TỈNH ĐẮK LẮK	8	X. Ea Kiết	63916
+TỈNH ĐẮK LẮK	9	X. Ea M’Droh	63915
+TỈNH ĐẮK LẮK	10	X. Quảng Phú	63906
+TỈNH ĐẮK LẮK	11	X. Cuôr Đăng	63922
+TỈNH ĐẮK LẮK	12	X. Cư M'gar	63912
+TỈNH ĐẮK LẮK	13	X. Ea Tul	63920
+TỈNH ĐẮK LẮK	14	X. Pơng Drang	63511
+TỈNH ĐẮK LẮK	15	X. Krông Búk	63513
+TỈNH ĐẮK LẮK	16	X. Cư Pơng	63509
+TỈNH ĐẮK LẮK	17	X. Ea Khăl	63609
+TỈNH ĐẮK LẮK	18	X. Ea Drăng	63606
+TỈNH ĐẮK LẮK	19	X. Ea Wy	63615
+TỈNH ĐẮK LẮK	20	X. Ea Hiao	63612
+TỈNH ĐẮK LẮK	21	X. Krông Năng	63406
+TỈNH ĐẮK LẮK	22	X. Dliê Ya	63415
+TỈNH ĐẮK LẮK	23	X. Tam Giang	63410
+TỈNH ĐẮK LẮK	24	X. Phú Xuân	63407
+TỈNH ĐẮK LẮK	25	X. Krông Pắc	63222
+TỈNH ĐẮK LẮK	26	X. Ea KNuếc	63220
+TỈNH ĐẮK LẮK	27	X. Tân Tiến	63216
+TỈNH ĐẮK LẮK	28	X. Ea Phê	63208
+TỈNH ĐẮK LẮK	29	X. Ea Kly	63210
+TỈNH ĐẮK LẮK	30	X. Ea Kar	63306
+TỈNH ĐẮK LẮK	31	X. Ea Ô	63316
+TỈNH ĐẮK LẮK	32	X. Ea Knốp	63313
+TỈNH ĐẮK LẮK	33	X. Cư Yang	63319
+TỈNH ĐẮK LẮK	34	X. Ea Păl	63317
+TỈNH ĐẮK LẮK	35	X. M’Drắk	64506
+TỈNH ĐẮK LẮK	36	X. Ea Riêng	64508
+TỈNH ĐẮK LẮK	37	X. Cư M'ta	64507
+TỈNH ĐẮK LẮK	38	X. Krông Á	64510
+TỈNH ĐẮK LẮK	39	X. Cư Prao	64518
+TỈNH ĐẮK LẮK	40	X. Hòa Sơn	64408
+TỈNH ĐẮK LẮK	41	X. Dang Kang	64413
+TỈNH ĐẮK LẮK	42	X. Krông Bông	64420
+TỈNH ĐẮK LẮK	43	X. Yang Mao	64419
+TỈNH ĐẮK LẮK	44	X. Cư Pui	64417
+TỈNH ĐẮK LẮK	45	X. Liên Sơn Lắk	64317
+TỈNH ĐẮK LẮK	46	X. Đắk Liêng	64307
+TỈNH ĐẮK LẮK	47	X. Nam Ka	64311
+TỈNH ĐẮK LẮK	48	X. Đắk Phơi	64313
+TỈNH ĐẮK LẮK	49	X. Ea Ning	64112
+TỈNH ĐẮK LẮK	50	X. Dray Bhăng	64106
+TỈNH ĐẮK LẮK	51	X. Ea Ktur	64113
+TỈNH ĐẮK LẮK	52	X. Krông Ana	64214
+TỈNH ĐẮK LẮK	53	X. Dur KMăl	64209
+TỈNH ĐẮK LẮK	54	X. Ea Na	64212
+TỈNH ĐẮK LẮK	55	P. Buôn Ma Thuột	63127
+TỈNH ĐẮK LẮK	56	P. Tân An	63109
+TỈNH ĐẮK LẮK	57	P. Tân Lập	63108
+TỈNH ĐẮK LẮK	58	P. Thành Nhất	63116
+TỈNH ĐẮK LẮK	59	P. Ea Kao	63123
+TỈNH ĐẮK LẮK	60	P. Buôn Hồ	64018
+TỈNH ĐẮK LẮK	61	P. Cư Bao	64014
+TỈNH ĐẮK LẮK	62	X. Buôn Đôn	63812
+TỈNH ĐẮK LẮK	63	X. Ea H'leo	63614
+TỈNH ĐẮK LẮK	64	X. Ea Trang	64512
+TỈNH ĐẮK LẮK	65	X. Ia Lốp	63711
+TỈNH ĐẮK LẮK	66	X. Ia RVê	63713
+TỈNH ĐẮK LẮK	67	X. Krông Nô	64314
+TỈNH ĐẮK LẮK	68	X. Vụ Bổn	63212
+TỈNH ĐẮK LẮK	69	X. Xuân Thọ	56321
+TỈNH ĐẮK LẮK	70	X. Xuân Cảnh	56315
+TỈNH ĐẮK LẮK	71	X. Xuân Lộc	56318
+TỈNH ĐẮK LẮK	72	X. Hòa Xuân	56818
+TỈNH ĐẮK LẮK	73	X. Tuy An Bắc	56222
+TỈNH ĐẮK LẮK	74	X. Tuy An Đông	56223
+TỈNH ĐẮK LẮK	75	X. Ô Loan	56224
+TỈNH ĐẮK LẮK	76	X. Tuy An Nam	56225
+TỈNH ĐẮK LẮK	77	X. Tuy An Tây	56226
+TỈNH ĐẮK LẮK	78	X. Phú Hòa 1	56915
+TỈNH ĐẮK LẮK	79	X. Phú Hòa 2	56916
+TỈNH ĐẮK LẮK	80	X. Tây Hòa	56717
+TỈNH ĐẮK LẮK	81	X. Hòa Thịnh	56710
+TỈNH ĐẮK LẮK	82	X. Hòa Mỹ	56718
+TỈNH ĐẮK LẮK	83	X. Sơn Thành	56719
+TỈNH ĐẮK LẮK	84	X. Sơn Hòa	56520
+TỈNH ĐẮK LẮK	85	X. Vân Hòa	56521
+TỈNH ĐẮK LẮK	86	X. Tây Sơn	56522
+TỈNH ĐẮK LẮK	87	X. Suối Trai	56518
+TỈNH ĐẮK LẮK	88	X. Ea Ly	56614
+TỈNH ĐẮK LẮK	89	X. Ea Bá	56615
+TỈNH ĐẮK LẮK	90	X. Đức Bình	56618
+TỈNH ĐẮK LẮK	91	X. Sông Hinh	56611
+TỈNH ĐẮK LẮK	92	X. Xuân Lãnh	56415
+TỈNH ĐẮK LẮK	93	X. Phú Mỡ	56416
+TỈNH ĐẮK LẮK	94	X. Xuân Phước	56410
+TỈNH ĐẮK LẮK	95	X. Đồng Xuân	56417
+TỈNH ĐẮK LẮK	96	P. Phú Yên	56123
+TỈNH ĐẮK LẮK	97	P. Tuy Hòa	56122
+TỈNH ĐẮK LẮK	98	P. Bình Kiến	56119
+TỈNH ĐẮK LẮK	99	P. Xuân Đài	56308
+TỈNH ĐẮK LẮK	100	P. Sông Cầu	56320
+TỈNH ĐẮK LẮK	101	P. Đông Hòa	56816
+TỈNH ĐẮK LẮK	102	P. Hòa Hiệp	56817
+TỈNH ĐIỆN BIÊN	1	X. Mường Nhé	32906
+TỈNH ĐIỆN BIÊN	2	X. Sín Thầu	32911
+TỈNH ĐIỆN BIÊN	3	X. Mường Toong	32916
+TỈNH ĐIỆN BIÊN	4	X. Nậm Kè	32912
+TỈNH ĐIỆN BIÊN	5	X. Quảng Lâm	32913
+TỈNH ĐIỆN BIÊN	6	X. Nà Hỳ	32806
+TỈNH ĐIỆN BIÊN	7	X. Mường Chà	32821
+TỈNH ĐIỆN BIÊN	8	X. Nà Bủng	32819
+TỈNH ĐIỆN BIÊN	9	X. Chà Tở	32810
+TỈNH ĐIỆN BIÊN	10	X. Si Pa Phìn	32807
+TỈNH ĐIỆN BIÊN	11	X. Na Sang	32766
+TỈNH ĐIỆN BIÊN	12	X. Mường Tùng	32763
+TỈNH ĐIỆN BIÊN	13	X. Pa Ham	32759
+TỈNH ĐIỆN BIÊN	14	X. Nậm Nèn	32758
+TỈNH ĐIỆN BIÊN	15	X. Mường Pồn	32214
+TỈNH ĐIỆN BIÊN	16	X. Tủa Chùa	32606
+TỈNH ĐIỆN BIÊN	17	X. Sín Chải	32612
+TỈNH ĐIỆN BIÊN	18	X. Sính Phình	32617
+TỈNH ĐIỆN BIÊN	19	X. Tủa Thàng	32610
+TỈNH ĐIỆN BIÊN	20	X. Sáng Nhè	32618
+TỈNH ĐIỆN BIÊN	21	X. Tuần Giáo	32506
+TỈNH ĐIỆN BIÊN	22	X. Quài Tở	32524
+TỈNH ĐIỆN BIÊN	23	X. Mường Mùn	32516
+TỈNH ĐIỆN BIÊN	24	X. Pú Nhung	32513
+TỈNH ĐIỆN BIÊN	25	X. Chiềng Sinh	32521
+TỈNH ĐIỆN BIÊN	26	X. Mường Ảng	32406
+TỈNH ĐIỆN BIÊN	27	X. Nà Tấu	32118
+TỈNH ĐIỆN BIÊN	28	X. Búng Lao	32415
+TỈNH ĐIỆN BIÊN	29	X. Mường Lạn	32413
+TỈNH ĐIỆN BIÊN	30	X. Mường Phăng	32116
+TỈNH ĐIỆN BIÊN	31	X. Thanh Nưa	32216
+TỈNH ĐIỆN BIÊN	32	X. Thanh An	32208
+TỈNH ĐIỆN BIÊN	33	X. Thanh Yên	32220
+TỈNH ĐIỆN BIÊN	34	X. Sam Mứn	32231
+TỈNH ĐIỆN BIÊN	35	X. Núa Ngam	32226
+TỈNH ĐIỆN BIÊN	36	X. Mường Nhà	32228
+TỈNH ĐIỆN BIÊN	37	X. Na Son	32310
+TỈNH ĐIỆN BIÊN	38	X. Xa Dung	32309
+TỈNH ĐIỆN BIÊN	39	X. Pu Nhi	32311
+TỈNH ĐIỆN BIÊN	40	X. Mường Luân	32319
+TỈNH ĐIỆN BIÊN	41	X. Tìa Dình	32316
+TỈNH ĐIỆN BIÊN	42	X. Phình Giàng	32314
+TỈNH ĐIỆN BIÊN	43	P. Mường Lay	32709
+TỈNH ĐIỆN BIÊN	44	P. Điện Biên Phủ	32120
+TỈNH ĐIỆN BIÊN	45	P. Mường Thanh	32119
+TỈNH ĐỒNG NAI	1	X. Đại Phước	76259
+TỈNH ĐỒNG NAI	2	X. Nhơn Trạch	76268
+TỈNH ĐỒNG NAI	3	X. Phước An	76267
+TỈNH ĐỒNG NAI	4	X. Phước Thái	76214
+TỈNH ĐỒNG NAI	5	X. Long Phước	76213
+TỈNH ĐỒNG NAI	6	X. Long Thành	76206
+TỈNH ĐỒNG NAI	7	X. Bình An	76208
+TỈNH ĐỒNG NAI	8	X. An Phước	76210
+TỈNH ĐỒNG NAI	9	X. An Viễn	76320
+TỈNH ĐỒNG NAI	10	X. Bình Minh	76315
+TỈNH ĐỒNG NAI	11	X. Trảng Bom	76306
+TỈNH ĐỒNG NAI	12	X. Bàu Hàm	76309
+TỈNH ĐỒNG NAI	13	X. Hưng Thịnh	76322
+TỈNH ĐỒNG NAI	14	X. Dầu Giây	76406
+TỈNH ĐỒNG NAI	15	X. Gia Kiệm	76412
+TỈNH ĐỒNG NAI	16	X. Thống Nhất	76323
+TỈNH ĐỒNG NAI	17	X. Xuân Quế	76507
+TỈNH ĐỒNG NAI	18	X. Xuân Đường	76516
+TỈNH ĐỒNG NAI	19	X. Cẩm Mỹ	76519
+TỈNH ĐỒNG NAI	20	X. Sông Ray	76509
+TỈNH ĐỒNG NAI	21	X. Xuân Đông	76513
+TỈNH ĐỒNG NAI	22	X. Xuân Định	76614
+TỈNH ĐỒNG NAI	23	X. Xuân Phú	76615
+TỈNH ĐỒNG NAI	24	X. Xuân Lộc	76621
+TỈNH ĐỒNG NAI	25	X. Xuân Hòa	76619
+TỈNH ĐỒNG NAI	26	X. Xuân Thành	76608
+TỈNH ĐỒNG NAI	27	X. Xuân Bắc	76610
+TỈNH ĐỒNG NAI	28	X. La Ngà	76714
+TỈNH ĐỒNG NAI	29	X. Định Quán	76706
+TỈNH ĐỒNG NAI	30	X. Phú Vinh	76709
+TỈNH ĐỒNG NAI	31	X. Phú Hòa	76707
+TỈNH ĐỒNG NAI	32	X. Tà Lài	76817
+TỈNH ĐỒNG NAI	33	X. Nam Cát Tiên	76813
+TỈNH ĐỒNG NAI	34	X. Tân Phú	76806
+TỈNH ĐỒNG NAI	35	X. Phú Lâm	76821
+TỈNH ĐỒNG NAI	36	X. Trị An	76910
+TỈNH ĐỒNG NAI	37	X. Tân An	76911
+TỈNH ĐỒNG NAI	38	P. Biên Hòa	76136
+TỈNH ĐỒNG NAI	39	P. Trấn Biên	76137
+TỈNH ĐỒNG NAI	40	P. Tam Hiệp	76109
+TỈNH ĐỒNG NAI	41	P. Long Bình	76134
+TỈNH ĐỒNG NAI	42	P. Trảng Dài	76116
+TỈNH ĐỒNG NAI	43	P. Hố Nai	76138
+TỈNH ĐỒNG NAI	44	P. Long Hưng	76131
+TỈNH ĐỒNG NAI	45	P. Bình Lộc	76461
+TỈNH ĐỒNG NAI	46	P. Bảo Vinh	76459
+TỈNH ĐỒNG NAI	47	P. Xuân Lập	76468
+TỈNH ĐỒNG NAI	48	P. Long Khánh	76471
+TỈNH ĐỒNG NAI	49	P. Hàng Gòn	76470
+TỈNH ĐỒNG NAI	50	P. Tân Triều	76139
+TỈNH ĐỒNG NAI	51	P. Phước Tân	76132
+TỈNH ĐỒNG NAI	52	P. Tam Phước	76133
+TỈNH ĐỒNG NAI	53	X. Thanh Sơn	76711
+TỈNH ĐỒNG NAI	54	X. Đak Lua	76814
+TỈNH ĐỒNG NAI	55	X. Phú Lý	76908
+TỈNH ĐỒNG NAI	56	X. Nha Bích	67908
+TỈNH ĐỒNG NAI	57	X. Tân Quan	67807
+TỈNH ĐỒNG NAI	58	X. Tân Hưng	67809
+TỈNH ĐỒNG NAI	59	X. Tân Khai	67806
+TỈNH ĐỒNG NAI	60	X. Minh Đức	67816
+TỈNH ĐỒNG NAI	61	X. Lộc Thành	67614
+TỈNH ĐỒNG NAI	62	X. Lộc Ninh	67606
+TỈNH ĐỒNG NAI	63	X. Lộc Hưng	67616
+TỈNH ĐỒNG NAI	64	X. Lộc Tấn	67612
+TỈNH ĐỒNG NAI	65	X. Lộc Thạnh	67611
+TỈNH ĐỒNG NAI	66	X. Lộc Quang	67620
+TỈNH ĐỒNG NAI	67	X. Tân Tiến	67662
+TỈNH ĐỒNG NAI	68	X. Thiện Hưng	67659
+TỈNH ĐỒNG NAI	69	X. Hưng Phước	67658
+TỈNH ĐỒNG NAI	70	X. Phú Nghĩa	67506
+TỈNH ĐỒNG NAI	71	X. Đa Kia	67509
+TỈNH ĐỒNG NAI	72	X. Bình Tân	67714
+TỈNH ĐỒNG NAI	73	X. Long Hà	67711
+TỈNH ĐỒNG NAI	74	X. Phú Riềng	67706
+TỈNH ĐỒNG NAI	75	X. Phú Trung	67707
+TỈNH ĐỒNG NAI	76	X. Thuận Lợi	67216
+TỈNH ĐỒNG NAI	77	X. Đồng Tâm	67213
+TỈNH ĐỒNG NAI	78	X. Tân Lợi	67210
+TỈNH ĐỒNG NAI	79	X. Đồng Phú	67217
+TỈNH ĐỒNG NAI	80	X. Phước Sơn	67320
+TỈNH ĐỒNG NAI	81	X. Nghĩa Trung	67317
+TỈNH ĐỒNG NAI	82	X. Bù Đăng	67322
+TỈNH ĐỒNG NAI	83	X. Thọ Sơn	67308
+TỈNH ĐỒNG NAI	84	X. Đak Nhau	67310
+TỈNH ĐỒNG NAI	85	X. Bom Bo	67312
+TỈNH ĐỒNG NAI	86	P. Minh Hưng	67912
+TỈNH ĐỒNG NAI	87	P. Chơn Thành	67915
+TỈNH ĐỒNG NAI	88	P. Bình Long	67862
+TỈNH ĐỒNG NAI	89	P. An Lộc	67863
+TỈNH ĐỒNG NAI	90	P. Phước Bình	67407
+TỈNH ĐỒNG NAI	91	P. Phước Long	67716
+TỈNH ĐỒNG NAI	92	P. Đồng Xoài	67115
+TỈNH ĐỒNG NAI	93	P. Bình Phước	67114
+TỈNH ĐỒNG NAI	94	X. Bù Gia Mập	67513
+TỈNH ĐỒNG NAI	95	X. Đăk Ơ	67512
+TỈNH ĐỒNG THÁP	1	X. Tân Hồng	81415
+TỈNH ĐỒNG THÁP	2	X. Tân Thành	81416
+TỈNH ĐỒNG THÁP	3	X. Tân Hộ Cơ	81410
+TỈNH ĐỒNG THÁP	4	X. An Phước	81413
+TỈNH ĐỒNG THÁP	5	X. Thường Phước	81567
+TỈNH ĐỒNG THÁP	6	X. Long Khánh	81568
+TỈNH ĐỒNG THÁP	7	X. Long Phú Thuận	81569
+TỈNH ĐỒNG THÁP	8	X. An Hòa	81312
+TỈNH ĐỒNG THÁP	9	X. Tam Nông	81318
+TỈNH ĐỒNG THÁP	10	X. Phú Thọ	81316
+TỈNH ĐỒNG THÁP	11	X. Tràm Chim	81306
+TỈNH ĐỒNG THÁP	12	X. Phú Cường	81307
+TỈNH ĐỒNG THÁP	13	X. An Long	81313
+TỈNH ĐỒNG THÁP	14	X. Thanh Bình	81606
+TỈNH ĐỒNG THÁP	15	X. Tân Thạnh	81617
+TỈNH ĐỒNG THÁP	16	X. Bình Thành	81607
+TỈNH ĐỒNG THÁP	17	X. Tân Long	81616
+TỈNH ĐỒNG THÁP	18	X. Tháp Mười	81219
+TỈNH ĐỒNG THÁP	19	X. Thanh Mỹ	81215
+TỈNH ĐỒNG THÁP	20	X. Mỹ Quí	81212
+TỈNH ĐỒNG THÁP	21	X. Đốc Binh Kiều	81217
+TỈNH ĐỒNG THÁP	22	X. Trường Xuân	81209
+TỈNH ĐỒNG THÁP	23	X. Phương Thịnh	81161
+TỈNH ĐỒNG THÁP	24	X. Phong Mỹ	81163
+TỈNH ĐỒNG THÁP	25	X. Ba Sao	81160
+TỈNH ĐỒNG THÁP	26	X. Mỹ Thọ	81157
+TỈNH ĐỒNG THÁP	27	X. Bình Hàng Trung	81169
+TỈNH ĐỒNG THÁP	28	X. Mỹ Hiệp	81172
+TỈNH ĐỒNG THÁP	29	X. Mỹ An Hưng	81719
+TỈNH ĐỒNG THÁP	30	X. Tân Khánh Trung	81718
+TỈNH ĐỒNG THÁP	31	X. Lấp Vò	81706
+TỈNH ĐỒNG THÁP	32	X. Lai Vung	81768
+TỈNH ĐỒNG THÁP	33	X. Hòa Long	81763
+TỈNH ĐỒNG THÁP	34	X. Phong Hòa	81767
+TỈNH ĐỒNG THÁP	35	X. Tân Dương	81758
+TỈNH ĐỒNG THÁP	36	X. Phú Hựu	81914
+TỈNH ĐỒNG THÁP	37	X. Tân Nhuận Đông	81909
+TỈNH ĐỒNG THÁP	38	X. Tân Phú Trung	81911
+TỈNH ĐỒNG THÁP	39	P. An Bình	81513
+TỈNH ĐỒNG THÁP	40	P. Hồng Ngự	81514
+TỈNH ĐỒNG THÁP	41	P. Thường Lạc	81561
+TỈNH ĐỒNG THÁP	42	P. Cao Lãnh	81121
+TỈNH ĐỒNG THÁP	43	P. Mỹ Ngãi	81110
+TỈNH ĐỒNG THÁP	44	P. Mỹ Trà	81108
+TỈNH ĐỒNG THÁP	45	P. Sa Đéc	81815
+TỈNH ĐỒNG THÁP	46	X. Tân Phú	84861
+TỈNH ĐỒNG THÁP	47	X. Thanh Hưng	84931
+TỈNH ĐỒNG THÁP	48	X. An Hữu	84927
+TỈNH ĐỒNG THÁP	49	X. Mỹ Lợi	84932
+TỈNH ĐỒNG THÁP	50	X. Mỹ Đức Tây	84921
+TỈNH ĐỒNG THÁP	51	X. Mỹ Thiện	84933
+TỈNH ĐỒNG THÁP	52	X. Hậu Mỹ	84934
+TỈNH ĐỒNG THÁP	53	X. Hội Cư	84935
+TỈNH ĐỒNG THÁP	54	X. Cái Bè	84906
+TỈNH ĐỒNG THÁP	55	X. Mỹ Thành	84822
+TỈNH ĐỒNG THÁP	56	X. Thạnh Phú	84823
+TỈNH ĐỒNG THÁP	57	X. Bình Phú	84806
+TỈNH ĐỒNG THÁP	58	X. Hiệp Đức	84816
+TỈNH ĐỒNG THÁP	59	X. Long Tiên	84815
+TỈNH ĐỒNG THÁP	60	X. Ngũ Hiệp	84821
+TỈNH ĐỒNG THÁP	61	X. Tân Phước 1	84719
+TỈNH ĐỒNG THÁP	62	X. Tân Phước 2	84720
+TỈNH ĐỒNG THÁP	63	X. Tân Phước 3	84721
+TỈNH ĐỒNG THÁP	64	X. Hưng Thạnh	84712
+TỈNH ĐỒNG THÁP	65	X. Tân Hương	84608
+TỈNH ĐỒNG THÁP	66	X. Châu Thành	84629
+TỈNH ĐỒNG THÁP	67	X. Long Hưng	84621
+TỈNH ĐỒNG THÁP	68	X. Long Định	84614
+TỈNH ĐỒNG THÁP	69	X. Bình Trưng	84619
+TỈNH ĐỒNG THÁP	70	X. Vĩnh Kim	84625
+TỈNH ĐỒNG THÁP	71	X. Kim Sơn	84627
+TỈNH ĐỒNG THÁP	72	X. Mỹ Tịnh An	84520
+TỈNH ĐỒNG THÁP	73	X. Lương Hòa Lạc	84523
+TỈNH ĐỒNG THÁP	74	X. Tân Thuận Bình	84510
+TỈNH ĐỒNG THÁP	75	X. Chợ Gạo	84506
+TỈNH ĐỒNG THÁP	76	X. An Thạnh Thủy	84514
+TỈNH ĐỒNG THÁP	77	X. Bình Ninh	84515
+TỈNH ĐỒNG THÁP	78	X. Vĩnh Bình	84406
+TỈNH ĐỒNG THÁP	79	X. Đồng Sơn	84411
+TỈNH ĐỒNG THÁP	80	X. Phú Thành	84419
+TỈNH ĐỒNG THÁP	81	X. Long Bình	84417
+TỈNH ĐỒNG THÁP	82	X. Vĩnh Hựu	84415
+TỈNH ĐỒNG THÁP	83	X. Gò Công Đông	84369
+TỈNH ĐỒNG THÁP	84	X. Tân Điền	84359
+TỈNH ĐỒNG THÁP	85	X. Tân Hòa	84356
+TỈNH ĐỒNG THÁP	86	X. Tân Đông	84365
+TỈNH ĐỒNG THÁP	87	X. Gia Thuận	84362
+TỈNH ĐỒNG THÁP	88	X. Tân Thới	84210
+TỈNH ĐỒNG THÁP	89	X. Tân Phú Đông	84212
+TỈNH ĐỒNG THÁP	90	P. Mỹ Tho	84123
+TỈNH ĐỒNG THÁP	91	P. Đạo Thạnh	84113
+TỈNH ĐỒNG THÁP	92	P. Mỹ Phong	84112
+TỈNH ĐỒNG THÁP	93	P. Thới Sơn	84122
+TỈNH ĐỒNG THÁP	94	P. Trung An	84118
+TỈNH ĐỒNG THÁP	95	P. Gò Công	84318
+TỈNH ĐỒNG THÁP	96	P. Long Thuận	84308
+TỈNH ĐỒNG THÁP	97	P. Bình Xuân	84312
+TỈNH ĐỒNG THÁP	98	P. Sơn Qui	84319
+TỈNH ĐỒNG THÁP	99	P. Mỹ Phước Tây	84864
+TỈNH ĐỒNG THÁP	100	P. Thanh Hòa	84867
+TỈNH ĐỒNG THÁP	101	P. Cai Lậy	84872
+TỈNH ĐỒNG THÁP	102	P. Nhị Quý	84871
+TỈNH GIA LAI	1	X. An Nhơn Tây	55274
+TỈNH GIA LAI	2	X. Phù Cát	55324
+TỈNH GIA LAI	3	X. Xuân An	55325
+TỈNH GIA LAI	4	X. Ngô Mây	55326
+TỈNH GIA LAI	5	X. Cát Tiến	55319
+TỈNH GIA LAI	6	X. Đề Gi	55327
+TỈNH GIA LAI	7	X. Hòa Hội	55328
+TỈNH GIA LAI	8	X. Hội Sơn	55329
+TỈNH GIA LAI	9	X. Phù Mỹ	55356
+TỈNH GIA LAI	10	X. An Lương	55375
+TỈNH GIA LAI	11	X. Bình Dương	55372
+TỈNH GIA LAI	12	X. Phù Mỹ Đông	55376
+TỈNH GIA LAI	13	X. Phù Mỹ Tây	55378
+TỈNH GIA LAI	14	X. Phù Mỹ Nam	55379
+TỈNH GIA LAI	15	X. Phù Mỹ Bắc	55377
+TỈNH GIA LAI	16	X. Tuy Phước	55206
+TỈNH GIA LAI	17	X. Tuy Phước Đông	55219
+TỈNH GIA LAI	18	X. Tuy Phước Tây	55221
+TỈNH GIA LAI	19	X. Tuy Phước Bắc	55220
+TỈNH GIA LAI	20	X. Tây Sơn	55821
+TỈNH GIA LAI	21	X. Bình Khê	55822
+TỈNH GIA LAI	22	X. Bình Phú	55823
+TỈNH GIA LAI	23	X. Bình Hiệp	55824
+TỈNH GIA LAI	24	X. Bình An	55825
+TỈNH GIA LAI	25	X. Hoài Ân	55621
+TỈNH GIA LAI	26	X. Ân Tường	55622
+TỈNH GIA LAI	27	X. Kim Sơn	55623
+TỈNH GIA LAI	28	X. Vạn Đức	55624
+TỈNH GIA LAI	29	X. Ân Hảo	55625
+TỈNH GIA LAI	30	X. Vân Canh	55906
+TỈNH GIA LAI	31	X. Canh Vinh	55911
+TỈNH GIA LAI	32	X. Canh Liên	55912
+TỈNH GIA LAI	33	X. Vĩnh Thạnh	55706
+TỈNH GIA LAI	34	X. Vĩnh Thịnh	55707
+TỈNH GIA LAI	35	X. Vĩnh Quang	55711
+TỈNH GIA LAI	36	X. Vĩnh Sơn	55714
+TỈNH GIA LAI	37	X. An Hòa	55513
+TỈNH GIA LAI	38	X. An Lão	55506
+TỈNH GIA LAI	39	X. An Vinh	55510
+TỈNH GIA LAI	40	X. An Toàn	55514
+TỈNH GIA LAI	41	P. Quy Nhơn	55127
+TỈNH GIA LAI	42	P. Quy Nhơn Đông	55128
+TỈNH GIA LAI	43	P. Quy Nhơn Tây	55130
+TỈNH GIA LAI	44	P. Quy Nhơn Nam	55131
+TỈNH GIA LAI	45	P. Quy Nhơn Bắc	55129
+TỈNH GIA LAI	46	P. Bình Định	55256
+TỈNH GIA LAI	47	P. An Nhơn	55271
+TỈNH GIA LAI	48	P. An Nhơn Đông	55272
+TỈNH GIA LAI	49	P. An Nhơn Nam	55275
+TỈNH GIA LAI	50	P. An Nhơn Bắc	55273
+TỈNH GIA LAI	51	P. Bồng Sơn	55406
+TỈNH GIA LAI	52	P. Tam Quan	55417
+TỈNH GIA LAI	53	P. Hoài Nhơn Đông	55424
+TỈNH GIA LAI	54	P. Hoài Nhơn Tây	55426
+TỈNH GIA LAI	55	P. Hoài Nhơn Nam	55427
+TỈNH GIA LAI	56	P. Hoài Nhơn	55423
+TỈNH GIA LAI	57	P. Hoài Nhơn Bắc	55425
+TỈNH GIA LAI	58	X. Nhơn Châu	55126
+TỈNH GIA LAI	59	X. Biển Hồ	61121
+TỈNH GIA LAI	60	X. Gào	61126
+TỈNH GIA LAI	61	X. Ia Ly	61315
+TỈNH GIA LAI	62	X. Chư Păh	61321
+TỈNH GIA LAI	63	X. Ia Khươl	61312
+TỈNH GIA LAI	64	X. Ia Phí	61314
+TỈNH GIA LAI	65	X. Chư Prông	61606
+TỈNH GIA LAI	66	X. Bàu Cạn	61612
+TỈNH GIA LAI	67	X. Ia Boòng	61617
+TỈNH GIA LAI	68	X. Ia Lâu	61621
+TỈNH GIA LAI	69	X. Ia Pia	61619
+TỈNH GIA LAI	70	X. Ia Tôr	61608
+TỈNH GIA LAI	71	X. Chư Sê	61906
+TỈNH GIA LAI	72	X. Bờ Ngoong	61909
+TỈNH GIA LAI	73	X. Ia Ko	61915
+TỈNH GIA LAI	74	X. Al Bá	61908
+TỈNH GIA LAI	75	X. Chư Pưh	61815
+TỈNH GIA LAI	76	X. Ia Le	61813
+TỈNH GIA LAI	77	X. Ia Hrú	61808
+TỈNH GIA LAI	78	X. Cửu An	62511
+TỈNH GIA LAI	79	X. Đak Pơ	62406
+TỈNH GIA LAI	80	X. Ya Hội	62410
+TỈNH GIA LAI	81	X. KBang	62606
+TỈNH GIA LAI	82	X. Kông Bơ La	62617
+TỈNH GIA LAI	83	X. Tơ Tung	62614
+TỈNH GIA LAI	84	X. Sơn Lang	62609
+TỈNH GIA LAI	85	X. Đak Rong	62610
+TỈNH GIA LAI	86	X. Kông Chro	62306
+TỈNH GIA LAI	87	X. Ya Ma	62307
+TỈNH GIA LAI	88	X. Chư Krey	62311
+TỈNH GIA LAI	89	X. Sró	62317
+TỈNH GIA LAI	90	X. Đăk Song	62318
+TỈNH GIA LAI	91	X. Chơ Long	62314
+TỈNH GIA LAI	92	X. Ia Rbol	62011
+TỈNH GIA LAI	93	X. Ia Sao	62012
+TỈNH GIA LAI	94	X. Phú Thiện	61706
+TỈNH GIA LAI	95	X. Chư A Thai	61707
+TỈNH GIA LAI	96	X. Ia Hiao	61715
+TỈNH GIA LAI	97	X. Pờ Tó	62208
+TỈNH GIA LAI	98	X. Ia Pa	62215
+TỈNH GIA LAI	99	X. Ia Tul	62212
+TỈNH GIA LAI	100	X. Phú Túc	62106
+TỈNH GIA LAI	101	X. Ia Dreh	62118
+TỈNH GIA LAI	102	X. Ia Rsai	62111
+TỈNH GIA LAI	103	X. Uar	62113
+TỈNH GIA LAI	104	X. Đak Đoa	61206
+TỈNH GIA LAI	105	X. Kon Gang	61210
+TỈNH GIA LAI	106	X. Ia Băng	61222
+TỈNH GIA LAI	107	X. KDang	61208
+TỈNH GIA LAI	108	X. Đak Sơmei	61212
+TỈNH GIA LAI	109	X. Mang Yang	62718
+TỈNH GIA LAI	110	X. Lơ Pang	62713
+TỈNH GIA LAI	111	X. Kon Chiêng	62717
+TỈNH GIA LAI	112	X. Hra	62709
+TỈNH GIA LAI	113	X. Ayun	62711
+TỈNH GIA LAI	114	X. Ia Grai	61419
+TỈNH GIA LAI	115	X. Ia Krái	61414
+TỈNH GIA LAI	116	X. Ia Hrung	61407
+TỈNH GIA LAI	117	X. Đức Cơ	61516
+TỈNH GIA LAI	118	X. Ia Dơk	61507
+TỈNH GIA LAI	119	X. Ia Krêl	61508
+TỈNH GIA LAI	120	P. Pleiku	61129
+TỈNH GIA LAI	121	P. Hội Phú	61114
+TỈNH GIA LAI	122	P. Thống Nhất	61110
+TỈNH GIA LAI	123	P. Diên Hồng	61112
+TỈNH GIA LAI	124	P. An Phú	61118
+TỈNH GIA LAI	125	P. An Khê	62517
+TỈNH GIA LAI	126	P. An Bình	62516
+TỈNH GIA LAI	127	P. Ayun Pa	62014
+TỈNH GIA LAI	128	X. Krong	62612
+TỈNH GIA LAI	129	X. Ia Chia	61416
+TỈNH GIA LAI	130	X. Ia O	61415
+TỈNH GIA LAI	131	X. Ia Púch	61623
+TỈNH GIA LAI	132	X. Ia Mơ	61624
+TỈNH GIA LAI	133	X. Ia Pnôn	61514
+TỈNH GIA LAI	134	X. Ia Nan	61515
+TỈNH GIA LAI	135	X. Ia Dom	61511
+TP. HÀ NỘI	1	P. Hoàn Kiếm	11024
+TP. HÀ NỘI	2	P. Cửa Nam	11018
+TP. HÀ NỘI	3	P. Ba Đình	11120
+TP. HÀ NỘI	4	P. Ngọc Hà	11119
+TP. HÀ NỘI	5	P. Giảng Võ	11110
+TP. HÀ NỘI	6	P. Hai Bà Trưng	11626
+TP. HÀ NỘI	7	P. Vĩnh Tuy	11622
+TP. HÀ NỘI	8	P. Bạch Mai	11618
+TP. HÀ NỘI	9	P. Đống Đa	11527
+TP. HÀ NỘI	10	P. Kim Liên	11520
+TP. HÀ NỘI	11	P. Văn Miếu - Quốc Tử Giám	11508
+TP. HÀ NỘI	12	P. Láng	11528
+TP. HÀ NỘI	13	P. Ô Chợ Dừa	11511
+TP. HÀ NỘI	14	P. Hồng Hà	11025
+TP. HÀ NỘI	15	P. Lĩnh Nam	11709
+TP. HÀ NỘI	16	P. Hoàng Mai	11720
+TP. HÀ NỘI	17	P. Vĩnh Hưng	11712
+TP. HÀ NỘI	18	P. Tương Mai	11715
+TP. HÀ NỘI	19	P. Định Công	11717
+TP. HÀ NỘI	20	P. Hoàng Liệt	11719
+TP. HÀ NỘI	21	P. Yên Sở	11707
+TP. HÀ NỘI	22	P. Thanh Xuân	11417
+TP. HÀ NỘI	23	P. Khương Đình	11410
+TP. HÀ NỘI	24	P. Phương Liệt	11412
+TP. HÀ NỘI	25	P. Cầu Giấy	11314
+TP. HÀ NỘI	26	P. Nghĩa Đô	11307
+TP. HÀ NỘI	27	P. Yên Hòa	11312
+TP. HÀ NỘI	28	P. Tây Hồ	11214
+TP. HÀ NỘI	29	P. Phú Thượng	11210
+TP. HÀ NỘI	30	P. Tây Tựu	11914
+TP. HÀ NỘI	31	P. Phú Diễn	11916
+TP. HÀ NỘI	32	P. Xuân Đỉnh	11908
+TP. HÀ NỘI	33	P. Đông Ngạc	11909
+TP. HÀ NỘI	34	P. Thượng Cát	11912
+TP. HÀ NỘI	35	P. Từ Liêm	12016
+TP. HÀ NỘI	36	P. Xuân Phương	12008
+TP. HÀ NỘI	37	P. Tây Mỗ	12009
+TP. HÀ NỘI	38	P. Đại Mỗ	12010
+TP. HÀ NỘI	39	P. Long Biên	11814
+TP. HÀ NỘI	40	P. Bồ Đề	11813
+TP. HÀ NỘI	41	P. Việt Hưng	11806
+TP. HÀ NỘI	42	P. Phúc Lợi	11817
+TP. HÀ NỘI	43	P. Hà Đông	12123
+TP. HÀ NỘI	44	P. Dương Nội	12114
+TP. HÀ NỘI	45	P. Yên Nghĩa	12116
+TP. HÀ NỘI	46	P. Phú Lương	12120
+TP. HÀ NỘI	47	P. Kiến Hưng	12121
+TP. HÀ NỘI	48	P. Thanh Liệt	12510
+TP. HÀ NỘI	49	P. Chương Mỹ	13438
+TP. HÀ NỘI	50	P. Sơn Tây	12721
+TP. HÀ NỘI	51	P. Tùng Thiện	12722
+TP. HÀ NỘI	52	X. Thanh Trì	12522
+TP. HÀ NỘI	53	X. Đại Thanh	12523
+TP. HÀ NỘI	54	X. Nam Phù	12524
+TP. HÀ NỘI	55	X. Ngọc Hồi	12516
+TP. HÀ NỘI	56	X. Thượng Phúc	13635
+TP. HÀ NỘI	57	X. Thường Tín	13606
+TP. HÀ NỘI	58	X. Chương Dương	13632
+TP. HÀ NỘI	59	X. Hồng Vân	13611
+TP. HÀ NỘI	60	X. Phú Xuyên	13906
+TP. HÀ NỘI	61	X. Phượng Dực	13921
+TP. HÀ NỘI	62	X. Chuyên Mỹ	13926
+TP. HÀ NỘI	63	X. Đại Xuyên	13930
+TP. HÀ NỘI	64	X. Thanh Oai	13527
+TP. HÀ NỘI	65	X. Bình Minh	13512
+TP. HÀ NỘI	66	X. Tam Hưng	13510
+TP. HÀ NỘI	67	X. Dân Hòa	13521
+TP. HÀ NỘI	68	X. Vân Đình	13806
+TP. HÀ NỘI	69	X. Ứng Thiên	13835
+TP. HÀ NỘI	70	X. Hòa Xá	13836
+TP. HÀ NỘI	71	X. Ứng Hòa	13837
+TP. HÀ NỘI	72	X. Mỹ Đức	13728
+TP. HÀ NỘI	73	X. Hồng Sơn	13718
+TP. HÀ NỘI	74	X. Phúc Sơn	13729
+TP. HÀ NỘI	75	X. Hương Sơn	13723
+TP. HÀ NỘI	76	X. Phú Nghĩa	13411
+TP. HÀ NỘI	77	X. Xuân Mai	13417
+TP. HÀ NỘI	78	X. Trần Phú	13423
+TP. HÀ NỘI	79	X. Hòa Phú	13427
+TP. HÀ NỘI	80	X. Quảng Bị	13432
+TP. HÀ NỘI	81	X. Minh Châu	12608
+TP. HÀ NỘI	82	X. Quảng Oai	12637
+TP. HÀ NỘI	83	X. Vật Lại	12620
+TP. HÀ NỘI	84	X. Cổ Đô	12614
+TP. HÀ NỘI	85	X. Bất Bạt	12638
+TP. HÀ NỘI	86	X. Suối Hai	12639
+TP. HÀ NỘI	87	X. Ba Vì	12629
+TP. HÀ NỘI	88	X. Yên Bài	12630
+TP. HÀ NỘI	89	X. Đoài Phương	12723
+TP. HÀ NỘI	90	X. Phúc Thọ	12806
+TP. HÀ NỘI	91	X. Phúc Lộc	12829
+TP. HÀ NỘI	92	X. Hát Môn	12810
+TP. HÀ NỘI	93	X. Thạch Thất	13129
+TP. HÀ NỘI	94	X. Hạ Bằng	13117
+TP. HÀ NỘI	95	X. Tây Phương	13130
+TP. HÀ NỘI	96	X. Hòa Lạc	13131
+TP. HÀ NỘI	97	X. Yên Xuân	13132
+TP. HÀ NỘI	98	X. Quốc Oai	13306
+TP. HÀ NỘI	99	X. Hưng Đạo	13325
+TP. HÀ NỘI	100	X. Kiều Phú	13327
+TP. HÀ NỘI	101	X. Phú Cát	13314
+TP. HÀ NỘI	102	X. Hoài Đức	13226
+TP. HÀ NỘI	103	X. Dương Hòa	13227
+TP. HÀ NỘI	104	X. Sơn Đồng	13224
+TP. HÀ NỘI	105	X. An Khánh	13219
+TP. HÀ NỘI	106	X. Đan Phượng	13007
+TP. HÀ NỘI	107	X. Ô Diên	13022
+TP. HÀ NỘI	108	X. Liên Minh	13023
+TP. HÀ NỘI	109	X. Gia Lâm	12428
+TP. HÀ NỘI	110	X. Thuận An	12429
+TP. HÀ NỘI	111	X. Bát Tràng	12423
+TP. HÀ NỘI	112	X. Phù Đổng	12413
+TP. HÀ NỘI	113	X. Thư Lâm	12330
+TP. HÀ NỘI	114	X. Đông Anh	12306
+TP. HÀ NỘI	115	X. Phúc Thịnh	12331
+TP. HÀ NỘI	116	X. Thiên Lộc	12332
+TP. HÀ NỘI	117	X. Vĩnh Thanh	12333
+TP. HÀ NỘI	118	X. Mê Linh	12923
+TP. HÀ NỘI	119	X. Yên Lãng	12924
+TP. HÀ NỘI	120	X. Tiến Thắng	12912
+TP. HÀ NỘI	121	X. Quang Minh	12907
+TP. HÀ NỘI	122	X. Sóc Sơn	12206
+TP. HÀ NỘI	123	X. Đa Phúc	12232
+TP. HÀ NỘI	124	X. Nội Bài	12233
+TP. HÀ NỘI	125	X. Trung Giã	12210
+TP. HÀ NỘI	126	X. Kim Anh	12234
+TỈNH HÀ TĨNH	1	X. Thạch Lạc	45213
+TỈNH HÀ TĨNH	2	X. Đồng Tiến	45125
+TỈNH HÀ TĨNH	3	X. Thạch Khê	45211
+TỈNH HÀ TĨNH	4	X. Cẩm Bình	46117
+TỈNH HÀ TĨNH	5	X. Kỳ Xuân	46308
+TỈNH HÀ TĨNH	6	X. Kỳ Anh	46327
+TỈNH HÀ TĨNH	7	X. Kỳ Hoa	46217
+TỈNH HÀ TĨNH	8	X. Kỳ Văn	46315
+TỈNH HÀ TĨNH	9	X. Kỳ Khang	46313
+TỈNH HÀ TĨNH	10	X. Kỳ Lạc	46326
+TỈNH HÀ TĨNH	11	X. Kỳ Thượng	46323
+TỈNH HÀ TĨNH	12	X. Cẩm Xuyên	46106
+TỈNH HÀ TĨNH	13	X. Thiên Cầm	46109
+TỈNH HÀ TĨNH	14	X. Cẩm Duệ	46120
+TỈNH HÀ TĨNH	15	X. Cẩm Hưng	46124
+TỈNH HÀ TĨNH	16	X. Cẩm Lạc	46127
+TỈNH HÀ TĨNH	17	X. Cẩm Trung	46131
+TỈNH HÀ TĨNH	18	X. Yên Hòa	46112
+TỈNH HÀ TĨNH	19	X. Thạch Hà	45206
+TỈNH HÀ TĨNH	20	X. Toàn Lưu	45237
+TỈNH HÀ TĨNH	21	X. Việt Xuyên	45238
+TỈNH HÀ TĨNH	22	X. Đông Kinh	45239
+TỈNH HÀ TĨNH	23	X. Thạch Xuân	45234
+TỈNH HÀ TĨNH	24	X. Lộc Hà	45413
+TỈNH HÀ TĨNH	25	X. Hồng Lộc	45410
+TỈNH HÀ TĨNH	26	X. Mai Phụ	45417
+TỈNH HÀ TĨNH	27	X. Can Lộc	45329
+TỈNH HÀ TĨNH	28	X. Tùng Lộc	45310
+TỈNH HÀ TĨNH	29	X. Gia Hanh	45321
+TỈNH HÀ TĨNH	30	X. Trường Lưu	45330
+TỈNH HÀ TĨNH	31	X. Xuân Lộc	45324
+TỈNH HÀ TĨNH	32	X. Đồng Lộc	45325
+TỈNH HÀ TĨNH	33	X. Tiên Điền	45506
+TỈNH HÀ TĨNH	34	X. Nghi Xuân	45525
+TỈNH HÀ TĨNH	35	X. Cổ Đạm	45519
+TỈNH HÀ TĨNH	36	X. Đan Hải	45526
+TỈNH HÀ TĨNH	37	X. Đức Thọ	45706
+TỈNH HÀ TĨNH	38	X. Đức Đồng	45731
+TỈNH HÀ TĨNH	39	X. Đức Quang	45734
+TỈNH HÀ TĨNH	40	X. Đức Thịnh	45735
+TỈNH HÀ TĨNH	41	X. Đức Minh	45736
+TỈNH HÀ TĨNH	42	X. Hương Sơn	45838
+TỈNH HÀ TĨNH	43	X. Sơn Tây	45833
+TỈNH HÀ TĨNH	44	X. Tứ Mỹ	45839
+TỈNH HÀ TĨNH	45	X. Sơn Giang	45822
+TỈNH HÀ TĨNH	46	X. Sơn Tiến	45820
+TỈNH HÀ TĨNH	47	X. Sơn Hồng	45835
+TỈNH HÀ TĨNH	48	X. Kim Hoa	45829
+TỈNH HÀ TĨNH	49	X. Vũ Quang	45906
+TỈNH HÀ TĨNH	50	X. Mai Hoa	45918
+TỈNH HÀ TĨNH	51	X. Thượng Đức	45919
+TỈNH HÀ TĨNH	52	X. Hương Khê	46006
+TỈNH HÀ TĨNH	53	X. Hương Phố	46028
+TỈNH HÀ TĨNH	54	X. Hương Đô	46007
+TỈNH HÀ TĨNH	55	X. Hà Linh	46011
+TỈNH HÀ TĨNH	56	X. Hương Bình	46016
+TỈNH HÀ TĨNH	57	X. Phúc Trạch	46026
+TỈNH HÀ TĨNH	58	X. Hương Xuân	46022
+TỈNH HÀ TĨNH	59	P. Thành Sen	45122
+TỈNH HÀ TĨNH	60	P. Trần Phú	45123
+TỈNH HÀ TĨNH	61	P. Hà Huy Tập	45124
+TỈNH HÀ TĨNH	62	P. Vũng Áng	46221
+TỈNH HÀ TĨNH	63	P. Sông Trí	46218
+TỈNH HÀ TĨNH	64	P. Hoành Sơn	46220
+TỈNH HÀ TĨNH	65	P. Hải Ninh	46219
+TỈNH HÀ TĨNH	66	P. Bắc Hồng Lĩnh	45612
+TỈNH HÀ TĨNH	67	P. Nam Hồng Lĩnh	45613
+TỈNH HÀ TĨNH	68	X. Sơn Kim 1	45836
+TỈNH HÀ TĨNH	69	X. Sơn Kim 2	45837
+TP. HẢI PHÒNG	1	P. Thủy Nguyên	04344
+TP. HẢI PHÒNG	2	P. Thiên Hương	04338
+TP. HẢI PHÒNG	3	P. Hoà Bình	04308
+TP. HẢI PHÒNG	4	P. Nam Triệu	04345
+TP. HẢI PHÒNG	5	P. Bạch Đằng	04318
+TP. HẢI PHÒNG	6	P. Lưu Kiếm	04330
+TP. HẢI PHÒNG	7	P. Lê Ích Mộc	04346
+TP. HẢI PHÒNG	8	P. Hồng Bàng	04117
+TP. HẢI PHÒNG	9	P. Hồng An	04118
+TP. HẢI PHÒNG	10	P. Ngô Quyền	04219
+TP. HẢI PHÒNG	11	P. Gia Viên	04213
+TP. HẢI PHÒNG	12	P. Lê Chân	04721
+TP. HẢI PHÒNG	13	P. An Biên	04707
+TP. HẢI PHÒNG	14	P. Hải An	04814
+TP. HẢI PHÒNG	15	P. Đông Hải	04815
+TP. HẢI PHÒNG	16	P. Kiến An	04616
+TP. HẢI PHÒNG	17	P. Phù Liễn	04617
+TP. HẢI PHÒNG	18	P. Nam Đồ Sơn	05013
+TP. HẢI PHÒNG	19	P. Đồ Sơn	05014
+TP. HẢI PHÒNG	20	P. Hưng Đạo	04907
+TP. HẢI PHÒNG	21	P. Dương Kinh	04912
+TP. HẢI PHÒNG	22	P. An Dương	04422
+TP. HẢI PHÒNG	23	P. An Hải	04423
+TP. HẢI PHÒNG	24	P. An Phong	04424
+TP. HẢI PHÒNG	25	X. An Hưng	04523
+TP. HẢI PHÒNG	26	X. An Khánh	04524
+TP. HẢI PHÒNG	27	X. An Quang	04525
+TP. HẢI PHÒNG	28	X. An Trường	04526
+TP. HẢI PHÒNG	29	X. An Lão	04506
+TP. HẢI PHÒNG	30	X. Kiến Thụy	05124
+TP. HẢI PHÒNG	31	X. Kiến Minh	05125
+TP. HẢI PHÒNG	32	X. Kiến Hải	05126
+TP. HẢI PHÒNG	33	X. Kiến Hưng	05115
+TP. HẢI PHÒNG	34	#VALUE!	05127
+TP. HẢI PHÒNG	35	X. Quyết Thắng	05229
+TP. HẢI PHÒNG	36	X. Tiên Lãng	05206
+TP. HẢI PHÒNG	37	X. Tân Minh	05217
+TP. HẢI PHÒNG	38	X. Tiên Minh	05218
+TP. HẢI PHÒNG	39	X. Chấn Hưng	05230
+TP. HẢI PHÒNG	40	X. Hùng Thắng	05224
+TP. HẢI PHÒNG	41	X. Vĩnh Bảo	05306
+TP. HẢI PHÒNG	42	X. Nguyễn Bỉnh Khiêm	05336
+TP. HẢI PHÒNG	43	X. Vĩnh Am	05337
+TP. HẢI PHÒNG	44	X. Vĩnh Hải	05319
+TP. HẢI PHÒNG	45	X. Vĩnh Hòa	05314
+TP. HẢI PHÒNG	46	X. Vĩnh Thịnh	05338
+TP. HẢI PHÒNG	47	X. Vĩnh Thuận	05339
+TP. HẢI PHÒNG	48	X. Việt Khê	04343
+TP. HẢI PHÒNG	49	Đặc khu Cát Hải	05418
+TP. HẢI PHÒNG	50	Đặc khu Bạch Long Vĩ	05506
+TP. HẢI PHÒNG	51	P. Hải Dương	03127
+TP. HẢI PHÒNG	52	P. Lê Thanh Nghị	03112
+TP. HẢI PHÒNG	53	P. Việt Hòa	03125
+TP. HẢI PHÒNG	54	P. Thành Đông	03128
+TP. HẢI PHÒNG	55	P. Nam Đồng	03121
+TP. HẢI PHÒNG	56	P. Tân Hưng	03120
+TP. HẢI PHÒNG	57	P. Thạch Khôi	03119
+TP. HẢI PHÒNG	58	P. Tứ Minh	03126
+TP. HẢI PHÒNG	59	P. Ái Quốc	03122
+TP. HẢI PHÒNG	60	P. Chu Văn An	03526
+TP. HẢI PHÒNG	61	P. Chí Linh	03527
+TP. HẢI PHÒNG	62	P. Trần Hưng Đạo	03528
+TP. HẢI PHÒNG	63	P. Nguyễn Trãi	03529
+TP. HẢI PHÒNG	64	P. Trần Nhân Tông	03530
+TP. HẢI PHÒNG	65	P. Lê Đại Hành	03531
+TP. HẢI PHÒNG	66	P. Kinh Môn	03431
+TP. HẢI PHÒNG	67	P. Nguyễn Đại Năng	03432
+TP. HẢI PHÒNG	68	P. Trần Liễu	03433
+TP. HẢI PHÒNG	69	P. Bắc An Phụ	03434
+TP. HẢI PHÒNG	70	P. Phạm Sư Mạnh	03435
+TP. HẢI PHÒNG	71	P. Nhị Chiểu	03436
+TP. HẢI PHÒNG	72	X. Nam An Phụ	03437
+TP. HẢI PHÒNG	73	X. Nam Sách	03556
+TP. HẢI PHÒNG	74	X. Thái Tân	03570
+TP. HẢI PHÒNG	75	X. Trần Phú	03566
+TP. HẢI PHÒNG	76	X. Hợp Tiến	03564
+TP. HẢI PHÒNG	77	X. An Phú	03557
+TP. HẢI PHÒNG	78	X. Thanh Hà	03206
+TP. HẢI PHÒNG	79	X. Hà Tây	03231
+TP. HẢI PHÒNG	80	X. Hà Bắc	03232
+TP. HẢI PHÒNG	81	X. Hà Nam	03233
+TP. HẢI PHÒNG	82	X. Hà Đông	03234
+TP. HẢI PHÒNG	83	X. Mao Điền	03625
+TP. HẢI PHÒNG	84	X. Cẩm Giàng	03626
+TP. HẢI PHÒNG	85	X. Cẩm Giang	03606
+TP. HẢI PHÒNG	86	X. Tuệ Tĩnh	03627
+TP. HẢI PHÒNG	87	X. Kẻ Sặt	03706
+TP. HẢI PHÒNG	88	X. Bình Giang	03724
+TP. HẢI PHÒNG	89	X. Đường An	03725
+TP. HẢI PHÒNG	90	X. Thượng Hồng	03726
+TP. HẢI PHÒNG	91	X. Gia Lộc	03656
+TP. HẢI PHÒNG	92	X. Yết Kiêu	03665
+TP. HẢI PHÒNG	93	X. Gia Phúc	03657
+TP. HẢI PHÒNG	94	X. Trường Tân	03679
+TP. HẢI PHÒNG	95	X. Tứ Kỳ	03906
+TP. HẢI PHÒNG	96	X. Tân Kỳ	03916
+TP. HẢI PHÒNG	97	X. Đại Sơn	03912
+TP. HẢI PHÒNG	98	X. Chí Minh	03907
+TP. HẢI PHÒNG	99	X. Lạc Phượng	03924
+TP. HẢI PHÒNG	100	X. Nguyên Giáp	03928
+TP. HẢI PHÒNG	101	X. Ninh Giang	03806
+TP. HẢI PHÒNG	102	X. Vĩnh Lại	03834
+TP. HẢI PHÒNG	103	X. Khúc Thừa Dụ	03835
+TP. HẢI PHÒNG	104	X. Tân An	03836
+TP. HẢI PHÒNG	105	X. Hồng Châu	03837
+TP. HẢI PHÒNG	106	X. Thanh Miện	03756
+TP. HẢI PHÒNG	107	X. Bắc Thanh Miện	03775
+TP. HẢI PHÒNG	108	X. Hải Hưng	03776
+TP. HẢI PHÒNG	109	X. Nguyễn Lương Bằng	03777
+TP. HẢI PHÒNG	110	X. Nam Thanh Miện	03778
+TP. HẢI PHÒNG	111	X. Phú Thái	03306
+TP. HẢI PHÒNG	112	X. Lai Khê	03312
+TP. HẢI PHÒNG	113	X. An Thành	03327
+TP. HẢI PHÒNG	114	X. Kim Thành	03328
+TP. HỒ CHÍ MINH	1	P. Sài Gòn	71016
+TP. HỒ CHÍ MINH	2	P. Tân Định	71008
+TP. HỒ CHÍ MINH	3	P. Bến Thành	71009
+TP. HỒ CHÍ MINH	4	P. Cầu Ông Lãnh	71011
+TP. HỒ CHÍ MINH	5	P. Bàn Cờ	72420
+TP. HỒ CHÍ MINH	6	P. Xuân Hòa	72421
+TP. HỒ CHÍ MINH	7	P. Nhiêu Lộc	72422
+TP. HỒ CHÍ MINH	8	P. Xóm Chiếu	72823
+TP. HỒ CHÍ MINH	9	P. Khánh Hội	72822
+TP. HỒ CHÍ MINH	10	P. Vĩnh Hội	72821
+TP. HỒ CHÍ MINH	11	P. Chợ Quán	72722
+TP. HỒ CHÍ MINH	12	P. An Đông	72721
+TP. HỒ CHÍ MINH	13	P. Chợ Lớn	72723
+TP. HỒ CHÍ MINH	14	P. Bình Tây	73121
+TP. HỒ CHÍ MINH	15	P. Bình Tiên	73120
+TP. HỒ CHÍ MINH	16	P. Bình Phú	73122
+TP. HỒ CHÍ MINH	17	P. Phú Lâm	73123
+TP. HỒ CHÍ MINH	18	P. Tân Thuận	72917
+TP. HỒ CHÍ MINH	19	P. Phú Thuận	72907
+TP. HỒ CHÍ MINH	20	P. Tân Mỹ	72916
+TP. HỒ CHÍ MINH	21	P. Tân Hưng	72912
+TP. HỒ CHÍ MINH	22	P. Chánh Hưng	73023
+TP. HỒ CHÍ MINH	23	P. Phú Định	73022
+TP. HỒ CHÍ MINH	24	P. Bình Đông	73024
+TP. HỒ CHÍ MINH	25	P. Diên Hồng	72521
+TP. HỒ CHÍ MINH	26	P. Vườn Lài	72522
+TP. HỒ CHÍ MINH	27	P. Hòa Hưng	72523
+TP. HỒ CHÍ MINH	28	P. Minh Phụng	72624
+TP. HỒ CHÍ MINH	29	P. Bình Thới	72622
+TP. HỒ CHÍ MINH	30	P. Hòa Bình	72623
+TP. HỒ CHÍ MINH	31	P. Phú Thọ	72625
+TP. HỒ CHÍ MINH	32	P. Đông Hưng Thuận	71508
+TP. HỒ CHÍ MINH	33	P. Trung Mỹ Tây	71507
+TP. HỒ CHÍ MINH	34	P. Tân Thới Hiệp	71511
+TP. HỒ CHÍ MINH	35	P. Thới An	71513
+TP. HỒ CHÍ MINH	36	P. An Phú Đông	71516
+TP. HỒ CHÍ MINH	37	P. An Lạc	71906
+TP. HỒ CHÍ MINH	38	P. Bình Tân	71916
+TP. HỒ CHÍ MINH	39	P. Tân Tạo	71915
+TP. HỒ CHÍ MINH	40	P. Bình Trị Đông	71910
+TP. HỒ CHÍ MINH	41	P. Bình Hưng Hòa	71913
+TP. HỒ CHÍ MINH	42	P. Gia Định	72330
+TP. HỒ CHÍ MINH	43	P. Bình Thạnh	72326
+TP. HỒ CHÍ MINH	44	P. Bình Lợi Trung	72329
+TP. HỒ CHÍ MINH	45	P. Thạnh Mỹ Tây	72331
+TP. HỒ CHÍ MINH	46	P. Bình Quới	72328
+TP. HỒ CHÍ MINH	47	P. Hạnh Thông	71423
+TP. HỒ CHÍ MINH	48	P. An Nhơn	71424
+TP. HỒ CHÍ MINH	49	P. Gò Vấp	71422
+TP. HỒ CHÍ MINH	50	P. An Hội Đông	71425
+TP. HỒ CHÍ MINH	51	P. Thông Tây Hội	71426
+TP. HỒ CHÍ MINH	52	P. An Hội Tây	71427
+TP. HỒ CHÍ MINH	53	P. Đức Nhuận	72223
+TP. HỒ CHÍ MINH	54	P. Cầu Kiệu	72222
+TP. HỒ CHÍ MINH	55	P. Phú Nhuận	72221
+TP. HỒ CHÍ MINH	56	P. Tân Sơn Hòa	72122
+TP. HỒ CHÍ MINH	57	P. Tân Sơn Nhất	72121
+TP. HỒ CHÍ MINH	58	P. Tân Hòa	72125
+TP. HỒ CHÍ MINH	59	P. Bảy Hiền	72124
+TP. HỒ CHÍ MINH	60	P. Tân Bình	72123
+TP. HỒ CHÍ MINH	61	P. Tân Sơn	72126
+TP. HỒ CHÍ MINH	62	P. Tây Thạnh	72009
+TP. HỒ CHÍ MINH	63	P. Tân Sơn Nhì	72008
+TP. HỒ CHÍ MINH	64	P. Phú Thọ Hòa	72012
+TP. HỒ CHÍ MINH	65	P. Tân Phú	72017
+TP. HỒ CHÍ MINH	66	P. Phú Thạnh	72013
+TP. HỒ CHÍ MINH	67	P. Hiệp Bình	71318
+TP. HỒ CHÍ MINH	68	P. Thủ Đức	71319
+TP. HỒ CHÍ MINH	69	P. Tam Bình	71312
+TP. HỒ CHÍ MINH	70	P. Linh Xuân	71309
+TP. HỒ CHÍ MINH	71	P. Tăng Nhơn Phú	71320
+TP. HỒ CHÍ MINH	72	P. Long Bình	71217
+TP. HỒ CHÍ MINH	73	P. Long Phước	71214
+TP. HỒ CHÍ MINH	74	P. Long Trường	71213
+TP. HỒ CHÍ MINH	75	P. Cát Lái	71115
+TP. HỒ CHÍ MINH	76	P. Bình Trưng	71322
+TP. HỒ CHÍ MINH	77	P. Phước Long	71321
+TP. HỒ CHÍ MINH	78	P. An Khánh	71108
+TP. HỒ CHÍ MINH	79	X. Vĩnh Lộc	71823
+TP. HỒ CHÍ MINH	80	X. Tân Vĩnh Lộc	71822
+TP. HỒ CHÍ MINH	81	X. Bình Lợi	71818
+TP. HỒ CHÍ MINH	82	X. Tân Nhựt	71816
+TP. HỒ CHÍ MINH	83	X. Bình Chánh	71814
+TP. HỒ CHÍ MINH	84	X. Hưng Long	71809
+TP. HỒ CHÍ MINH	85	X. Bình Hưng	71813
+TP. HỒ CHÍ MINH	86	X. Bình Khánh	73310
+TP. HỒ CHÍ MINH	87	X. An Thới Đông	73311
+TP. HỒ CHÍ MINH	88	X. Cần Giờ	72018
+TP. HỒ CHÍ MINH	89	X. Củ Chi	71627
+TP. HỒ CHÍ MINH	90	X. Tân An Hội	71607
+TP. HỒ CHÍ MINH	91	X. Thái Mỹ	71625
+TP. HỒ CHÍ MINH	92	X. An Nhơn Tây	71619
+TP. HỒ CHÍ MINH	93	X. Nhuận Đức	71618
+TP. HỒ CHÍ MINH	94	X. Phú Hòa Đông	71616
+TP. HỒ CHÍ MINH	95	X. Bình Mỹ	71611
+TP. HỒ CHÍ MINH	96	X. Đông Thạnh	71708
+TP. HỒ CHÍ MINH	97	X. Hóc Môn	71706
+TP. HỒ CHÍ MINH	98	X. Xuân Thới Sơn	71712
+TP. HỒ CHÍ MINH	99	X. Bà Điểm	71714
+TP. HỒ CHÍ MINH	100	X. Nhà Bè	73206
+TP. HỒ CHÍ MINH	101	X. Hiệp Phước	73212
+TP. HỒ CHÍ MINH	102	X. Thạnh An	73308
+TP. HỒ CHÍ MINH	103	P. Đông Hòa	75308
+TP. HỒ CHÍ MINH	104	P. Dĩ An	75306
+TP. HỒ CHÍ MINH	105	P. Tân Đông Hiệp	75311
+TP. HỒ CHÍ MINH	106	P. An Phú	75209
+TP. HỒ CHÍ MINH	107	P. Bình Hòa	75208
+TP. HỒ CHÍ MINH	108	P. Lái Thiêu	75206
+TP. HỒ CHÍ MINH	109	P. Thuận An	75216
+TP. HỒ CHÍ MINH	110	P. Thuận Giao	75211
+TP. HỒ CHÍ MINH	111	P. Thủ Dầu Một	75123
+TP. HỒ CHÍ MINH	112	P. Phú Lợi	75110
+TP. HỒ CHÍ MINH	113	P. Chánh Hiệp	75122
+TP. HỒ CHÍ MINH	114	P. Bình Dương	75121
+TP. HỒ CHÍ MINH	115	P. Hòa Lợi	75912
+TP. HỒ CHÍ MINH	116	P. Phú An	75124
+TP. HỒ CHÍ MINH	117	P. Tây Nam	75914
+TP. HỒ CHÍ MINH	118	P. Long Nguyên	75709
+TP. HỒ CHÍ MINH	119	P. Bến Cát	75915
+TP. HỒ CHÍ MINH	120	P. Chánh Phú Hòa	75913
+TP. HỒ CHÍ MINH	121	P. Vĩnh Tân	75409
+TP. HỒ CHÍ MINH	122	P. Bình Cơ	75418
+TP. HỒ CHÍ MINH	123	P. Tân Uyên	75419
+TP. HỒ CHÍ MINH	124	P. Tân Hiệp	75408
+TP. HỒ CHÍ MINH	125	P. Tân Khánh	75420
+TP. HỒ CHÍ MINH	126	X. Thường Tân	75515
+TP. HỒ CHÍ MINH	127	X. Bắc Tân Uyên	75516
+TP. HỒ CHÍ MINH	128	X. Phú Giáo	75618
+TP. HỒ CHÍ MINH	129	X. Phước Hòa	75614
+TP. HỒ CHÍ MINH	130	X. Phước Thành	75617
+TP. HỒ CHÍ MINH	131	X. An Long	75610
+TP. HỒ CHÍ MINH	132	X. Trừ Văn Thố	75707
+TP. HỒ CHÍ MINH	133	X. Bàu Bàng	75713
+TP. HỒ CHÍ MINH	134	X. Long Hòa	75812
+TP. HỒ CHÍ MINH	135	X. Thanh An	75807
+TP. HỒ CHÍ MINH	136	X. Dầu Tiếng	75806
+TP. HỒ CHÍ MINH	137	X. Minh Thạnh	75815
+TP. HỒ CHÍ MINH	138	P. Thới Hòa	75911
+TP. HỒ CHÍ MINH	139	P. Vũng Tàu	78223
+TP. HỒ CHÍ MINH	140	P. Tam Thắng	78224
+TP. HỒ CHÍ MINH	141	P. Rạch Dừa	78219
+TP. HỒ CHÍ MINH	142	P. Phước Thắng	78225
+TP. HỒ CHÍ MINH	143	P. Long Hương	78116
+TP. HỒ CHÍ MINH	144	P. Bà Rịa	78117
+TP. HỒ CHÍ MINH	145	P. Tam Long	78118
+TP. HỒ CHÍ MINH	146	P. Tân Hải	78714
+TP. HỒ CHÍ MINH	147	P. Tân Phước	78711
+TP. HỒ CHÍ MINH	148	P. Phú Mỹ	78706
+TP. HỒ CHÍ MINH	149	P. Tân Thành	78716
+TP. HỒ CHÍ MINH	150	X. Châu Pha	78712
+TP. HỒ CHÍ MINH	151	X. Long Hải	78412
+TP. HỒ CHÍ MINH	152	X. Long Điền	78406
+TP. HỒ CHÍ MINH	153	X. Phước Hải	78313
+TP. HỒ CHÍ MINH	154	X. Đất Đỏ	78306
+TP. HỒ CHÍ MINH	155	X. Nghĩa Thành	78617
+TP. HỒ CHÍ MINH	156	X. Ngãi Giao	78606
+TP. HỒ CHÍ MINH	157	X. Kim Long	78611
+TP. HỒ CHÍ MINH	158	X. Châu Đức	78622
+TP. HỒ CHÍ MINH	159	X. Bình Giã	78607
+TP. HỒ CHÍ MINH	160	X. Xuân Sơn	78619
+TP. HỒ CHÍ MINH	161	X. Hồ Tràm	78519
+TP. HỒ CHÍ MINH	162	X. Xuyên Mộc	78518
+TP. HỒ CHÍ MINH	163	X. Hòa Hội	78511
+TP. HỒ CHÍ MINH	164	X. Bàu Lâm	78514
+TP. HỒ CHÍ MINH	165	Đặc khu Côn Đảo	78807
+TP. HỒ CHÍ MINH	166	X. Long Sơn	78222
+TP. HỒ CHÍ MINH	167	X. Hòa Hiệp	78512
+TP. HỒ CHÍ MINH	168	X. Bình Châu	78510
+TP. HUẾ	1	P. Phong Điền	49322
+TP. HUẾ	2	P. Phong Thái	49323
+TP. HUẾ	3	P. Phong Dinh	49325
+TP. HUẾ	4	P. Phong Phú	49309
+TP. HUẾ	5	P. Phong Quảng	49324
+TP. HUẾ	6	P. Hương Trà	49422
+TP. HUẾ	7	P. Kim Trà	49423
+TP. HUẾ	8	P. Kim Long	49122
+TP. HUẾ	9	P. Hương An	49136
+TP. HUẾ	10	P. Phú Xuân	49133
+TP. HUẾ	11	P. Thuận An	49141
+TP. HUẾ	12	P. Hóa Châu	49134
+TP. HUẾ	13	P. Mỹ Thượng	49927
+TP. HUẾ	14	P. Vỹ Dạ	49107
+TP. HUẾ	15	P. Thuận Hóa	49135
+TP. HUẾ	16	P. An Cựu	49129
+TP. HUẾ	17	P. Thủy Xuân	49131
+TP. HUẾ	18	P. Thanh Thủy	49619
+TP. HUẾ	19	P. Hương Thủy	49620
+TP. HUẾ	20	P. Phú Bài	49612
+TP. HUẾ	21	X. Đan Điền	49218
+TP. HUẾ	22	X. Quảng Điền	49217
+TP. HUẾ	23	X. Bình Điền	49424
+TP. HUẾ	24	X. Phú Vinh	49928
+TP. HUẾ	25	X. Phú Hồ	49925
+TP. HUẾ	26	X. Phú Vang	49929
+TP. HUẾ	27	X. Vinh Lộc	49824
+TP. HUẾ	28	X. Hưng Lộc	49828
+TP. HUẾ	29	X. Lộc An	49814
+TP. HUẾ	30	X. Phú Lộc	49806
+TP. HUẾ	31	X. Chân Mây - Lăng Cô	49825
+TP. HUẾ	32	X. Long Quảng	49826
+TP. HUẾ	33	X. Nam Đông	49827
+TP. HUẾ	34	X. Khe Tre	49706
+TP. HUẾ	35	X. A Lưới 1	49527
+TP. HUẾ	36	X. A Lưới 2	49528
+TP. HUẾ	37	X. A Lưới 3	49529
+TP. HUẾ	38	X. A Lưới 4	49530
+TP. HUẾ	39	X. A Lưới 5	49531
+TP. HUẾ	40	P. Dương Nỗ	49142
+TỈNH HƯNG YÊN	1	X. Tân Hưng	17121
+TỈNH HƯNG YÊN	2	X. Hoàng Hoa Thám	17222
+TỈNH HƯNG YÊN	3	X. Tiên Lữ	17221
+TỈNH HƯNG YÊN	4	X. Tiên Hoa	17223
+TỈNH HƯNG YÊN	5	X. Quang Hưng	17309
+TỈNH HƯNG YÊN	6	X. Đoàn Đào	17311
+TỈNH HƯNG YÊN	7	X. Tiên Tiến	17315
+TỈNH HƯNG YÊN	8	X. Tống Trân	17319
+TỈNH HƯNG YÊN	9	X. Lương Bằng	17906
+TỈNH HƯNG YÊN	10	X. Nghĩa Dân	17907
+TỈNH HƯNG YÊN	11	X. Hiệp Cường	17922
+TỈNH HƯNG YÊN	12	X. Đức Hợp	17918
+TỈNH HƯNG YÊN	13	X. Ân Thi	17406
+TỈNH HƯNG YÊN	14	X. Xuân Trúc	17414
+TỈNH HƯNG YÊN	15	X. Phạm Ngũ Lão	17427
+TỈNH HƯNG YÊN	16	X. Nguyễn Trãi	17420
+TỈNH HƯNG YÊN	17	X. Hồng Quang	17425
+TỈNH HƯNG YÊN	18	X. Khoái Châu	17806
+TỈNH HƯNG YÊN	19	X. Triệu Việt Vương	17831
+TỈNH HƯNG YÊN	20	X. Việt Tiến	17832
+TỈNH HƯNG YÊN	21	X. Chí Minh	17826
+TỈNH HƯNG YÊN	22	X. Châu Ninh	17833
+TỈNH HƯNG YÊN	23	X. Yên Mỹ	17706
+TỈNH HƯNG YÊN	24	X. Việt Yên	17716
+TỈNH HƯNG YÊN	25	X. Hoàn Long	17712
+TỈNH HƯNG YÊN	26	X. Nguyễn Văn Linh	17707
+TỈNH HƯNG YÊN	27	X. Như Quỳnh	17606
+TỈNH HƯNG YÊN	28	X. Lạc Đạo	17607
+TỈNH HƯNG YÊN	29	X. Đại Đồng	17609
+TỈNH HƯNG YÊN	30	X. Nghĩa Trụ	17660
+TỈNH HƯNG YÊN	31	X. Phụng Công	17659
+TỈNH HƯNG YÊN	32	X. Văn Giang	17656
+TỈNH HƯNG YÊN	33	X. Mễ Sở	17666
+TỈNH HƯNG YÊN	34	P. Phố Hiến	17123
+TỈNH HƯNG YÊN	35	P. Sơn Nam	17124
+TỈNH HƯNG YÊN	36	P. Hồng Châu	17110
+TỈNH HƯNG YÊN	37	P. Mỹ Hào	17519
+TỈNH HƯNG YÊN	38	P. Đường Hào	17520
+TỈNH HƯNG YÊN	39	P. Thượng Hồng	17521
+TỈNH HƯNG YÊN	40	X. Thái Thụy	06454
+TỈNH HƯNG YÊN	41	X. Đông Thụy Anh	06456
+TỈNH HƯNG YÊN	42	X. Bắc Thụy Anh	06457
+TỈNH HƯNG YÊN	43	X. Thụy Anh	06455
+TỈNH HƯNG YÊN	44	X. Nam Thụy Anh	06459
+TỈNH HƯNG YÊN	45	X. Bắc Thái Ninh	06462
+TỈNH HƯNG YÊN	46	X. Thái Ninh	06460
+TỈNH HƯNG YÊN	47	X. Đông Thái Ninh	06461
+TỈNH HƯNG YÊN	48	X. Nam Thái Ninh	06464
+TỈNH HƯNG YÊN	49	X. Tây Thái Ninh	06463
+TỈNH HƯNG YÊN	50	X. Tây Thụy Anh	06458
+TỈNH HƯNG YÊN	51	X. Tiền Hải	06306
+TỈNH HƯNG YÊN	52	X. Tây Tiền Hải	06342
+TỈNH HƯNG YÊN	53	X. Ái Quốc	06325
+TỈNH HƯNG YÊN	54	X. Đồng Châu	06344
+TỈNH HƯNG YÊN	55	X. Đông Tiền Hải	06341
+TỈNH HƯNG YÊN	56	X. Nam Cường	06338
+TỈNH HƯNG YÊN	57	X. Hưng Phú	06345
+TỈNH HƯNG YÊN	58	X. Nam Tiền Hải	06343
+TỈNH HƯNG YÊN	59	X. Đông Hưng	06806
+TỈNH HƯNG YÊN	60	X. Bắc Tiên Hưng	06854
+TỈNH HƯNG YÊN	61	X. Đông Tiên Hưng	06853
+TỈNH HƯNG YÊN	62	X. Nam Đông Hưng	06851
+TỈNH HƯNG YÊN	63	X. Bắc Đông Quan	06856
+TỈNH HƯNG YÊN	64	X. Bắc Đông Hưng	06850
+TỈNH HƯNG YÊN	65	X. Đông Quan	06843
+TỈNH HƯNG YÊN	66	X. Nam Tiên Hưng	06855
+TỈNH HƯNG YÊN	67	X. Tiên Hưng	06852
+TỈNH HƯNG YÊN	68	X. Quỳnh Phụ	06644
+TỈNH HƯNG YÊN	69	X. Minh Thọ	06645
+TỈNH HƯNG YÊN	70	X. Nguyễn Du	06646
+TỈNH HƯNG YÊN	71	X. Quỳnh An	06647
+TỈNH HƯNG YÊN	72	X. Ngọc Lâm	06648
+TỈNH HƯNG YÊN	73	X. Đồng Bằng	06649
+TỈNH HƯNG YÊN	74	X. A Sào	06675
+TỈNH HƯNG YÊN	75	X. Phụ Dực	06676
+TỈNH HƯNG YÊN	76	X. Tân Tiến	06677
+TỈNH HƯNG YÊN	77	X. Hưng Hà	06706
+TỈNH HƯNG YÊN	78	X. Tiên La	06741
+TỈNH HƯNG YÊN	79	X. Lê Quý Đôn	06742
+TỈNH HƯNG YÊN	80	X. Hồng Minh	06738
+TỈNH HƯNG YÊN	81	X. Thần Khê	06743
+TỈNH HƯNG YÊN	82	X. Diên Hà	06744
+TỈNH HƯNG YÊN	83	X. Ngự Thiên	06745
+TỈNH HƯNG YÊN	84	X. Long Hưng	06746
+TỈNH HƯNG YÊN	85	X. Kiến Xương	06206
+TỈNH HƯNG YÊN	86	X. Lê Lợi	06213
+TỈNH HƯNG YÊN	87	X. Quang Lịch	06224
+TỈNH HƯNG YÊN	88	X. Vũ Quý	06227
+TỈNH HƯNG YÊN	89	X. Bình Thanh	06235
+TỈNH HƯNG YÊN	90	X. Bình Định	06237
+TỈNH HƯNG YÊN	91	X. Hồng Vũ	06229
+TỈNH HƯNG YÊN	92	X. Bình Nguyên	06222
+TỈNH HƯNG YÊN	93	X. Trà Giang	06216
+TỈNH HƯNG YÊN	94	X. Vũ Thư	06906
+TỈNH HƯNG YÊN	95	X. Thư Trì	06936
+TỈNH HƯNG YÊN	96	X. Tân Thuận	06937
+TỈNH HƯNG YÊN	97	X. Thư Vũ	06938
+TỈNH HƯNG YÊN	98	X. Vũ Tiên	06939
+TỈNH HƯNG YÊN	99	X. Vạn Xuân	06940
+TỈNH HƯNG YÊN	100	P. Thái Bình	06125
+TỈNH HƯNG YÊN	101	P. Trần Lãm	06122
+TỈNH HƯNG YÊN	102	P. Trần Hưng Đạo	06106
+TỈNH HƯNG YÊN	103	P. Trà Lý	06126
+TỈNH HƯNG YÊN	104	P. Vũ Phúc	06119
+TỈNH KHÁNH HÒA	1	X. Nam Cam Ranh	57823
+TỈNH KHÁNH HÒA	2	X. Bắc Ninh Hòa	57336
+TỈNH KHÁNH HÒA	3	X. Tân Định	57339
+TỈNH KHÁNH HÒA	4	X. Nam Ninh Hòa	57338
+TỈNH KHÁNH HÒA	5	X. Tây Ninh Hòa	57337
+TỈNH KHÁNH HÒA	6	X. Hòa Trí	57340
+TỈNH KHÁNH HÒA	7	X. Đại Lãnh	57216
+TỈNH KHÁNH HÒA	8	X. Tu Bông	57220
+TỈNH KHÁNH HÒA	9	X. Vạn Thắng	57212
+TỈNH KHÁNH HÒA	10	X. Vạn Ninh	57219
+TỈNH KHÁNH HÒA	11	X. Vạn Hưng	57207
+TỈNH KHÁNH HÒA	12	X. Diên Khánh	57506
+TỈNH KHÁNH HÒA	13	X. Diên Lạc	57519
+TỈNH KHÁNH HÒA	14	X. Diên Điền	57508
+TỈNH KHÁNH HÒA	15	X. Diên Lâm	57510
+TỈNH KHÁNH HÒA	16	X. Diên Thọ	57513
+TỈNH KHÁNH HÒA	17	X. Suối Hiệp	57522
+TỈNH KHÁNH HÒA	18	X. Cam Lâm	57620
+TỈNH KHÁNH HÒA	19	X. Suối Dầu	57621
+TỈNH KHÁNH HÒA	20	X. Cam Hiệp	57622
+TỈNH KHÁNH HÒA	21	X. Cam An	57623
+TỈNH KHÁNH HÒA	22	X. Bắc Khánh Vĩnh	57420
+TỈNH KHÁNH HÒA	23	X. Trung Khánh Vĩnh	57421
+TỈNH KHÁNH HÒA	24	X. Tây Khánh Vĩnh	57422
+TỈNH KHÁNH HÒA	25	X. Nam Khánh Vĩnh	57423
+TỈNH KHÁNH HÒA	26	X. Khánh Vĩnh	57406
+TỈNH KHÁNH HÒA	27	X. Khánh Sơn	57564
+TỈNH KHÁNH HÒA	28	X. Tây Khánh Sơn	57565
+TỈNH KHÁNH HÒA	29	X. Đông Khánh Sơn	57566
+TỈNH KHÁNH HÒA	30	P. Nha Trang	57133
+TỈNH KHÁNH HÒA	31	P. Bắc Nha Trang	57134
+TỈNH KHÁNH HÒA	32	P. Tây Nha Trang	57135
+TỈNH KHÁNH HÒA	33	P. Nam Nha Trang	57136
+TỈNH KHÁNH HÒA	34	P. Bắc Cam Ranh	57822
+TỈNH KHÁNH HÒA	35	P. Cam Ranh	57821
+TỈNH KHÁNH HÒA	36	P. Cam Linh	57809
+TỈNH KHÁNH HÒA	37	P. Ba Ngòi	57811
+TỈNH KHÁNH HÒA	38	P. Ninh Hòa	57333
+TỈNH KHÁNH HÒA	39	P. Đông Ninh Hòa	57335
+TỈNH KHÁNH HÒA	40	P. Hòa Thắng	57334
+TỈNH KHÁNH HÒA	41	Đặc khu Trường Sa	57906
+TỈNH KHÁNH HÒA	42	X. Ninh Phước	59615
+TỈNH KHÁNH HÒA	43	X. Phước Hữu	59613
+TỈNH KHÁNH HÒA	44	X. Phước Hậu	59609
+TỈNH KHÁNH HÒA	45	X. Thuận Nam	59714
+TỈNH KHÁNH HÒA	46	X. Cà Ná	59711
+TỈNH KHÁNH HÒA	47	X. Phước Hà	59707
+TỈNH KHÁNH HÒA	48	X. Phước Dinh	59713
+TỈNH KHÁNH HÒA	49	X. Ninh Hải	59215
+TỈNH KHÁNH HÒA	50	X. Xuân Hải	59210
+TỈNH KHÁNH HÒA	51	X. Vĩnh Hải	59214
+TỈNH KHÁNH HÒA	52	X. Thuận Bắc	59312
+TỈNH KHÁNH HÒA	53	X. Công Hải	59307
+TỈNH KHÁNH HÒA	54	X. Ninh Sơn	59514
+TỈNH KHÁNH HÒA	55	X. Lâm Sơn	59508
+TỈNH KHÁNH HÒA	56	X. Anh Dũng	59515
+TỈNH KHÁNH HÒA	57	X. Mỹ Sơn	59511
+TỈNH KHÁNH HÒA	58	X. Bác Ái Đông	59416
+TỈNH KHÁNH HÒA	59	X. Bác Ái	59415
+TỈNH KHÁNH HÒA	60	X. Bác Ái Tây	59417
+TỈNH KHÁNH HÒA	61	P. Phan Rang	59122
+TỈNH KHÁNH HÒA	62	P. Đông Hải	59119
+TỈNH KHÁNH HÒA	63	P. Ninh Chử	59123
+TỈNH KHÁNH HÒA	64	P. Bảo An	59117
+TỈNH KHÁNH HÒA	65	P. Đô Vinh	59121
+TỈNH LAI CHÂU	1	X. Mường Kim	30816
+TỈNH LAI CHÂU	2	X. Khoen On	30814
+TỈNH LAI CHÂU	3	X. Than Uyên	30806
+TỈNH LAI CHÂU	4	X. Mường Than	30818
+TỈNH LAI CHÂU	5	X. Pắc Ta	30713
+TỈNH LAI CHÂU	6	X. Nậm Sỏ	30711
+TỈNH LAI CHÂU	7	X. Tân Uyên	30706
+TỈNH LAI CHÂU	8	X. Mường Khoa	30708
+TỈNH LAI CHÂU	9	X. Bản Bo	30219
+TỈNH LAI CHÂU	10	X. Bình Lư	30207
+TỈNH LAI CHÂU	11	X. Tả Lèng	30211
+TỈNH LAI CHÂU	12	X. Khun Há	30217
+TỈNH LAI CHÂU	13	X. Sin Suối Hồ	30323
+TỈNH LAI CHÂU	14	X. Phong Thổ	30306
+TỈNH LAI CHÂU	15	X. Dào San	30309
+TỈNH LAI CHÂU	16	X. Sì Lở Lầu	30313
+TỈNH LAI CHÂU	17	X. Khổng Lào	30307
+TỈNH LAI CHÂU	18	X. Tủa Sín Chải	30617
+TỈNH LAI CHÂU	19	X. Sìn Hồ	30606
+TỈNH LAI CHÂU	20	X. Hồng Thu	30611
+TỈNH LAI CHÂU	21	X. Nậm Tăm	30626
+TỈNH LAI CHÂU	22	X. Pu Sam Cáp	30624
+TỈNH LAI CHÂU	23	X. Nậm Cuổi	30622
+TỈNH LAI CHÂU	24	X. Nậm Mạ	30618
+TỈNH LAI CHÂU	25	X. Lê Lợi	30516
+TỈNH LAI CHÂU	26	X. Nậm Hàng	30507
+TỈNH LAI CHÂU	27	X. Mường Mô	30513
+TỈNH LAI CHÂU	28	X. Hua Bum	30512
+TỈNH LAI CHÂU	29	X. Pa Tần	30610
+TỈNH LAI CHÂU	30	X. Bum Nưa	30407
+TỈNH LAI CHÂU	31	X. Bum Tở	30416
+TỈNH LAI CHÂU	32	X. Mường Tè	30414
+TỈNH LAI CHÂU	33	X. Thu Lũm	30411
+TỈNH LAI CHÂU	34	X. Pa Ủ	30409
+TỈNH LAI CHÂU	35	P. Tân Phong	30110
+TỈNH LAI CHÂU	36	P. Đoàn Kết	30109
+TỈNH LAI CHÂU	37	X. Mù Cả	30413
+TỈNH LAI CHÂU	38	X. Tà Tổng	30417
+TỈNH LẠNG SƠN	1	X. Thất Khê	25306
+TỈNH LẠNG SƠN	2	X. Đoàn Kết	25314
+TỈNH LẠNG SƠN	3	X. Tân Tiến	25317
+TỈNH LẠNG SƠN	4	X. Tràng Định	25329
+TỈNH LẠNG SƠN	5	X. Quốc Khánh	25309
+TỈNH LẠNG SƠN	6	X. Kháng Chiến	25323
+TỈNH LẠNG SƠN	7	X. Quốc Việt	25325
+TỈNH LẠNG SƠN	8	X. Bình Gia	25406
+TỈNH LẠNG SƠN	9	X. Tân Văn	25423
+TỈNH LẠNG SƠN	10	X. Hồng Phong	25409
+TỈNH LẠNG SƠN	11	X. Hoa Thám	25410
+TỈNH LẠNG SƠN	12	X. Quý Hòa	25413
+TỈNH LẠNG SƠN	13	X. Thiện Hòa	25417
+TỈNH LẠNG SƠN	14	X. Thiện Thuật	25416
+TỈNH LẠNG SƠN	15	X. Thiện Long	25418
+TỈNH LẠNG SƠN	16	X. Bắc Sơn	25456
+TỈNH LẠNG SƠN	17	X. Hưng Vũ	25474
+TỈNH LẠNG SƠN	18	X. Vũ Lăng	25470
+TỈNH LẠNG SƠN	19	X. Nhất Hòa	25468
+TỈNH LẠNG SƠN	20	X. Vũ Lễ	25465
+TỈNH LẠNG SƠN	21	X. Tân Tri	25463
+TỈNH LẠNG SƠN	22	X. Văn Quan	25506
+TỈNH LẠNG SƠN	23	X. Điềm He	25508
+TỈNH LẠNG SƠN	24	X. Yên Phúc	25518
+TỈNH LẠNG SƠN	25	X. Tri Lễ	25516
+TỈNH LẠNG SƠN	26	X. Tân Đoàn	25523
+TỈNH LẠNG SƠN	27	X. Khánh Khê	25526
+TỈNH LẠNG SƠN	28	X. Na Sầm	25206
+TỈNH LẠNG SƠN	29	X. Hoàng Văn Thụ	25223
+TỈNH LẠNG SƠN	30	X. Thụy Hùng	25209
+TỈNH LẠNG SƠN	31	X. Văn Lãng	25226
+TỈNH LẠNG SƠN	32	X. Hội Hoan	25214
+TỈNH LẠNG SƠN	33	X. Lộc Bình	25806
+TỈNH LẠNG SƠN	34	X. Mẫu Sơn	25809
+TỈNH LẠNG SƠN	35	X. Na Dương	25827
+TỈNH LẠNG SƠN	36	X. Lợi Bác	25828
+TỈNH LẠNG SƠN	37	X. Thống Nhất	25815
+TỈNH LẠNG SƠN	38	X. Xuân Dương	25821
+TỈNH LẠNG SƠN	39	X. Khuất Xá	25831
+TỈNH LẠNG SƠN	40	X. Đình Lập	25910
+TỈNH LẠNG SƠN	41	X. Thái Bình	25911
+TỈNH LẠNG SƠN	42	X. Châu Sơn	25917
+TỈNH LẠNG SƠN	43	X. Kiên Mộc	25907
+TỈNH LẠNG SƠN	44	X. Hữu Lũng	25606
+TỈNH LẠNG SƠN	45	X. Tuấn Sơn	25632
+TỈNH LẠNG SƠN	46	X. Tân Thành	25629
+TỈNH LẠNG SƠN	47	X. Vân Nham	25619
+TỈNH LẠNG SƠN	48	X. Thiện Tân	25615
+TỈNH LẠNG SƠN	49	X. Yên Bình	25613
+TỈNH LẠNG SƠN	50	X. Hữu Liên	25610
+TỈNH LẠNG SƠN	51	X. Cai Kinh	25608
+TỈNH LẠNG SƠN	52	X. Chi Lăng	25715
+TỈNH LẠNG SƠN	53	X. Quan Sơn	25718
+TỈNH LẠNG SƠN	54	X. Chiến Thắng	25725
+TỈNH LẠNG SƠN	55	X. Nhân Lý	25719
+TỈNH LẠNG SƠN	56	X. Bằng Mạc	25711
+TỈNH LẠNG SƠN	57	X. Vạn Linh	25712
+TỈNH LẠNG SƠN	58	X. Đồng Đăng	25164
+TỈNH LẠNG SƠN	59	X. Cao Lộc	25179
+TỈNH LẠNG SƠN	60	X. Công Sơn	25176
+TỈNH LẠNG SƠN	61	X. Ba Sơn	25181
+TỈNH LẠNG SƠN	62	P. Tam Thanh	25110
+TỈNH LẠNG SƠN	63	P. Lương Văn Tri	25114
+TỈNH LẠNG SƠN	64	P. Kỳ Lừa	25115
+TỈNH LẠNG SƠN	65	P. Đông Kinh	25107
+TỈNH LÀO CAI	1	X. Khao Mang	33508
+TỈNH LÀO CAI	2	X. Mù Cang Chải	33506
+TỈNH LÀO CAI	3	X. Púng Luông	33514
+TỈNH LÀO CAI	4	X. Tú Lệ	33814
+TỈNH LÀO CAI	5	X. Trạm Tấu	33609
+TỈNH LÀO CAI	6	X. Hạnh Phúc	33618
+TỈNH LÀO CAI	7	X. Phình Hồ	33616
+TỈNH LÀO CAI	8	X. Liên Sơn	33837
+TỈNH LÀO CAI	9	X. Gia Hội	33812
+TỈNH LÀO CAI	10	X. Sơn Lương	33816
+TỈNH LÀO CAI	11	X. Văn Chấn	33838
+TỈNH LÀO CAI	12	X. Thượng Bằng La	33829
+TỈNH LÀO CAI	13	X. Chấn Thịnh	33833
+TỈNH LÀO CAI	14	X. Nghĩa Tâm	33831
+TỈNH LÀO CAI	15	X. Phong Dụ Hạ	33417
+TỈNH LÀO CAI	16	X. Châu Quế	33433
+TỈNH LÀO CAI	17	X. Lâm Giang	33411
+TỈNH LÀO CAI	18	X. Đông Cuông	33416
+TỈNH LÀO CAI	19	X. Tân Hợp	33420
+TỈNH LÀO CAI	20	X. Mậu A	33406
+TỈNH LÀO CAI	21	X. Xuân Ái	33428
+TỈNH LÀO CAI	22	X. Mỏ Vàng	33425
+TỈNH LÀO CAI	23	X. Lâm Thượng	33312
+TỈNH LÀO CAI	24	X. Lục Yên	33330
+TỈNH LÀO CAI	25	X. Tân Lĩnh	33316
+TỈNH LÀO CAI	26	X. Khánh Hòa	33319
+TỈNH LÀO CAI	27	X. Phúc Lợi	33323
+TỈNH LÀO CAI	28	X. Mường Lai	33308
+TỈNH LÀO CAI	29	X. Cảm Nhân	33215
+TỈNH LÀO CAI	30	X. Yên Thành	33212
+TỈNH LÀO CAI	31	X. Thác Bà	33231
+TỈNH LÀO CAI	32	X. Yên Bình	33206
+TỈNH LÀO CAI	33	X. Bảo Ái	33221
+TỈNH LÀO CAI	34	X. Trấn Yên	33928
+TỈNH LÀO CAI	35	X. Hưng Khánh	33916
+TỈNH LÀO CAI	36	X. Lương Thịnh	33923
+TỈNH LÀO CAI	37	X. Việt Hồng	33918
+TỈNH LÀO CAI	38	X. Quy Mông	33913
+TỈNH LÀO CAI	39	P. Nghĩa Lộ	33713
+TỈNH LÀO CAI	40	P. Trung Tâm	33706
+TỈNH LÀO CAI	41	P. Cầu Thia	33712
+TỈNH LÀO CAI	42	P. Văn Phú	33118
+TỈNH LÀO CAI	43	P. Yên Bái	33123
+TỈNH LÀO CAI	44	P. Nam Cường	33110
+TỈNH LÀO CAI	45	P. Âu Lâu	33112
+TỈNH LÀO CAI	46	X. Chế Tạo	33512
+TỈNH LÀO CAI	47	X. Lao Chải	33510
+TỈNH LÀO CAI	48	X. Nậm Có	33519
+TỈNH LÀO CAI	49	X. Tà Xi Láng	33615
+TỈNH LÀO CAI	50	X. Cát Thịnh	33828
+TỈNH LÀO CAI	51	X. Phong Dụ Thượng	33418
+TỈNH LÀO CAI	52	X. Cốc San	31123
+TỈNH LÀO CAI	53	X. Hợp Thành	31115
+TỈNH LÀO CAI	54	X. Phong Hải	31222
+TỈNH LÀO CAI	55	X. Xuân Quang	31207
+TỈNH LÀO CAI	56	X. Bảo Thắng	31221
+TỈNH LÀO CAI	57	X. Tằng Loỏng	31216
+TỈNH LÀO CAI	58	X. Gia Phú	31213
+TỈNH LÀO CAI	59	X. Mường Hum	31619
+TỈNH LÀO CAI	60	X. Dền Sáng	31616
+TỈNH LÀO CAI	61	X. Y Tý	31615
+TỈNH LÀO CAI	62	X. A Mú Sung	31612
+TỈNH LÀO CAI	63	X. Trịnh Tường	31610
+TỈNH LÀO CAI	64	X. Bản Xèo	31622
+TỈNH LÀO CAI	65	X. Bát Xát	31606
+TỈNH LÀO CAI	66	X. Võ Lao	31810
+TỈNH LÀO CAI	67	X. Khánh Yên	31830
+TỈNH LÀO CAI	68	X. Văn Bàn	31829
+TỈNH LÀO CAI	69	X. Dương Quỳ	31820
+TỈNH LÀO CAI	70	X. Chiềng Ken	31827
+TỈNH LÀO CAI	71	X. Minh Lương	31817
+TỈNH LÀO CAI	72	X. Nậm Chày	31815
+TỈNH LÀO CAI	73	X. Bảo Yên	31924
+TỈNH LÀO CAI	74	X. Nghĩa Đô	31910
+TỈNH LÀO CAI	75	X. Thượng Hà	31913
+TỈNH LÀO CAI	76	X. Xuân Hòa	31908
+TỈNH LÀO CAI	77	X. Phúc Khánh	31921
+TỈNH LÀO CAI	78	X. Bảo Hà	31918
+TỈNH LÀO CAI	79	X. Mường Bo	31718
+TỈNH LÀO CAI	80	X. Bản Hồ	31715
+TỈNH LÀO CAI	81	X. Tả Van	31714
+TỈNH LÀO CAI	82	X. Tả Phìn	31709
+TỈNH LÀO CAI	83	X. Cốc Lầu	31322
+TỈNH LÀO CAI	84	X. Bảo Nhai	31321
+TỈNH LÀO CAI	85	X. Bản Liền	31326
+TỈNH LÀO CAI	86	X. Bắc Hà	31306
+TỈNH LÀO CAI	87	X. Tả Củ Tỷ	31309
+TỈNH LÀO CAI	88	X. Lùng Phình	31312
+TỈNH LÀO CAI	89	X. Pha Long	31509
+TỈNH LÀO CAI	90	X. Mường Khương	31506
+TỈNH LÀO CAI	91	X. Bản Lầu	31513
+TỈNH LÀO CAI	92	X. Cao Sơn	31517
+TỈNH LÀO CAI	93	X. Si Ma Cai	31406
+TỈNH LÀO CAI	94	X. Sín Chéng	31410
+TỈNH LÀO CAI	95	P. Cam Đường	31116
+TỈNH LÀO CAI	96	P. Lào Cai	31109
+TỈNH LÀO CAI	97	P. Sa Pa	31706
+TỈNH LÀO CAI	98	X. Nậm Xé	31816
+TỈNH LÀO CAI	99	X. Ngũ Chỉ Sơn	31710
+TỈNH LÂM ĐỒNG	1	X. Lạc Dương	66917
+TỈNH LÂM ĐỒNG	2	X. Đơn Dương	66916
+TỈNH LÂM ĐỒNG	3	X. Ka Đô	66913
+TỈNH LÂM ĐỒNG	4	X. Quảng Lập	66907
+TỈNH LÂM ĐỒNG	5	X. D'Ran	66915
+TỈNH LÂM ĐỒNG	6	X. Hiệp Thạnh	66807
+TỈNH LÂM ĐỒNG	7	X. Đức Trọng	66821
+TỈNH LÂM ĐỒNG	8	X. Tân Hội	66810
+TỈNH LÂM ĐỒNG	9	X. Tà Hine	66816
+TỈNH LÂM ĐỒNG	10	X. Tà Năng	66819
+TỈNH LÂM ĐỒNG	11	X. Đinh Văn Lâm Hà	66322
+TỈNH LÂM ĐỒNG	12	X. Phú Sơn Lâm Hà	66316
+TỈNH LÂM ĐỒNG	13	X. Nam Hà Lâm Hà	66307
+TỈNH LÂM ĐỒNG	14	X. Nam Ban Lâm Hà	66313
+TỈNH LÂM ĐỒNG	15	X. Tân Hà Lâm Hà	66311
+TỈNH LÂM ĐỒNG	16	X. Phúc Thọ Lâm Hà	66317
+TỈNH LÂM ĐỒNG	17	X. Đam Rông 1	66264
+TỈNH LÂM ĐỒNG	18	X. Đam Rông 2	66265
+TỈNH LÂM ĐỒNG	19	X. Đam Rông 3	66266
+TỈNH LÂM ĐỒNG	20	X. Đam Rông 4	66267
+TỈNH LÂM ĐỒNG	21	X. Di Linh	66706
+TỈNH LÂM ĐỒNG	22	X. Hòa Ninh	66720
+TỈNH LÂM ĐỒNG	23	X. Hòa Bắc	66722
+TỈNH LÂM ĐỒNG	24	X. Đinh Trang Thượng	66716
+TỈNH LÂM ĐỒNG	25	X. Bảo Thuận	66711
+TỈNH LÂM ĐỒNG	26	X. Sơn Điền	66723
+TỈNH LÂM ĐỒNG	27	X. Gia Hiệp	66713
+TỈNH LÂM ĐỒNG	28	X. Bảo Lâm 1	66420
+TỈNH LÂM ĐỒNG	29	X. Bảo Lâm 2	66421
+TỈNH LÂM ĐỒNG	30	X. Bảo Lâm 3	66422
+TỈNH LÂM ĐỒNG	31	X. Bảo Lâm 4	66423
+TỈNH LÂM ĐỒNG	32	X. Bảo Lâm 5	66424
+TỈNH LÂM ĐỒNG	33	X. Đạ Huoai	66666
+TỈNH LÂM ĐỒNG	34	X. Đạ Huoai 2	66667
+TỈNH LÂM ĐỒNG	35	X. Đạ Tẻh	66606
+TỈNH LÂM ĐỒNG	36	X. Đạ Tẻh 2	66617
+TỈNH LÂM ĐỒNG	37	X. Đạ Tẻh 3	66618
+TỈNH LÂM ĐỒNG	38	X. Cát Tiên	66506
+TỈNH LÂM ĐỒNG	39	X. Cát Tiên 2	66517
+TỈNH LÂM ĐỒNG	40	X. Cát Tiên 3	66518
+TỈNH LÂM ĐỒNG	41	P. Xuân Hương - Đà Lạt	66122
+TỈNH LÂM ĐỒNG	42	P. Cam Ly - Đà Lạt	66123
+TỈNH LÂM ĐỒNG	43	P. Lâm Viên - Đà Lạt	66124
+TỈNH LÂM ĐỒNG	44	P. Xuân Trường - Đà Lạt	66125
+TỈNH LÂM ĐỒNG	45	P. LangBiang - Đà Lạt	66126
+TỈNH LÂM ĐỒNG	46	P. 1 Bảo Lộc	66467
+TỈNH LÂM ĐỒNG	47	P. 2 Bảo Lộc	66468
+TỈNH LÂM ĐỒNG	48	P. 3 Bảo Lộc	66469
+TỈNH LÂM ĐỒNG	49	P. B' Lao	66459
+TỈNH LÂM ĐỒNG	50	X. Đạ Huoai 3	66662
+TỈNH LÂM ĐỒNG	51	X. Ninh Gia	66815
+TỈNH LÂM ĐỒNG	52	X. Vĩnh Hảo	77209
+TỈNH LÂM ĐỒNG	53	X. Liên Hương	77206
+TỈNH LÂM ĐỒNG	54	X. Tuy Phong	77218
+TỈNH LÂM ĐỒNG	55	X. Phan Rí Cửa	77216
+TỈNH LÂM ĐỒNG	56	X. Bắc Bình	77324
+TỈNH LÂM ĐỒNG	57	X. Hồng Thái	77321
+TỈNH LÂM ĐỒNG	58	X. Hải Ninh	77314
+TỈNH LÂM ĐỒNG	59	X. Phan Sơn	77312
+TỈNH LÂM ĐỒNG	60	X. Sông Lũy	77317
+TỈNH LÂM ĐỒNG	61	X. Lương Sơn	77320
+TỈNH LÂM ĐỒNG	62	X. Hòa Thắng	77322
+TỈNH LÂM ĐỒNG	63	X. Đông Giang	77414
+TỈNH LÂM ĐỒNG	64	X. La Dạ	77413
+TỈNH LÂM ĐỒNG	65	X. Hàm Thuận Bắc	77424
+TỈNH LÂM ĐỒNG	66	X. Hàm Thuận	77423
+TỈNH LÂM ĐỒNG	67	X. Hồng Sơn	77407
+TỈNH LÂM ĐỒNG	68	X. Hàm Liêm	77417
+TỈNH LÂM ĐỒNG	69	X. Tuyên Quang	77425
+TỈNH LÂM ĐỒNG	70	X. Hàm Thạnh	77714
+TỈNH LÂM ĐỒNG	71	X. Hàm Kiệm	77711
+TỈNH LÂM ĐỒNG	72	X. Tân Thành	77718
+TỈNH LÂM ĐỒNG	73	X. Hàm Thuận Nam	77719
+TỈNH LÂM ĐỒNG	74	X. Tân Lập	77715
+TỈNH LÂM ĐỒNG	75	X. Tân Minh	77609
+TỈNH LÂM ĐỒNG	76	X. Hàm Tân	77616
+TỈNH LÂM ĐỒNG	77	X. Sơn Mỹ	77613
+TỈNH LÂM ĐỒNG	78	X. Tân Hải	77660
+TỈNH LÂM ĐỒNG	79	X. Nghị Đức	77513
+TỈNH LÂM ĐỒNG	80	X. Bắc Ruộng	77511
+TỈNH LÂM ĐỒNG	81	X. Đồng Kho	77508
+TỈNH LÂM ĐỒNG	82	X. Tánh Linh	77520
+TỈNH LÂM ĐỒNG	83	X. Suối Kiết	77519
+TỈNH LÂM ĐỒNG	84	X. Nam Thành	77570
+TỈNH LÂM ĐỒNG	85	X. Đức Linh	77569
+TỈNH LÂM ĐỒNG	86	X. Hoài Đức	77571
+TỈNH LÂM ĐỒNG	87	X. Trà Tân	77567
+TỈNH LÂM ĐỒNG	88	P. Hàm Thắng	77420
+TỈNH LÂM ĐỒNG	89	P. Bình Thuận	77125
+TỈNH LÂM ĐỒNG	90	P. Mũi Né	77118
+TỈNH LÂM ĐỒNG	91	P. Phú Thủy	77120
+TỈNH LÂM ĐỒNG	92	P. Phan Thiết	77124
+TỈNH LÂM ĐỒNG	93	P. Tiến Thành	77123
+TỈNH LÂM ĐỒNG	94	P. La Gi	77665
+TỈNH LÂM ĐỒNG	95	P. Phước Hội	77656
+TỈNH LÂM ĐỒNG	96	Đặc khu Phú Quý	77809
+TỈNH LÂM ĐỒNG	97	X. Đắk Wil	65413
+TỈNH LÂM ĐỒNG	98	X. Nam Dong	65410
+TỈNH LÂM ĐỒNG	99	X. Cư Jút	65414
+TỈNH LÂM ĐỒNG	100	X. Thuận An	65507
+TỈNH LÂM ĐỒNG	101	X. Đức Lập	65516
+TỈNH LÂM ĐỒNG	102	X. Đắk Mil	65517
+TỈNH LÂM ĐỒNG	103	X. Đắk Sắk	65509
+TỈNH LÂM ĐỒNG	104	X. Nam Đà	65308
+TỈNH LÂM ĐỒNG	105	X. Krông Nô	65318
+TỈNH LÂM ĐỒNG	106	X. Nâm Nung	65313
+TỈNH LÂM ĐỒNG	107	X. Quảng Phú	65317
+TỈNH LÂM ĐỒNG	108	X. Đắk Song	65615
+TỈNH LÂM ĐỒNG	109	X. Đức An	65606
+TỈNH LÂM ĐỒNG	110	X. Thuận Hạnh	65610
+TỈNH LÂM ĐỒNG	111	X. Trường Xuân	65614
+TỈNH LÂM ĐỒNG	112	X. Tà Đùng	65213
+TỈNH LÂM ĐỒNG	113	X. Quảng Khê	65206
+TỈNH LÂM ĐỒNG	114	X. Quảng Tân	65709
+TỈNH LÂM ĐỒNG	115	X. Tuy Đức	65712
+TỈNH LÂM ĐỒNG	116	X. Kiến Đức	65806
+TỈNH LÂM ĐỒNG	117	X. Nhân Cơ	65810
+TỈNH LÂM ĐỒNG	118	X. Quảng Tín	65807
+TỈNH LÂM ĐỒNG	119	P. Bắc Gia Nghĩa	65115
+TỈNH LÂM ĐỒNG	120	P. Nam Gia Nghĩa	65116
+TỈNH LÂM ĐỒNG	121	P. Đông Gia Nghĩa	65114
+TỈNH LÂM ĐỒNG	122	X. Quảng Hòa	65212
+TỈNH LÂM ĐỒNG	123	X. Quảng Sơn	65211
+TỈNH LÂM ĐỒNG	124	X. Quảng Trực	65711
+TỈNH NINH BÌNH	1	X. Bình Lục	18525
+TỈNH NINH BÌNH	2	X. Bình Mỹ	18506
+TỈNH NINH BÌNH	3	X. Bình An	18508
+TỈNH NINH BÌNH	4	X. Bình Giang	18526
+TỈNH NINH BÌNH	5	X. Bình Sơn	18527
+TỈNH NINH BÌNH	6	X. Liêm Hà	18423
+TỈNH NINH BÌNH	7	X. Tân Thanh	18421
+TỈNH NINH BÌNH	8	X. Thanh Bình	18424
+TỈNH NINH BÌNH	9	X. Thanh Lâm	18425
+TỈNH NINH BÌNH	10	X. Thanh Liêm	18426
+TỈNH NINH BÌNH	11	X. Lý Nhân	18629
+TỈNH NINH BÌNH	12	X. Nam Xang	18630
+TỈNH NINH BÌNH	13	X. Bắc Lý	18609
+TỈNH NINH BÌNH	14	X. Vĩnh Trụ	18606
+TỈNH NINH BÌNH	15	X. Trần Thương	18631
+TỈNH NINH BÌNH	16	X. Nhân Hà	18632
+TỈNH NINH BÌNH	17	X. Nam Lý	18633
+TỈNH NINH BÌNH	18	P. Duy Tiên	18224
+TỈNH NINH BÌNH	19	P. Duy Tân	18225
+TỈNH NINH BÌNH	20	P. Đồng Văn	18216
+TỈNH NINH BÌNH	21	P. Duy Hà	18226
+TỈNH NINH BÌNH	22	P. Tiên Sơn	18219
+TỈNH NINH BÌNH	23	P. Lê Hồ	18313
+TỈNH NINH BÌNH	24	P. Nguyễn Úy	18314
+TỈNH NINH BÌNH	25	P. Lý Thường Kiệt	18325
+TỈNH NINH BÌNH	26	P. Kim Thanh	18326
+TỈNH NINH BÌNH	27	P. Tam Chúc	18324
+TỈNH NINH BÌNH	28	P. Kim Bảng	18327
+TỈNH NINH BÌNH	29	P. Hà Nam	18127
+TỈNH NINH BÌNH	30	P. Phù Vân	18113
+TỈNH NINH BÌNH	31	P. Châu Sơn	18115
+TỈNH NINH BÌNH	32	P. Phủ Lý	18128
+TỈNH NINH BÌNH	33	P. Liêm Tuyền	18129
+TỈNH NINH BÌNH	34	X. Nam Trực	07526
+TỈNH NINH BÌNH	35	X. Nam Minh	07527
+TỈNH NINH BÌNH	36	X. Nam Đồng	07528
+TỈNH NINH BÌNH	37	X. Nam Ninh	07529
+TỈNH NINH BÌNH	38	X. Nam Hồng	07509
+TỈNH NINH BÌNH	39	X. Minh Tân	07272
+TỈNH NINH BÌNH	40	X. Hiển Khánh	07268
+TỈNH NINH BÌNH	41	X. Vụ Bản	07274
+TỈNH NINH BÌNH	42	X. Liên Minh	07258
+TỈNH NINH BÌNH	43	X. Ý Yên	07338
+TỈNH NINH BÌNH	44	X. Yên Đồng	07328
+TỈNH NINH BÌNH	45	X. Yên Cường	07331
+TỈNH NINH BÌNH	46	X. Vạn Thắng	07339
+TỈNH NINH BÌNH	47	X. Vũ Dương	07340
+TỈNH NINH BÌNH	48	X. Tân Minh	07309
+TỈNH NINH BÌNH	49	X. Phong Doanh	07341
+TỈNH NINH BÌNH	50	X. Cổ Lễ	07606
+TỈNH NINH BÌNH	51	X. Ninh Giang	07627
+TỈNH NINH BÌNH	52	X. Cát Thành	07622
+TỈNH NINH BÌNH	53	X. Trực Ninh	07628
+TỈNH NINH BÌNH	54	X. Quang Hưng	07629
+TỈNH NINH BÌNH	55	X. Minh Thái	07630
+TỈNH NINH BÌNH	56	X. Ninh Cường	07617
+TỈNH NINH BÌNH	57	X. Xuân Trường	07706
+TỈNH NINH BÌNH	58	X. Xuân Hưng	07726
+TỈNH NINH BÌNH	59	X. Xuân Giang	07716
+TỈNH NINH BÌNH	60	X. Xuân Hồng	07721
+TỈNH NINH BÌNH	61	X. Hải Hậu	07941
+TỈNH NINH BÌNH	62	X. Hải Anh	07915
+TỈNH NINH BÌNH	63	X. Hải Tiến	07942
+TỈNH NINH BÌNH	64	X. Hải Hưng	07912
+TỈNH NINH BÌNH	65	X. Hải An	07920
+TỈNH NINH BÌNH	66	X. Hải Quang	07937
+TỈNH NINH BÌNH	67	X. Hải Xuân	07929
+TỈNH NINH BÌNH	68	X. Hải Thịnh	07943
+TỈNH NINH BÌNH	69	X. Giao Minh	07828
+TỈNH NINH BÌNH	70	X. Giao Hòa	07829
+TỈNH NINH BÌNH	71	X. Giao Thủy	07806
+TỈNH NINH BÌNH	72	X. Giao Phúc	07830
+TỈNH NINH BÌNH	73	X. Giao Hưng	07831
+TỈNH NINH BÌNH	74	X. Giao Bình	07832
+TỈNH NINH BÌNH	75	X. Giao Ninh	07833
+TỈNH NINH BÌNH	76	X. Đồng Thịnh	07408
+TỈNH NINH BÌNH	77	X. Nghĩa Hưng	07431
+TỈNH NINH BÌNH	78	X. Nghĩa Sơn	07414
+TỈNH NINH BÌNH	79	X. Hồng Phong	07432
+TỈNH NINH BÌNH	80	X. Quỹ Nhất	07417
+TỈNH NINH BÌNH	81	X. Nghĩa Lâm	07423
+TỈNH NINH BÌNH	82	X. Rạng Đông	07421
+TỈNH NINH BÌNH	83	P. Nam Định	07131
+TỈNH NINH BÌNH	84	P. Thiên Trường	07139
+TỈNH NINH BÌNH	85	P. Đông A	07133
+TỈNH NINH BÌNH	86	P. Vị Khê	07134
+TỈNH NINH BÌNH	87	P. Thành Nam	07135
+TỈNH NINH BÌNH	88	P. Trường Thi	07119
+TỈNH NINH BÌNH	89	P. Hồng Quang	07515
+TỈNH NINH BÌNH	90	P. Mỹ Lộc	07137
+TỈNH NINH BÌNH	91	X. Gia Viễn	08327
+TỈNH NINH BÌNH	92	X. Đại Hoàng	08328
+TỈNH NINH BÌNH	93	X. Gia Hưng	08312
+TỈNH NINH BÌNH	94	X. Gia Phong	08325
+TỈNH NINH BÌNH	95	X. Gia Vân	08310
+TỈNH NINH BÌNH	96	X. Gia Trấn	08308
+TỈNH NINH BÌNH	97	X. Nho Quan	08406
+TỈNH NINH BÌNH	98	X. Gia Lâm	08412
+TỈNH NINH BÌNH	99	X. Gia Tường	08410
+TỈNH NINH BÌNH	100	X. Phú Sơn	08416
+TỈNH NINH BÌNH	101	X. Cúc Phương	08429
+TỈNH NINH BÌNH	102	X. Phú Long	08431
+TỈNH NINH BÌNH	103	X. Thanh Sơn	08421
+TỈNH NINH BÌNH	104	X. Quỳnh Lưu	08425
+TỈNH NINH BÌNH	105	X. Yên Khánh	08825
+TỈNH NINH BÌNH	106	X. Khánh Nhạc	08821
+TỈNH NINH BÌNH	107	X. Khánh Thiện	08808
+TỈNH NINH BÌNH	108	X. Khánh Hội	08819
+TỈNH NINH BÌNH	109	X. Khánh Trung	08818
+TỈNH NINH BÌNH	110	X. Yên Mô	08623
+TỈNH NINH BÌNH	111	X. Yên Từ	08615
+TỈNH NINH BÌNH	112	X. Yên Mạc	08619
+TỈNH NINH BÌNH	113	X. Đồng Thái	08624
+TỈNH NINH BÌNH	114	X. Chất Bình	08713
+TỈNH NINH BÌNH	115	X. Kim Sơn	08733
+TỈNH NINH BÌNH	116	X. Quang Thiện	08708
+TỈNH NINH BÌNH	117	X. Phát Diệm	08706
+TỈNH NINH BÌNH	118	X. Lai Thành	08723
+TỈNH NINH BÌNH	119	X. Định Hóa	08724
+TỈNH NINH BÌNH	120	X. Bình Minh	08732
+TỈNH NINH BÌNH	121	X. Kim Đông	08731
+TỈNH NINH BÌNH	122	P. Tây Hoa Lư	08122
+TỈNH NINH BÌNH	123	P. Hoa Lư	08120
+TỈNH NINH BÌNH	124	P. Nam Hoa Lư	08123
+TỈNH NINH BÌNH	125	P. Đông Hoa Lư	08121
+TỈNH NINH BÌNH	126	P. Tam Điệp	08515
+TỈNH NINH BÌNH	127	P. Yên Sơn	08510
+TỈNH NINH BÌNH	128	P. Trung Sơn	08507
+TỈNH NINH BÌNH	129	P. Yên Thắng	08124
+TỈNH NGHỆ AN	1	X. Anh Sơn	44227
+TỈNH NGHỆ AN	2	X. Yên Xuân	44228
+TỈNH NGHỆ AN	3	X. Nhân Hòa	44229
+TỈNH NGHỆ AN	4	X. Anh Sơn Đông	44230
+TỈNH NGHỆ AN	5	X. Vĩnh Tường	44231
+TỈNH NGHỆ AN	6	X. Thành Bình Thọ	44232
+TỈNH NGHỆ AN	7	X. Con Cuông	44319
+TỈNH NGHỆ AN	8	X. Môn Sơn	44312
+TỈNH NGHỆ AN	9	X. Mậu Thạch	44320
+TỈNH NGHỆ AN	10	X. Cam Phục	44321
+TỈNH NGHỆ AN	11	X. Châu Khê	44310
+TỈNH NGHỆ AN	12	X. Diễn Châu	43445
+TỈNH NGHỆ AN	13	X. Đức Châu	43446
+TỈNH NGHỆ AN	14	X. Quảng Châu	43447
+TỈNH NGHỆ AN	15	X. Hải Châu	43448
+TỈNH NGHỆ AN	16	X. Tân Châu	43449
+TỈNH NGHỆ AN	17	X. An Châu	43475
+TỈNH NGHỆ AN	18	X. Minh Châu	43411
+TỈNH NGHỆ AN	19	X. Hùng Châu	43476
+TỈNH NGHỆ AN	20	X. Đô Lương	44106
+TỈNH NGHỆ AN	21	X. Bạch Ngọc	44129
+TỈNH NGHỆ AN	22	X. Văn Hiến	44139
+TỈNH NGHỆ AN	23	X. Bạch Hà	44140
+TỈNH NGHỆ AN	24	X. Thuần Trung	44141
+TỈNH NGHỆ AN	25	X. Lương Sơn	44142
+TỈNH NGHỆ AN	26	X. Hưng Nguyên	44506
+TỈNH NGHỆ AN	27	X. Yên Trung	44529
+TỈNH NGHỆ AN	28	X. Hưng Nguyên Nam	44530
+TỈNH NGHỆ AN	29	X. Lam Thành	44531
+TỈNH NGHỆ AN	30	X. Chiêu Lưu	44407
+TỈNH NGHỆ AN	31	X. Hữu Kiệm	44420
+TỈNH NGHỆ AN	32	X. Mường Típ	44423
+TỈNH NGHỆ AN	33	X. Mường Xén	44406
+TỈNH NGHỆ AN	34	X. Na Loi	44415
+TỈNH NGHỆ AN	35	X. Na Ngoi	44425
+TỈNH NGHỆ AN	36	X. Nậm Cắn	44413
+TỈNH NGHỆ AN	37	X. Kim Liên	44617
+TỈNH NGHỆ AN	38	X. Vạn An	44630
+TỈNH NGHỆ AN	39	X. Nam Đàn	44631
+TỈNH NGHỆ AN	40	X. Đại Huệ	44632
+TỈNH NGHỆ AN	41	X. Thiên Nhẫn	44633
+TỈNH NGHỆ AN	42	X. Nghĩa Đàn	43706
+TỈNH NGHỆ AN	43	X. Nghĩa Thọ	43708
+TỈNH NGHỆ AN	44	X. Nghĩa Lâm	43713
+TỈNH NGHỆ AN	45	X. Nghĩa Mai	43718
+TỈNH NGHỆ AN	46	X. Nghĩa Hưng	43721
+TỈNH NGHỆ AN	47	X. Nghĩa Khánh	43728
+TỈNH NGHỆ AN	48	X. Nghĩa Lộc	43730
+TỈNH NGHỆ AN	49	X. Nghi Lộc	43336
+TỈNH NGHỆ AN	50	X. Phúc Lộc	43337
+TỈNH NGHỆ AN	51	X. Đông Lộc	43338
+TỈNH NGHỆ AN	52	X. Trung Lộc	43339
+TỈNH NGHỆ AN	53	X. Thần Lĩnh	43340
+TỈNH NGHỆ AN	54	X. Hải Lộc	43341
+TỈNH NGHỆ AN	55	X. Văn Kiều	43342
+TỈNH NGHỆ AN	56	X. Mường Quàng	44071
+TỈNH NGHỆ AN	57	X. Quế Phong	44070
+TỈNH NGHỆ AN	58	X. Thông Thụ	44066
+TỈNH NGHỆ AN	59	X. Tiền Phong	44064
+TỈNH NGHỆ AN	60	X. Tri Lễ	44069
+TỈNH NGHỆ AN	61	X. Quỳ Châu	44018
+TỈNH NGHỆ AN	62	X. Châu Tiến	44013
+TỈNH NGHỆ AN	63	X. Hùng Chân	44019
+TỈNH NGHỆ AN	64	X. Quỳ Hợp	43906
+TỈNH NGHỆ AN	65	X. Tam Hợp	43912
+TỈNH NGHỆ AN	66	X. Châu Lộc	43911
+TỈNH NGHỆ AN	67	X. Châu Hồng	43917
+TỈNH NGHỆ AN	68	X. Mường Ham	43927
+TỈNH NGHỆ AN	69	X. Mường Chọng	43928
+TỈNH NGHỆ AN	70	X. Minh Hợp	43907
+TỈNH NGHỆ AN	71	X. Quỳnh Lưu	43539
+TỈNH NGHỆ AN	72	X. Quỳnh Văn	43531
+TỈNH NGHỆ AN	73	X. Quỳnh Anh	43540
+TỈNH NGHỆ AN	74	X. Quỳnh Tam	43536
+TỈNH NGHỆ AN	75	X. Quỳnh Phú	43541
+TỈNH NGHỆ AN	76	X. Quỳnh Sơn	43529
+TỈNH NGHỆ AN	77	X. Quỳnh Thắng	43534
+TỈNH NGHỆ AN	78	X. Tân Kỳ	43806
+TỈNH NGHỆ AN	79	X. Tân Phú	43811
+TỈNH NGHỆ AN	80	X. Tân An	43821
+TỈNH NGHỆ AN	81	X. Nghĩa Đồng	43815
+TỈNH NGHỆ AN	82	X. Giai Xuân	43817
+TỈNH NGHỆ AN	83	X. Nghĩa Hành	43825
+TỈNH NGHỆ AN	84	X. Tiên Đồng	43828
+TỈNH NGHỆ AN	85	X. Đông Hiếu	44815
+TỈNH NGHỆ AN	86	X. Bích Hào	44775
+TỈNH NGHỆ AN	87	X. Cát Ngạn	44747
+TỈNH NGHỆ AN	88	X. Đại Đồng	44710
+TỈNH NGHỆ AN	89	X. Hạnh Lâm	44720
+TỈNH NGHỆ AN	90	X. Hoa Quân	44749
+TỈNH NGHỆ AN	91	X. Kim Bảng	44733
+TỈNH NGHỆ AN	92	X. Sơn Lâm	44748
+TỈNH NGHỆ AN	93	X. Tam Đồng	44746
+TỈNH NGHỆ AN	94	X. Xuân Lâm	44776
+TỈNH NGHỆ AN	95	X. Nga My	44362
+TỈNH NGHỆ AN	96	X. Nhôn Mai	44367
+TỈNH NGHỆ AN	97	X. Tam Quang	44370
+TỈNH NGHỆ AN	98	X. Tam Thái	44369
+TỈNH NGHỆ AN	99	X. Tương Dương	44374
+TỈNH NGHỆ AN	100	X. Yên Hòa	44360
+TỈNH NGHỆ AN	101	X. Yên Na	44359
+TỈNH NGHỆ AN	102	X. Yên Thành	43645
+TỈNH NGHỆ AN	103	X. Quan Thành	43646
+TỈNH NGHỆ AN	104	X. Hợp Minh	43647
+TỈNH NGHỆ AN	105	X. Vân Tụ	43620
+TỈNH NGHỆ AN	106	X. Vân Du	43648
+TỈNH NGHỆ AN	107	X. Quang Đồng	43649
+TỈNH NGHỆ AN	108	X. Giai Lạc	43675
+TỈNH NGHỆ AN	109	X. Bình Minh	43676
+TỈNH NGHỆ AN	110	X. Đông Thành	43677
+TỈNH NGHỆ AN	111	P. Hoàng Mai	44916
+TỈNH NGHỆ AN	112	P. Quỳnh Mai	44918
+TỈNH NGHỆ AN	113	P. Tân Mai	44917
+TỈNH NGHỆ AN	114	P. Thái Hòa	44816
+TỈNH NGHỆ AN	115	P. Tây Hiếu	44813
+TỈNH NGHỆ AN	116	P. Trường Vinh	43131
+TỈNH NGHỆ AN	117	P. Thành Vinh	43132
+TỈNH NGHỆ AN	118	P. Vinh Hưng	43133
+TỈNH NGHỆ AN	119	P. Vinh Phú	43134
+TỈNH NGHỆ AN	120	P. Vinh Lộc	43135
+TỈNH NGHỆ AN	121	P. Cửa Lò	43136
+TỈNH NGHỆ AN	122	X. Keng Đu	44417
+TỈNH NGHỆ AN	123	X. Mỹ Lý	44419
+TỈNH NGHỆ AN	124	X. Bắc Lý	44418
+TỈNH NGHỆ AN	125	X. Huồi Tụ	44414
+TỈNH NGHỆ AN	126	X. Mường Lống	44411
+TỈNH NGHỆ AN	127	X. Bình Chuẩn	44318
+TỈNH NGHỆ AN	128	X. Hữu Khuông	44365
+TỈNH NGHỆ AN	129	X. Lượng Minh	44364
+TỈNH NGHỆ AN	130	X. Châu Bình	44007
+TỈNH PHÚ THỌ	1	X. Hy Cương	35114
+TỈNH PHÚ THỌ	2	X. Lâm Thao	35256
+TỈNH PHÚ THỌ	3	X. Xuân Lũng	35260
+TỈNH PHÚ THỌ	4	X. Phùng Nguyên	35262
+TỈNH PHÚ THỌ	5	X. Bản Nguyên	35266
+TỈNH PHÚ THỌ	6	X. Phù Ninh	35220
+TỈNH PHÚ THỌ	7	X. Dân Chủ	35225
+TỈNH PHÚ THỌ	8	X. Phú Mỹ	35214
+TỈNH PHÚ THỌ	9	X. Trạm Thản	35216
+TỈNH PHÚ THỌ	10	X. Bình Phú	35222
+TỈNH PHÚ THỌ	11	X. Thanh Ba	35706
+TỈNH PHÚ THỌ	12	X. Quảng Yên	35707
+TỈNH PHÚ THỌ	13	X. Hoàng Cương	35720
+TỈNH PHÚ THỌ	14	X. Đông Thành	35727
+TỈNH PHÚ THỌ	15	X. Chí Tiên	35721
+TỈNH PHÚ THỌ	16	X. Liên Minh	35733
+TỈNH PHÚ THỌ	17	X. Đoan Hùng	35306
+TỈNH PHÚ THỌ	18	X. Tây Cốc	35319
+TỈNH PHÚ THỌ	19	X. Chân Mộng	35331
+TỈNH PHÚ THỌ	20	X. Chí Đám	35308
+TỈNH PHÚ THỌ	21	X. Bằng Luân	35313
+TỈNH PHÚ THỌ	22	X. Hạ Hòa	35406
+TỈNH PHÚ THỌ	23	X. Đan Thượng	35414
+TỈNH PHÚ THỌ	24	X. Yên Kỳ	35436
+TỈNH PHÚ THỌ	25	X. Vĩnh Chân	35429
+TỈNH PHÚ THỌ	26	X. Văn Lang	35426
+TỈNH PHÚ THỌ	27	X. Hiền Lương	35420
+TỈNH PHÚ THỌ	28	X. Cẩm Khê	35606
+TỈNH PHÚ THỌ	29	X. Phú Khê	35623
+TỈNH PHÚ THỌ	30	X. Hùng Việt	35632
+TỈNH PHÚ THỌ	31	X. Đồng Lương	35630
+TỈNH PHÚ THỌ	32	X. Tiên Lương	35614
+TỈNH PHÚ THỌ	33	X. Vân Bán	35618
+TỈNH PHÚ THỌ	34	X. Tam Nông	35976
+TỈNH PHÚ THỌ	35	X. Thọ Văn	35971
+TỈNH PHÚ THỌ	36	X. Vạn Xuân	35958
+TỈNH PHÚ THỌ	37	X. Hiền Quan	35962
+TỈNH PHÚ THỌ	38	X. Thanh Thủy	35856
+TỈNH PHÚ THỌ	39	X. Đào Xá	35860
+TỈNH PHÚ THỌ	40	X. Tu Vũ	35867
+TỈNH PHÚ THỌ	41	X. Thanh Sơn	35806
+TỈNH PHÚ THỌ	42	X. Võ Miếu	35810
+TỈNH PHÚ THỌ	43	X. Văn Miếu	35812
+TỈNH PHÚ THỌ	44	X. Cự Đồng	35825
+TỈNH PHÚ THỌ	45	X. Hương Cần	35823
+TỈNH PHÚ THỌ	46	X. Yên Sơn	35819
+TỈNH PHÚ THỌ	47	X. Khả Cửu	35814
+TỈNH PHÚ THỌ	48	X. Tân Sơn	35573
+TỈNH PHÚ THỌ	49	X. Minh Đài	35571
+TỈNH PHÚ THỌ	50	X. Lai Đồng	35561
+TỈNH PHÚ THỌ	51	X. Xuân Đài	35564
+TỈNH PHÚ THỌ	52	X. Long Cốc	35569
+TỈNH PHÚ THỌ	53	X. Yên Lập	35506
+TỈNH PHÚ THỌ	54	X. Thượng Long	35516
+TỈNH PHÚ THỌ	55	X. Sơn Lương	35523
+TỈNH PHÚ THỌ	56	X. Xuân Viên	35509
+TỈNH PHÚ THỌ	57	X. Minh Hòa	35521
+TỈNH PHÚ THỌ	58	P. Việt Trì	35129
+TỈNH PHÚ THỌ	59	P. Nông Trang	35120
+TỈNH PHÚ THỌ	60	P. Thanh Miếu	35107
+TỈNH PHÚ THỌ	61	P. Vân Phú	35118
+TỈNH PHÚ THỌ	62	P. Phú Thọ	35916
+TỈNH PHÚ THỌ	63	P. Phong Châu	35907
+TỈNH PHÚ THỌ	64	P. Âu Cơ	35906
+TỈNH PHÚ THỌ	65	X. Thu Cúc	35559
+TỈNH PHÚ THỌ	66	X. Trung Sơn	35514
+TỈNH PHÚ THỌ	67	X. Tam Sơn	15506
+TỈNH PHÚ THỌ	68	X. Sông Lô	15523
+TỈNH PHÚ THỌ	69	X. Hải Lựu	15512
+TỈNH PHÚ THỌ	70	X. Yên Lãng	15524
+TỈNH PHÚ THỌ	71	X. Lập Thạch	15406
+TỈNH PHÚ THỌ	72	X. Tiên Lữ	15424
+TỈNH PHÚ THỌ	73	X. Thái Hòa	15412
+TỈNH PHÚ THỌ	74	X. Liên Hòa	15409
+TỈNH PHÚ THỌ	75	X. Hợp Lý	15414
+TỈNH PHÚ THỌ	76	X. Sơn Đông	15421
+TỈNH PHÚ THỌ	77	X. Tam Đảo	15313
+TỈNH PHÚ THỌ	78	X. Đại Đình	15308
+TỈNH PHÚ THỌ	79	X. Đạo Trù	15309
+TỈNH PHÚ THỌ	80	X. Tam Dương	15219
+TỈNH PHÚ THỌ	81	X. Hội Thịnh	15214
+TỈNH PHÚ THỌ	82	X. Hoàng An	15220
+TỈNH PHÚ THỌ	83	X. Tam Dương Bắc	152213
+TỈNH PHÚ THỌ	84	X. Vĩnh Tường	15606
+TỈNH PHÚ THỌ	85	X. Thổ Tang	15612
+TỈNH PHÚ THỌ	86	X. Vĩnh Hưng	15635
+TỈNH PHÚ THỌ	87	X. Vĩnh An	15636
+TỈNH PHÚ THỌ	88	X. Vĩnh Phú	15631
+TỈNH PHÚ THỌ	89	X. Vĩnh Thành	15637
+TỈNH PHÚ THỌ	90	X. Yên Lạc	15706
+TỈNH PHÚ THỌ	91	X. Tề Lỗ	15711
+TỈNH PHÚ THỌ	92	X. Liên Châu	15715
+TỈNH PHÚ THỌ	93	X. Tam Hồng	15712
+TỈNH PHÚ THỌ	94	X. Nguyệt Đức	15722
+TỈNH PHÚ THỌ	95	X. Bình Nguyên	15820
+TỈNH PHÚ THỌ	96	X. Xuân Lãng	15821
+TỈNH PHÚ THỌ	97	X. Bình Xuyên	15819
+TỈNH PHÚ THỌ	98	X. Bình Tuyền	15822
+TỈNH PHÚ THỌ	99	P. Vĩnh Phúc	15115
+TỈNH PHÚ THỌ	100	P. Vĩnh Yên	15116
+TỈNH PHÚ THỌ	101	P. Phúc Yên	15916
+TỈNH PHÚ THỌ	102	P. Xuân Hòa	15910
+TỈNH PHÚ THỌ	103	X. Thịnh Minh	36127
+TỈNH PHÚ THỌ	104	X. Cao Phong	36506
+TỈNH PHÚ THỌ	105	X. Mường Thàng	36519
+TỈNH PHÚ THỌ	106	X. Thung Nai	36511
+TỈNH PHÚ THỌ	107	X. Đà Bắc	36306
+TỈNH PHÚ THỌ	108	X. Cao Sơn	36322
+TỈNH PHÚ THỌ	109	X. Đức Nhàn	36326
+TỈNH PHÚ THỌ	110	X. Quy Đức	36327
+TỈNH PHÚ THỌ	111	X. Tân Pheo	36310
+TỈNH PHÚ THỌ	112	X. Tiền Phong	36321
+TỈNH PHÚ THỌ	113	X. Kim Bôi	36925
+TỈNH PHÚ THỌ	114	X. Mường Động	36934
+TỈNH PHÚ THỌ	115	X. Dũng Tiến	36935
+TỈNH PHÚ THỌ	116	X. Hợp Kim	36936
+TỈNH PHÚ THỌ	117	X. Nật Sơn	36937
+TỈNH PHÚ THỌ	118	X. Lạc Sơn	36635
+TỈNH PHÚ THỌ	119	X. Mường Vang	36636
+TỈNH PHÚ THỌ	120	X. Đại Đồng	36637
+TỈNH PHÚ THỌ	121	X. Ngọc Sơn	36624
+TỈNH PHÚ THỌ	122	X. Nhân Nghĩa	36615
+TỈNH PHÚ THỌ	123	X. Quyết Thắng	36619
+TỈNH PHÚ THỌ	124	X. Thượng Cốc	36618
+TỈNH PHÚ THỌ	125	X. Yên Phú	36607
+TỈNH PHÚ THỌ	126	X. Lạc Thủy	36821
+TỈNH PHÚ THỌ	127	X. An Bình	36818
+TỈNH PHÚ THỌ	128	X. An Nghĩa	36822
+TỈNH PHÚ THỌ	129	X. Lương Sơn	36256
+TỈNH PHÚ THỌ	130	X. Cao Dương	36272
+TỈNH PHÚ THỌ	131	X. Liên Sơn	36275
+TỈNH PHÚ THỌ	132	X. Mai Châu	36406
+TỈNH PHÚ THỌ	133	X. Bao La	36418
+TỈNH PHÚ THỌ	134	X. Mai Hạ	36423
+TỈNH PHÚ THỌ	135	X. Pà Cò	36414
+TỈNH PHÚ THỌ	136	X. Tân Mai	36429
+TỈNH PHÚ THỌ	137	X. Tân Lạc	36580
+TỈNH PHÚ THỌ	138	X. Mường Bi	36581
+TỈNH PHÚ THỌ	139	X. Mường Hoa	36583
+TỈNH PHÚ THỌ	140	X. Toàn Thắng	36582
+TỈNH PHÚ THỌ	141	X. Vân Sơn	36568
+TỈNH PHÚ THỌ	142	X. Yên Thủy	36719
+TỈNH PHÚ THỌ	143	X. Lạc Lương	36711
+TỈNH PHÚ THỌ	144	X. Yên Trị	36716
+TỈNH PHÚ THỌ	145	P. Hòa Bình	36122
+TỈNH PHÚ THỌ	146	P. Kỳ Sơn	36121
+TỈNH PHÚ THỌ	147	P. Tân Hòa	36111
+TỈNH PHÚ THỌ	148	P. Thống Nhất	36118
+TỈNH QUẢNG NINH	1	X. Quảng La	01137
+TỈNH QUẢNG NINH	2	X. Thống Nhất	01130
+TỈNH QUẢNG NINH	3	X. Hải Hòa	01215
+TỈNH QUẢNG NINH	4	X. Tiên Yên	01906
+TỈNH QUẢNG NINH	5	X. Điền Xá	01914
+TỈNH QUẢNG NINH	6	X. Đông Ngũ	01909
+TỈNH QUẢNG NINH	7	X. Hải Lạng	01916
+TỈNH QUẢNG NINH	8	X. Lương Minh	02010
+TỈNH QUẢNG NINH	9	X. Kỳ Thượng	01133
+TỈNH QUẢNG NINH	10	X. Ba Chẽ	02006
+TỈNH QUẢNG NINH	11	X. Quảng Tân	01807
+TỈNH QUẢNG NINH	12	X. Đầm Hà	01815
+TỈNH QUẢNG NINH	13	X. Quảng Hà	01606
+TỈNH QUẢNG NINH	14	X. Đường Hoa	01612
+TỈNH QUẢNG NINH	15	X. Quảng Đức	01610
+TỈNH QUẢNG NINH	16	X. Hoành Mô	01709
+TỈNH QUẢNG NINH	17	X. Lục Hồn	01711
+TỈNH QUẢNG NINH	18	X. Bình Liêu	01706
+TỈNH QUẢNG NINH	19	X. Hải Sơn	01513
+TỈNH QUẢNG NINH	20	X. Hải Ninh	01523
+TỈNH QUẢNG NINH	21	X. Vĩnh Thực	01519
+TỈNH QUẢNG NINH	22	P. An Sinh	02419
+TỈNH QUẢNG NINH	23	P. Đông Triều	02427
+TỈNH QUẢNG NINH	24	P. Bình Khê	02418
+TỈNH QUẢNG NINH	25	P. Mạo Khê	02411
+TỈNH QUẢNG NINH	26	P. Hoàng Quế	02414
+TỈNH QUẢNG NINH	27	P. Yên Tử	02317
+TỈNH QUẢNG NINH	28	P. Vàng Danh	02309
+TỈNH QUẢNG NINH	29	P. Uông Bí	02318
+TỈNH QUẢNG NINH	30	P. Đông Mai	02212
+TỈNH QUẢNG NINH	31	P. Hiệp Hòa	02215
+TỈNH QUẢNG NINH	32	P. Quảng Yên	02206
+TỈNH QUẢNG NINH	33	P. Hà An	02207
+TỈNH QUẢNG NINH	34	P. Phong Cốc	02219
+TỈNH QUẢNG NINH	35	P. Liên Hòa	02222
+TỈNH QUẢNG NINH	36	P. Tuần Châu	01125
+TỈNH QUẢNG NINH	37	P. Việt Hưng	01123
+TỈNH QUẢNG NINH	38	P. Bãi Cháy	01119
+TỈNH QUẢNG NINH	39	P. Hà Tu	01114
+TỈNH QUẢNG NINH	40	P. Hà Lầm	01111
+TỈNH QUẢNG NINH	41	P. Cao Xanh	01117
+TỈNH QUẢNG NINH	42	P. Hồng Gai	01106
+TỈNH QUẢNG NINH	43	P. Hạ Long	01139
+TỈNH QUẢNG NINH	44	P. Hoành Bồ	01126
+TỈNH QUẢNG NINH	45	P. Mông Dương	01217
+TỈNH QUẢNG NINH	46	P. Quang Hanh	01219
+TỈNH QUẢNG NINH	47	P. Cẩm Phả	01222
+TỈNH QUẢNG NINH	48	P. Cửa Ông	01214
+TỈNH QUẢNG NINH	49	P. Móng Cái 1	01524
+TỈNH QUẢNG NINH	50	P. Móng Cái 2	01525
+TỈNH QUẢNG NINH	51	P. Móng Cái 3	01526
+TỈNH QUẢNG NINH	52	Đặc khu Vân Đồn	01318
+TỈNH QUẢNG NINH	53	Đặc khu Cô Tô	01409
+TỈNH QUẢNG NINH	54	X. Cái Chiên	01621
+TỈNH QUẢNG NGÃI	1	X. Tịnh Khê	53125
+TỈNH QUẢNG NGÃI	2	X. An Phú	53122
+TỈNH QUẢNG NGÃI	3	X. Nguyễn Nghiêm	54323
+TỈNH QUẢNG NGÃI	4	X. Khánh Cường	54324
+TỈNH QUẢNG NGÃI	5	X. Bình Minh	53322
+TỈNH QUẢNG NGÃI	6	X. Bình Chương	53312
+TỈNH QUẢNG NGÃI	7	X. Bình Sơn	53331
+TỈNH QUẢNG NGÃI	8	X. Vạn Tường	53332
+TỈNH QUẢNG NGÃI	9	X. Đông Sơn	53333
+TỈNH QUẢNG NGÃI	10	X. Trường Giang	53218
+TỈNH QUẢNG NGÃI	11	X. Ba Gia	53219
+TỈNH QUẢNG NGÃI	12	X. Sơn Tịnh	53217
+TỈNH QUẢNG NGÃI	13	X. Thọ Phong	53220
+TỈNH QUẢNG NGÃI	14	X. Tư Nghĩa	53921
+TỈNH QUẢNG NGÃI	15	X. Vệ Giang	53922
+TỈNH QUẢNG NGÃI	16	X. Nghĩa Giang	53923
+TỈNH QUẢNG NGÃI	17	X. Trà Giang	53924
+TỈNH QUẢNG NGÃI	18	X. Nghĩa Hành	54018
+TỈNH QUẢNG NGÃI	19	X. Đình Cương	54019
+TỈNH QUẢNG NGÃI	20	X. Thiện Tín	54020
+TỈNH QUẢNG NGÃI	21	X. Phước Giang	54021
+TỈNH QUẢNG NGÃI	22	X. Long Phụng	54120
+TỈNH QUẢNG NGÃI	23	X. Mỏ Cày	54121
+TỈNH QUẢNG NGÃI	24	X. Mộ Đức	54119
+TỈNH QUẢNG NGÃI	25	X. Lân Phong	54122
+TỈNH QUẢNG NGÃI	26	X. Trà Bồng	53416
+TỈNH QUẢNG NGÃI	27	X. Đông Trà Bồng	53417
+TỈNH QUẢNG NGÃI	28	X. Tây Trà	53419
+TỈNH QUẢNG NGÃI	29	X. Thanh Bồng	53420
+TỈNH QUẢNG NGÃI	30	X. Cà Đam	53418
+TỈNH QUẢNG NGÃI	31	X. Tây Trà Bồng	53421
+TỈNH QUẢNG NGÃI	32	X. Sơn Hạ	53815
+TỈNH QUẢNG NGÃI	33	X. Sơn Linh	53813
+TỈNH QUẢNG NGÃI	34	X. Sơn Hà	53820
+TỈNH QUẢNG NGÃI	35	X. Sơn Thủy	53817
+TỈNH QUẢNG NGÃI	36	X. Sơn Kỳ	53818
+TỈNH QUẢNG NGÃI	37	X. Sơn Tây	53615
+TỈNH QUẢNG NGÃI	38	X. Sơn Tây Thượng	53616
+TỈNH QUẢNG NGÃI	39	X. Sơn Tây Hạ	53617
+TỈNH QUẢNG NGÃI	40	X. Minh Long	53711
+TỈNH QUẢNG NGÃI	41	X. Sơn Mai	53712
+TỈNH QUẢNG NGÃI	42	X. Ba Vì	54221
+TỈNH QUẢNG NGÃI	43	X. Ba Tô	54222
+TỈNH QUẢNG NGÃI	44	X. Ba Dinh	54209
+TỈNH QUẢNG NGÃI	45	X. Ba Tơ	54206
+TỈNH QUẢNG NGÃI	46	X. Ba Vinh	54216
+TỈNH QUẢNG NGÃI	47	X. Ba Động	54214
+TỈNH QUẢNG NGÃI	48	X. Đặng Thùy Trâm	54226
+TỈNH QUẢNG NGÃI	49	P. Trương Quang Trọng	53111
+TỈNH QUẢNG NGÃI	50	P. Cẩm Thành	53129
+TỈNH QUẢNG NGÃI	51	P. Nghĩa Lộ	53114
+TỈNH QUẢNG NGÃI	52	P. Trà Câu	54322
+TỈNH QUẢNG NGÃI	53	P. Đức Phổ	54321
+TỈNH QUẢNG NGÃI	54	P. Sa Huỳnh	54325
+TỈNH QUẢNG NGÃI	55	Đặc khu Lý Sơn	54409
+TỈNH QUẢNG NGÃI	56	X. Ba Xa	54223
+TỈNH QUẢNG NGÃI	57	X. Ngọk Bay	60120
+TỈNH QUẢNG NGÃI	58	X. Ia Chim	60124
+TỈNH QUẢNG NGÃI	59	X. Đăk Rơ Wa	60116
+TỈNH QUẢNG NGÃI	60	X. Đăk PXi	60608
+TỈNH QUẢNG NGÃI	61	X. Đăk Mar	60612
+TỈNH QUẢNG NGÃI	62	X. Đăk Ui	60609
+TỈNH QUẢNG NGÃI	63	X. Ngọk Réo	60616
+TỈNH QUẢNG NGÃI	64	X. Đăk Hà	60606
+TỈNH QUẢNG NGÃI	65	X. Ngọk Tụ	60661
+TỈNH QUẢNG NGÃI	66	X. Đăk Tô	60656
+TỈNH QUẢNG NGÃI	67	X. Kon Đào	60657
+TỈNH QUẢNG NGÃI	68	X. Đăk Sao	60313
+TỈNH QUẢNG NGÃI	69	X. Đăk Tờ Kan	60316
+TỈNH QUẢNG NGÃI	70	X. Tu Mơ Rông	60307
+TỈNH QUẢNG NGÃI	71	X. Măng Ri	60311
+TỈNH QUẢNG NGÃI	72	X. Bờ Y	60514
+TỈNH QUẢNG NGÃI	73	X. Sa Loong	60513
+TỈNH QUẢNG NGÃI	74	X. Dục Nông	60515
+TỈNH QUẢNG NGÃI	75	X. Xốp	60407
+TỈNH QUẢNG NGÃI	76	X. Ngọc Linh	60408
+TỈNH QUẢNG NGÃI	77	X. Đăk Plô	60412
+TỈNH QUẢNG NGÃI	78	X. Đăk Pék	60414
+TỈNH QUẢNG NGÃI	79	X. Đăk Môn	60416
+TỈNH QUẢNG NGÃI	80	X. Sa Thầy	60706
+TỈNH QUẢNG NGÃI	81	X. Sa Bình	60714
+TỈNH QUẢNG NGÃI	82	X. Ya Ly	60715
+TỈNH QUẢNG NGÃI	83	X. Ia Tơi	60806
+TỈNH QUẢNG NGÃI	84	X. Đăk Kôi	60207
+TỈNH QUẢNG NGÃI	85	X. Kon Braih	60213
+TỈNH QUẢNG NGÃI	86	X. Đăk Rve	60206
+TỈNH QUẢNG NGÃI	87	X. Măng Đen	60256
+TỈNH QUẢNG NGÃI	88	X. Măng Bút	60262
+TỈNH QUẢNG NGÃI	89	X. Kon Plông	60265
+TỈNH QUẢNG NGÃI	90	P. Kon Tum	60127
+TỈNH QUẢNG NGÃI	91	P. Đăk Cấm	60118
+TỈNH QUẢNG NGÃI	92	P. Đăk BLa	60128
+TỈNH QUẢNG NGÃI	93	X. Đăk Long	60417
+TỈNH QUẢNG NGÃI	94	X. Rờ Kơi	60710
+TỈNH QUẢNG NGÃI	95	X. Mô Rai	60711
+TỈNH QUẢNG NGÃI	96	X. Ia Đal	60808
+TỈNH QUẢNG TRỊ	1	X. Nam Gianh	47324
+TỈNH QUẢNG TRỊ	2	X. Nam Ba Đồn	47323
+TỈNH QUẢNG TRỊ	3	X. Dân Hóa	47613
+TỈNH QUẢNG TRỊ	4	X. Kim Điền	47623
+TỈNH QUẢNG TRỊ	5	X. Kim Phú	47624
+TỈNH QUẢNG TRỊ	6	X. Minh Hóa	47622
+TỈNH QUẢNG TRỊ	7	X. Tuyên Lâm	47527
+TỈNH QUẢNG TRỊ	8	X. Tuyên Sơn	47526
+TỈNH QUẢNG TRỊ	9	X. Tân Thành	47610
+TỈNH QUẢNG TRỊ	10	X. Đồng Lê	47506
+TỈNH QUẢNG TRỊ	11	X. Tuyên Phú	47528
+TỈNH QUẢNG TRỊ	12	X. Tuyên Bình	47529
+TỈNH QUẢNG TRỊ	13	X. Tuyên Hóa	47530
+TỈNH QUẢNG TRỊ	14	X. Tân Gianh	47428
+TỈNH QUẢNG TRỊ	15	X. Trung Thuần	47425
+TỈNH QUẢNG TRỊ	16	X. Quảng Trạch	47424
+TỈNH QUẢNG TRỊ	17	X. Hòa Trạch	47426
+TỈNH QUẢNG TRỊ	18	X. Phú Trạch	47427
+TỈNH QUẢNG TRỊ	19	X. Thượng Trạch	47230
+TỈNH QUẢNG TRỊ	20	X. Phong Nha	47232
+TỈNH QUẢNG TRỊ	21	X. Bắc Trạch	47212
+TỈNH QUẢNG TRỊ	22	X. Đông Trạch	47236
+TỈNH QUẢNG TRỊ	23	X. Hoàn Lão	47206
+TỈNH QUẢNG TRỊ	24	X. Bố Trạch	47237
+TỈNH QUẢNG TRỊ	25	X. Nam Trạch	47238
+TỈNH QUẢNG TRỊ	26	X. Quảng Ninh	47721
+TỈNH QUẢNG TRỊ	27	X. Ninh Châu	47722
+TỈNH QUẢNG TRỊ	28	X. Trường Ninh	47723
+TỈNH QUẢNG TRỊ	29	X. Trường Sơn	47720
+TỈNH QUẢNG TRỊ	30	X. Lệ Thủy	47834
+TỈNH QUẢNG TRỊ	31	X. Cam Hồng	47835
+TỈNH QUẢNG TRỊ	32	X. Sen Ngư	47836
+TỈNH QUẢNG TRỊ	33	X. Tân Mỹ	47837
+TỈNH QUẢNG TRỊ	34	X. Trường Phú	47838
+TỈNH QUẢNG TRỊ	35	X. Lệ Ninh	47839
+TỈNH QUẢNG TRỊ	36	X. Kim Ngân	47840
+TỈNH QUẢNG TRỊ	37	P. Đồng Hới	47122
+TỈNH QUẢNG TRỊ	38	P. Đồng Thuận	47123
+TỈNH QUẢNG TRỊ	39	P. Đồng Sơn	47110
+TỈNH QUẢNG TRỊ	40	P. Ba Đồn	47306
+TỈNH QUẢNG TRỊ	41	P. Bắc Gianh	47322
+TỈNH QUẢNG TRỊ	42	X. Vĩnh Linh	48428
+TỈNH QUẢNG TRỊ	43	X. Cửa Tùng	48419
+TỈNH QUẢNG TRỊ	44	X. Vĩnh Hoàng	48429
+TỈNH QUẢNG TRỊ	45	X. Vĩnh Thủy	48424
+TỈNH QUẢNG TRỊ	46	X. Bến Quan	48423
+TỈNH QUẢNG TRỊ	47	X. Cồn Tiên	48327
+TỈNH QUẢNG TRỊ	48	X. Cửa Việt	48319
+TỈNH QUẢNG TRỊ	49	X. Gio Linh	48306
+TỈNH QUẢNG TRỊ	50	X. Bến Hải	48328
+TỈNH QUẢNG TRỊ	51	X. Cam Lộ	48206
+TỈNH QUẢNG TRỊ	52	X. Hiếu Giang	48215
+TỈNH QUẢNG TRỊ	53	X. La Lay	48620
+TỈNH QUẢNG TRỊ	54	X. Tà Rụt	48617
+TỈNH QUẢNG TRỊ	55	X. Đakrông	48608
+TỈNH QUẢNG TRỊ	56	X. Ba Lòng	48612
+TỈNH QUẢNG TRỊ	57	X. Hướng Hiệp	48607
+TỈNH QUẢNG TRỊ	58	X. Hướng Lập	48510
+TỈNH QUẢNG TRỊ	59	X. Hướng Phùng	48512
+TỈNH QUẢNG TRỊ	60	X. Khe Sanh	48506
+TỈNH QUẢNG TRỊ	61	X. Tân Lập	48517
+TỈNH QUẢNG TRỊ	62	X. Lao Bảo	48515
+TỈNH QUẢNG TRỊ	63	X. Lìa	48523
+TỈNH QUẢNG TRỊ	64	X. A Dơi	48526
+TỈNH QUẢNG TRỊ	65	X. Triệu Phong	48725
+TỈNH QUẢNG TRỊ	66	X. Ái Tử	48726
+TỈNH QUẢNG TRỊ	67	X. Triệu Bình	48727
+TỈNH QUẢNG TRỊ	68	X. Triệu Cơ	48711
+TỈNH QUẢNG TRỊ	69	X. Nam Cửa Việt	48728
+TỈNH QUẢNG TRỊ	70	X. Diên Sanh	48906
+TỈNH QUẢNG TRỊ	71	X. Mỹ Thủy	48926
+TỈNH QUẢNG TRỊ	72	X. Hải Lăng	48927
+TỈNH QUẢNG TRỊ	73	X. Nam Hải Lăng	48928
+TỈNH QUẢNG TRỊ	74	X. Vĩnh Định	48929
+TỈNH QUẢNG TRỊ	75	P. Đông Hà	48115
+TỈNH QUẢNG TRỊ	76	P. Nam Đông Hà	48116
+TỈNH QUẢNG TRỊ	77	P. Quảng Trị	48811
+TỈNH QUẢNG TRỊ	78	Đặc khu Cồn Cỏ	48956
+TỈNH SƠN LA	1	X. Đoàn Kết	34709
+TỈNH SƠN LA	2	X. Lóng Sập	34717
+TỈNH SƠN LA	3	X. Chiềng Sơn	34718
+TỈNH SƠN LA	4	X. Vân Hồ	34806
+TỈNH SƠN LA	5	X. Song Khủa	34812
+TỈNH SƠN LA	6	X. Tô Múa	34815
+TỈNH SƠN LA	7	X. Xuân Nha	34818
+TỈNH SƠN LA	8	X. Quỳnh Nhai	34267
+TỈNH SƠN LA	9	X. Mường Chiên	34256
+TỈNH SƠN LA	10	X. Mường Giôn	34266
+TỈNH SƠN LA	11	X. Mường Sại	34264
+TỈNH SƠN LA	12	X. Thuận Châu	34306
+TỈNH SƠN LA	13	X. Chiềng La	34307
+TỈNH SƠN LA	14	X. Nậm Lầu	34332
+TỈNH SƠN LA	15	X. Muổi Nọi	34334
+TỈNH SƠN LA	16	X. Mường Khiêng	34311
+TỈNH SƠN LA	17	X. Co Mạ	34325
+TỈNH SƠN LA	18	X. Bình Thuận	34335
+TỈNH SƠN LA	19	X. Mường É	34318
+TỈNH SƠN LA	20	X. Long Hẹ	34322
+TỈNH SƠN LA	21	X. Mường La	34222
+TỈNH SƠN LA	22	X. Chiềng Lao	34210
+TỈNH SƠN LA	23	X. Mường Bú	34216
+TỈNH SƠN LA	24	X. Chiềng Hoa	34218
+TỈNH SƠN LA	25	X. Bắc Yên	34606
+TỈNH SƠN LA	26	X. Tà Xùa	34607
+TỈNH SƠN LA	27	X. Tạ Khoa	34616
+TỈNH SƠN LA	28	X. Xím Vàng	34609
+TỈNH SƠN LA	29	X. Pắc Ngà	34611
+TỈNH SƠN LA	30	X. Chiềng Sại	34618
+TỈNH SƠN LA	31	X. Phù Yên	34933
+TỈNH SƠN LA	32	X. Gia Phù	34916
+TỈNH SƠN LA	33	X. Tường Hạ	34923
+TỈNH SƠN LA	34	X. Mường Cơi	34908
+TỈNH SƠN LA	35	X. Mường Bang	34932
+TỈNH SƠN LA	36	X. Tân Phong	34930
+TỈNH SƠN LA	37	X. Kim Bon	34921
+TỈNH SƠN LA	38	X. Yên Châu	34656
+TỈNH SƠN LA	39	X. Chiềng Hặc	34666
+TỈNH SƠN LA	40	X. Lóng Phiêng	34667
+TỈNH SƠN LA	41	X. Yên Sơn	34662
+TỈNH SƠN LA	42	X. Chiềng Mai	34520
+TỈNH SƠN LA	43	X. Mai Sơn	34528
+TỈNH SƠN LA	44	X. Phiêng Pằn	34524
+TỈNH SƠN LA	45	X. Chiềng Mung	34513
+TỈNH SƠN LA	46	X. Phiêng Cằm	34518
+TỈNH SƠN LA	47	X. Mường Chanh	34516
+TỈNH SƠN LA	48	X. Tà Hộc	34508
+TỈNH SƠN LA	49	X. Chiềng Sung	34510
+TỈNH SƠN LA	50	X. Bó Sinh	34412
+TỈNH SƠN LA	51	X. Chiềng Khương	34422
+TỈNH SƠN LA	52	X. Mường Hung	34421
+TỈNH SƠN LA	53	X. Chiềng Khoong	34407
+TỈNH SƠN LA	54	X. Mường Lầm	34411
+TỈNH SƠN LA	55	X. Nậm Ty	34409
+TỈNH SƠN LA	56	X. Sông Mã	34406
+TỈNH SƠN LA	57	X. Huổi Một	34419
+TỈNH SƠN LA	58	X. Chiềng Sơ	34417
+TỈNH SƠN LA	59	X. Sốp Cộp	34456
+TỈNH SƠN LA	60	X. Púng Bánh	34458
+TỈNH SƠN LA	61	P. Tô Hiệu	34112
+TỈNH SƠN LA	62	P. Chiềng An	34107
+TỈNH SƠN LA	63	P. Chiềng Cơi	34111
+TỈNH SƠN LA	64	P. Chiềng Sinh	34116
+TỈNH SƠN LA	65	P. Mộc Châu	34725
+TỈNH SƠN LA	66	P. Mộc Sơn	34721
+TỈNH SƠN LA	67	P. Vân Sơn	34724
+TỈNH SƠN LA	68	P. Thảo Nguyên	34722
+TỈNH SƠN LA	69	X. Mường Lạn	34463
+TỈNH SƠN LA	70	X. Phiêng Khoài	34664
+TỈNH SƠN LA	71	X. Suối Tọ	34910
+TỈNH SƠN LA	72	X. Ngọc Chiến	34208
+TỈNH SƠN LA	73	X. Tân Yên	34711
+TỈNH SƠN LA	74	X. Mường Bám	34324
+TỈNH SƠN LA	75	X. Mường Lèo	34460
+TỈNH TÂY NINH	1	X. Hưng Điền	83311
+TỈNH TÂY NINH	2	X. Vĩnh Thạnh	83318
+TỈNH TÂY NINH	3	X. Tân Hưng	83306
+TỈNH TÂY NINH	4	X. Vĩnh Châu	83319
+TỈNH TÂY NINH	5	X. Tuyên Bình	83215
+TỈNH TÂY NINH	6	X. Vĩnh Hưng	83206
+TỈNH TÂY NINH	7	X. Khánh Hưng	83210
+TỈNH TÂY NINH	8	X. Tuyên Thạnh	83012
+TỈNH TÂY NINH	9	X. Bình Hiệp	83009
+TỈNH TÂY NINH	10	X. Bình Hòa	83113
+TỈNH TÂY NINH	11	X. Mộc Hóa	83114
+TỈNH TÂY NINH	12	X. Hậu Thạnh	83419
+TỈNH TÂY NINH	13	X. Nhơn Hòa Lập	83410
+TỈNH TÂY NINH	14	X. Nhơn Ninh	83416
+TỈNH TÂY NINH	15	X. Tân Thạnh	83406
+TỈNH TÂY NINH	16	X. Bình Thành	82917
+TỈNH TÂY NINH	17	X. Thạnh Phước	82911
+TỈNH TÂY NINH	18	X. Thạnh Hóa	82906
+TỈNH TÂY NINH	19	X. Tân Tây	82915
+TỈNH TÂY NINH	20	X. Thủ Thừa	83506
+TỈNH TÂY NINH	21	X. Mỹ An	83514
+TỈNH TÂY NINH	22	X. Mỹ Thạnh	83513
+TỈNH TÂY NINH	23	X. Tân Long	83508
+TỈNH TÂY NINH	24	X. Mỹ Quý	82817
+TỈNH TÂY NINH	25	X. Đông Thành	82806
+TỈNH TÂY NINH	26	X. Đức Huệ	82818
+TỈNH TÂY NINH	27	X. An Ninh	82726
+TỈNH TÂY NINH	28	X. Hiệp Hòa	82713
+TỈNH TÂY NINH	29	X. Hậu Nghĩa	82706
+TỈNH TÂY NINH	30	X. Hòa Khánh	82727
+TỈNH TÂY NINH	31	X. Đức Lập	82728
+TỈNH TÂY NINH	32	X. Mỹ Hạnh	82729
+TỈNH TÂY NINH	33	X. Đức Hòa	82722
+TỈNH TÂY NINH	34	X. Thạnh Lợi	82612
+TỈNH TÂY NINH	35	X. Bình Đức	82615
+TỈNH TÂY NINH	36	X. Lương Hòa	82614
+TỈNH TÂY NINH	37	X. Bến Lức	82606
+TỈNH TÂY NINH	38	X. Mỹ Yên	82607
+TỈNH TÂY NINH	39	X. Long Cang	82420
+TỈNH TÂY NINH	40	X. Rạch Kiến	82423
+TỈNH TÂY NINH	41	X. Mỹ Lệ	82408
+TỈNH TÂY NINH	42	X. Tân Lân	82407
+TỈNH TÂY NINH	43	X. Cần Đước	82406
+TỈNH TÂY NINH	44	X. Long Hựu	82424
+TỈNH TÂY NINH	45	X. Phước Lý	82511
+TỈNH TÂY NINH	46	X. Mỹ Lộc	82509
+TỈNH TÂY NINH	47	X. Cần Giuộc	82506
+TỈNH TÂY NINH	48	X. Phước Vĩnh Tây	82518
+TỈNH TÂY NINH	49	X. Tân Tập	82522
+TỈNH TÂY NINH	50	X. Vàm Cỏ	82317
+TỈNH TÂY NINH	51	X. Tân Trụ	82306
+TỈNH TÂY NINH	52	X. Nhựt Tảo	82318
+TỈNH TÂY NINH	53	X. Thuận Mỹ	82210
+TỈNH TÂY NINH	54	X. An Lục Long	82218
+TỈNH TÂY NINH	55	X. Tầm Vu	82206
+TỈNH TÂY NINH	56	X. Vĩnh Công	82214
+TỈNH TÂY NINH	57	P. Kiến Tường	83014
+TỈNH TÂY NINH	58	P. Long An	82120
+TỈNH TÂY NINH	59	P. Tân An	82121
+TỈNH TÂY NINH	60	P. Khánh Hậu	82113
+TỈNH TÂY NINH	61	X. Phước Chỉ	80914
+TỈNH TÂY NINH	62	X. Hưng Thuận	80909
+TỈNH TÂY NINH	63	X. Thạnh Đức	80712
+TỈNH TÂY NINH	64	X. Phước Thạnh	80708
+TỈNH TÂY NINH	65	X. Truông Mít	80211
+TỈNH TÂY NINH	66	X. Lộc Ninh	80212
+TỈNH TÂY NINH	67	X. Cầu Khởi	80210
+TỈNH TÂY NINH	68	X. Dương Minh Châu	80206
+TỈNH TÂY NINH	69	X. Tân Đông	80311
+TỈNH TÂY NINH	70	X. Tân Châu	80306
+TỈNH TÂY NINH	71	X. Tân Phú	80316
+TỈNH TÂY NINH	72	X. Tân Hội	80313
+TỈNH TÂY NINH	73	X. Tân Thành	80308
+TỈNH TÂY NINH	74	X. Tân Hòa	80309
+TỈNH TÂY NINH	75	X. Tân Lập	80409
+TỈNH TÂY NINH	76	X. Tân Biên	80406
+TỈNH TÂY NINH	77	X. Thạnh Bình	80407
+TỈNH TÂY NINH	78	X. Trà Vong	80415
+TỈNH TÂY NINH	79	X. Phước Vinh	80511
+TỈNH TÂY NINH	80	X. Hoà Hội	80514
+TỈNH TÂY NINH	81	X. Ninh Điền	80517
+TỈNH TÂY NINH	82	X. Châu Thành	80506
+TỈNH TÂY NINH	83	X. Hảo Đước	80509
+TỈNH TÂY NINH	84	X. Long Chữ	80808
+TỈNH TÂY NINH	85	X. Long Thuận	80812
+TỈNH TÂY NINH	86	X. Bến Cầu	80806
+TỈNH TÂY NINH	87	P. Tân Ninh	80116
+TỈNH TÂY NINH	88	P. Bình Minh	80115
+TỈNH TÂY NINH	89	P. Ninh Thạnh	80111
+TỈNH TÂY NINH	90	P. Long Hoa	80606
+TỈNH TÂY NINH	91	P. Hòa Thành	80614
+TỈNH TÂY NINH	92	P. Thanh Điền	80615
+TỈNH TÂY NINH	93	P. Trảng Bàng	80906
+TỈNH TÂY NINH	94	P. An Tịnh	80916
+TỈNH TÂY NINH	95	P. Gò Dầu	80706
+TỈNH TÂY NINH	96	P. Gia Lộc	80907
+TỈNH TUYÊN QUANG	1	X. Thượng Lâm	22507
+TỈNH TUYÊN QUANG	2	X. Lâm Bình	22514
+TỈNH TUYÊN QUANG	3	X. Minh Quang	22515
+TỈNH TUYÊN QUANG	4	X. Bình An	22511
+TỈNH TUYÊN QUANG	5	X. Côn Lôn	22414
+TỈNH TUYÊN QUANG	6	X. Yên Hoa	22410
+TỈNH TUYÊN QUANG	7	X. Thượng Nông	22411
+TỈNH TUYÊN QUANG	8	X. Hồng Thái	22409
+TỈNH TUYÊN QUANG	9	X. Nà Hang	22418
+TỈNH TUYÊN QUANG	10	X. Tân Mỹ	22316
+TỈNH TUYÊN QUANG	11	X. Yên Lập	22310
+TỈNH TUYÊN QUANG	12	X. Tân An	22317
+TỈNH TUYÊN QUANG	13	X. Chiêm Hóa	22332
+TỈNH TUYÊN QUANG	14	X. Hòa An	22323
+TỈNH TUYÊN QUANG	15	X. Kiên Đài	22331
+TỈNH TUYÊN QUANG	16	X. Tri Phú	22329
+TỈNH TUYÊN QUANG	17	X. Kim Bình	22328
+TỈNH TUYÊN QUANG	18	X. Yên Nguyên	22322
+TỈNH TUYÊN QUANG	19	X. Yên Phú	22615
+TỈNH TUYÊN QUANG	20	X. Bạch Xa	22613
+TỈNH TUYÊN QUANG	21	X. Phù Lưu	22609
+TỈNH TUYÊN QUANG	22	X. Hàm Yên	22624
+TỈNH TUYÊN QUANG	23	X. Bình Xa	22623
+TỈNH TUYÊN QUANG	24	X. Thái Sơn	22622
+TỈNH TUYÊN QUANG	25	X. Thái Hòa	22621
+TỈNH TUYÊN QUANG	26	X. Hùng Lợi	22235
+TỈNH TUYÊN QUANG	27	X. Trung Sơn	22234
+TỈNH TUYÊN QUANG	28	X. Thái Bình	22229
+TỈNH TUYÊN QUANG	29	X. Tân Long	22207
+TỈNH TUYÊN QUANG	30	X. Xuân Vân	22211
+TỈNH TUYÊN QUANG	31	X. Lực Hành	22213
+TỈNH TUYÊN QUANG	32	X. Yên Sơn	22206
+TỈNH TUYÊN QUANG	33	X. Nhữ Khê	22222
+TỈNH TUYÊN QUANG	34	X. Tân Trào	22709
+TỈNH TUYÊN QUANG	35	X. Minh Thanh	22711
+TỈNH TUYÊN QUANG	36	X. Sơn Dương	22706
+TỈNH TUYÊN QUANG	37	X. Bình Ca	22739
+TỈNH TUYÊN QUANG	38	X. Tân Thanh	22729
+TỈNH TUYÊN QUANG	39	X. Sơn Thủy	22740
+TỈNH TUYÊN QUANG	40	X. Phú Lương	22731
+TỈNH TUYÊN QUANG	41	X. Trường Sinh	22721
+TỈNH TUYÊN QUANG	42	X. Hồng Sơn	22719
+TỈNH TUYÊN QUANG	43	X. Đông Thọ	22717
+TỈNH TUYÊN QUANG	44	P. Mỹ Lâm	22119
+TỈNH TUYÊN QUANG	45	P. Minh Xuân	22110
+TỈNH TUYÊN QUANG	46	P. Nông Tiến	22107
+TỈNH TUYÊN QUANG	47	P. An Tường	22106
+TỈNH TUYÊN QUANG	48	P. Bình Thuận	22120
+TỈNH TUYÊN QUANG	49	X. Trung Hà	22314
+TỈNH TUYÊN QUANG	50	X. Kiến Thiết	22209
+TỈNH TUYÊN QUANG	51	X. Hùng Đức	22619
+TỈNH TUYÊN QUANG	52	X. Lũng Cú	20508
+TỈNH TUYÊN QUANG	53	X. Đồng Văn	20506
+TỈNH TUYÊN QUANG	54	X. Sà Phìn	20510
+TỈNH TUYÊN QUANG	55	X. Phố Bảng	20512
+TỈNH TUYÊN QUANG	56	X. Lũng Phìn	20518
+TỈNH TUYÊN QUANG	57	X. Sủng Máng	20413
+TỈNH TUYÊN QUANG	58	X. Sơn Vĩ	20423
+TỈNH TUYÊN QUANG	59	X. Mèo Vạc	20406
+TỈNH TUYÊN QUANG	60	X. Khâu Vai	20418
+TỈNH TUYÊN QUANG	61	X. Niêm Sơn	20416
+TỈNH TUYÊN QUANG	62	X. Tát Ngà	20419
+TỈNH TUYÊN QUANG	63	X. Thắng Mố	20310
+TỈNH TUYÊN QUANG	64	X. Bạch Đích	20312
+TỈNH TUYÊN QUANG	65	X. Yên Minh	20306
+TỈNH TUYÊN QUANG	66	X. Mậu Duệ	20323
+TỈNH TUYÊN QUANG	67	X. Du Già	20318
+TỈNH TUYÊN QUANG	68	X. Đường Thượng	20317
+TỈNH TUYÊN QUANG	69	X. Lùng Tám	20368
+TỈNH TUYÊN QUANG	70	X. Cán Tỷ	20357
+TỈNH TUYÊN QUANG	71	X. Nghĩa Thuận	20359
+TỈNH TUYÊN QUANG	72	X. Quản Bạ	20365
+TỈNH TUYÊN QUANG	73	X. Tùng Vài	20361
+TỈNH TUYÊN QUANG	74	X. Yên Cường	20915
+TỈNH TUYÊN QUANG	75	X. Đường Hồng	20916
+TỈNH TUYÊN QUANG	76	X. Bắc Mê	20919
+TỈNH TUYÊN QUANG	77	X. Minh Ngọc	20911
+TỈNH TUYÊN QUANG	78	X. Ngọc Đường	20108
+TỈNH TUYÊN QUANG	79	X. Lao Chải	20218
+TỈNH TUYÊN QUANG	80	X. Thanh Thủy	20215
+TỈNH TUYÊN QUANG	81	X. Phú Linh	20221
+TỈNH TUYÊN QUANG	82	X. Linh Hồ	20209
+TỈNH TUYÊN QUANG	83	X. Bạch Ngọc	20229
+TỈNH TUYÊN QUANG	84	X. Vị Xuyên	20206
+TỈNH TUYÊN QUANG	85	X. Việt Lâm	20226
+TỈNH TUYÊN QUANG	86	X. Tân Quang	20812
+TỈNH TUYÊN QUANG	87	X. Đồng Tâm	20808
+TỈNH TUYÊN QUANG	88	X. Liên Hiệp	20824
+TỈNH TUYÊN QUANG	89	X. Bằng Hành	20828
+TỈNH TUYÊN QUANG	90	X. Bắc Quang	20829
+TỈNH TUYÊN QUANG	91	X. Hùng An	20820
+TỈNH TUYÊN QUANG	92	X. Vĩnh Tuy	20819
+TỈNH TUYÊN QUANG	93	X. Đồng Yên	20816
+TỈNH TUYÊN QUANG	94	X. Tiên Yên	20767
+TỈNH TUYÊN QUANG	95	X. Xuân Giang	20766
+TỈNH TUYÊN QUANG	96	X. Bằng Lang	20764
+TỈNH TUYÊN QUANG	97	X. Yên Thành	20762
+TỈNH TUYÊN QUANG	98	X. Quang Bình	20771
+TỈNH TUYÊN QUANG	99	X. Tân Trịnh	20758
+TỈNH TUYÊN QUANG	100	X. Thông Nguyên	20623
+TỈNH TUYÊN QUANG	101	X. Hồ Thầu	20621
+TỈNH TUYÊN QUANG	102	X. Nậm Dịch	20627
+TỈNH TUYÊN QUANG	103	X. Tân Tiến	20607
+TỈNH TUYÊN QUANG	104	X. Hoàng Su Phì	20631
+TỈNH TUYÊN QUANG	105	X. Thàng Tín	20612
+TỈNH TUYÊN QUANG	106	X. Bản Máy	20613
+TỈNH TUYÊN QUANG	107	X. Pờ Ly Ngài	20618
+TỈNH TUYÊN QUANG	108	X. Xín Mần	20710
+TỈNH TUYÊN QUANG	109	X. Pà Vầy Sủ	20712
+TỈNH TUYÊN QUANG	110	X. Nấm Dẩn	20715
+TỈNH TUYÊN QUANG	111	X. Trung Thịnh	20724
+TỈNH TUYÊN QUANG	112	X. Khuôn Lùng	20717
+TỈNH TUYÊN QUANG	113	P. Hà Giang 1	20114
+TỈNH TUYÊN QUANG	114	P. Hà Giang 2	20115
+TỈNH TUYÊN QUANG	115	X. Minh Sơn	20909
+TỈNH TUYÊN QUANG	116	X. Minh Tân	20214
+TỈNH TUYÊN QUANG	117	X. Thuận Hòa	20213
+TỈNH TUYÊN QUANG	118	X. Tùng Bá	20212
+TỈNH TUYÊN QUANG	119	X. Thượng Sơn	20224
+TỈNH TUYÊN QUANG	120	X. Cao Bồ	20223
+TỈNH TUYÊN QUANG	121	X. Ngọc Long	20320
+TỈNH TUYÊN QUANG	122	X. Giáp Trung	20908
+TỈNH TUYÊN QUANG	123	X. Tiên Nguyên	20760
+TỈNH TUYÊN QUANG	124	X. Quảng Nguyên	20718
+TỈNH THÁI NGUYÊN	1	X. Tân Cương	24129
+TỈNH THÁI NGUYÊN	2	X. Đại Phúc	24138
+TỈNH THÁI NGUYÊN	3	X. Thành Công	24712
+TỈNH THÁI NGUYÊN	4	X. Định Hóa	24530
+TỈNH THÁI NGUYÊN	5	X. Bình Yên	24524
+TỈNH THÁI NGUYÊN	6	X. Trung Hội	24528
+TỈNH THÁI NGUYÊN	7	X. Phượng Tiến	24529
+TỈNH THÁI NGUYÊN	8	X. Phú Đình	24521
+TỈNH THÁI NGUYÊN	9	X. Bình Thành	24522
+TỈNH THÁI NGUYÊN	10	X. Kim Phượng	24512
+TỈNH THÁI NGUYÊN	11	X. Lam Vỹ	24509
+TỈNH THÁI NGUYÊN	12	X. Võ Nhai	24321
+TỈNH THÁI NGUYÊN	13	X. Dân Tiến	24318
+TỈNH THÁI NGUYÊN	14	X. Nghinh Tường	24308
+TỈNH THÁI NGUYÊN	15	X. Thần Sa	24322
+TỈNH THÁI NGUYÊN	16	X. La Hiên	24314
+TỈNH THÁI NGUYÊN	17	X. Tràng Xá	24317
+TỈNH THÁI NGUYÊN	18	X. Phú Lương	24421
+TỈNH THÁI NGUYÊN	19	X. Vô Tranh	24418
+TỈNH THÁI NGUYÊN	20	X. Yên Trạch	24410
+TỈNH THÁI NGUYÊN	21	X. Hợp Thành	24413
+TỈNH THÁI NGUYÊN	22	X. Đồng Hỷ	24221
+TỈNH THÁI NGUYÊN	23	X. Quang Sơn	24209
+TỈNH THÁI NGUYÊN	24	X. Trại Cau	24216
+TỈNH THÁI NGUYÊN	25	X. Nam Hòa	24215
+TỈNH THÁI NGUYÊN	26	X. Văn Hán	24220
+TỈNH THÁI NGUYÊN	27	X. Văn Lăng	24211
+TỈNH THÁI NGUYÊN	28	X. Đại Từ	24636
+TỈNH THÁI NGUYÊN	29	X. Đức Lương	24609
+TỈNH THÁI NGUYÊN	30	X. Phú Thịnh	24616
+TỈNH THÁI NGUYÊN	31	X. La Bằng	24618
+TỈNH THÁI NGUYÊN	32	X. Phú Lạc	24608
+TỈNH THÁI NGUYÊN	33	X. An Khánh	24635
+TỈNH THÁI NGUYÊN	34	X. Quân Chu	24627
+TỈNH THÁI NGUYÊN	35	X. Vạn Phú	24624
+TỈNH THÁI NGUYÊN	36	X. Phú Xuyên	24615
+TỈNH THÁI NGUYÊN	37	X. Phú Bình	24926
+TỈNH THÁI NGUYÊN	38	X. Tân Thành	24908
+TỈNH THÁI NGUYÊN	39	X. Điềm Thụy	24916
+TỈNH THÁI NGUYÊN	40	X. Kha Sơn	24921
+TỈNH THÁI NGUYÊN	41	X. Tân Khánh	24910
+TỈNH THÁI NGUYÊN	42	P. Sông Công	24817
+TỈNH THÁI NGUYÊN	43	P. Bá Xuyên	24807
+TỈNH THÁI NGUYÊN	44	P. Bách Quang	24806
+TỈNH THÁI NGUYÊN	45	P. Phổ Yên	24724
+TỈNH THÁI NGUYÊN	46	P. Vạn Xuân	24725
+TỈNH THÁI NGUYÊN	47	P. Trung Thành	24717
+TỈNH THÁI NGUYÊN	48	P. Phúc Thuận	24715
+TỈNH THÁI NGUYÊN	49	P. Phan Đình Phùng	24124
+TỈNH THÁI NGUYÊN	50	P. Linh Sơn	24107
+TỈNH THÁI NGUYÊN	51	P. Tích Lương	24131
+TỈNH THÁI NGUYÊN	52	P. Gia Sàng	24127
+TỈNH THÁI NGUYÊN	53	P. Quyết Thắng	24119
+TỈNH THÁI NGUYÊN	54	P. Quan Triều	24114
+TỈNH THÁI NGUYÊN	55	X. Sảng Mộc	24309
+TỈNH THÁI NGUYÊN	56	X. Bằng Thành	23407
+TỈNH THÁI NGUYÊN	57	X. Nghiên Loan	23413
+TỈNH THÁI NGUYÊN	58	X. Cao Minh	23416
+TỈNH THÁI NGUYÊN	59	X. Ba Bể	23522
+TỈNH THÁI NGUYÊN	60	X. Chợ Rã	23506
+TỈNH THÁI NGUYÊN	61	X. Phúc Lộc	23508
+TỈNH THÁI NGUYÊN	62	X. Thượng Minh	23523
+TỈNH THÁI NGUYÊN	63	X. Đồng Phúc	23521
+TỈNH THÁI NGUYÊN	64	X. Bằng Vân	23308
+TỈNH THÁI NGUYÊN	65	X. Ngân Sơn	23317
+TỈNH THÁI NGUYÊN	66	X. Nà Phặc	23312
+TỈNH THÁI NGUYÊN	67	X. Hiệp Lực	23313
+TỈNH THÁI NGUYÊN	68	X. Nam Cường	23612
+TỈNH THÁI NGUYÊN	69	X. Quảng Bạch	23615
+TỈNH THÁI NGUYÊN	70	X. Yên Thịnh	23618
+TỈNH THÁI NGUYÊN	71	X. Chợ Đồn	23628
+TỈNH THÁI NGUYÊN	72	X. Yên Phong	23622
+TỈNH THÁI NGUYÊN	73	X. Nghĩa Tá	23620
+TỈNH THÁI NGUYÊN	74	X. Phủ Thông	23206
+TỈNH THÁI NGUYÊN	75	X. Cẩm Giàng	23217
+TỈNH THÁI NGUYÊN	76	X. Vĩnh Thông	23223
+TỈNH THÁI NGUYÊN	77	X. Bạch Thông	23224
+TỈNH THÁI NGUYÊN	78	X. Phong Quang	23225
+TỈNH THÁI NGUYÊN	79	X. Văn Lang	23811
+TỈNH THÁI NGUYÊN	80	X. Cường Lợi	23808
+TỈNH THÁI NGUYÊN	81	X. Na Rì	23828
+TỈNH THÁI NGUYÊN	82	X. Trần Phú	23821
+TỈNH THÁI NGUYÊN	83	X. Côn Minh	23815
+TỈNH THÁI NGUYÊN	84	X. Xuân Dương	23819
+TỈNH THÁI NGUYÊN	85	X. Tân Kỳ	23722
+TỈNH THÁI NGUYÊN	86	X. Thanh Mai	23714
+TỈNH THÁI NGUYÊN	87	X. Thanh Thịnh	23716
+TỈNH THÁI NGUYÊN	88	X. Chợ Mới	23723
+TỈNH THÁI NGUYÊN	89	X. Yên Bình	23724
+TỈNH THÁI NGUYÊN	90	P. Đức Xuân	23107
+TỈNH THÁI NGUYÊN	91	P. Bắc Kạn	23114
+TỈNH THÁI NGUYÊN	92	X. Thượng Quan	23316
+TỈNH THANH HÓA	1	X. Các Sơn	42722
+TỈNH THANH HÓA	2	X. Trường Lâm	42736
+TỈNH THANH HÓA	3	X. Hà Trung	40606
+TỈNH THANH HÓA	4	X. Tống Sơn	40631
+TỈNH THANH HÓA	5	X. Hà Long	40623
+TỈNH THANH HÓA	6	X. Hoạt Giang	40610
+TỈNH THANH HÓA	7	X. Lĩnh Toại	40618
+TỈNH THANH HÓA	8	X. Triệu Lộc	40426
+TỈNH THANH HÓA	9	X. Đông Thành	40433
+TỈNH THANH HÓA	10	X. Hậu Lộc	40406
+TỈNH THANH HÓA	11	X. Hoa Lộc	40413
+TỈNH THANH HÓA	12	X. Vạn Lộc	40434
+TỈNH THANH HÓA	13	X. Nga Sơn	40506
+TỈNH THANH HÓA	14	X. Nga Thắng	40522
+TỈNH THANH HÓA	15	X. Hồ Vương	40533
+TỈNH THANH HÓA	16	X. Tân Tiến	40534
+TỈNH THANH HÓA	17	X. Nga An	40511
+TỈNH THANH HÓA	18	X. Ba Đình	40519
+TỈNH THANH HÓA	19	X. Hoằng Hóa	40349
+TỈNH THANH HÓA	20	X. Hoằng Tiến	40312
+TỈNH THANH HÓA	21	X. Hoằng Thanh	40311
+TỈNH THANH HÓA	22	X. Hoằng Lộc	40340
+TỈNH THANH HÓA	23	X. Hoằng Châu	40348
+TỈNH THANH HÓA	24	X. Hoằng Sơn	40323
+TỈNH THANH HÓA	25	X. Hoằng Phú	40331
+TỈNH THANH HÓA	26	X. Hoằng Giang	40332
+TỈNH THANH HÓA	27	X. Lưu Vệ	42636
+TỈNH THANH HÓA	28	X. Quảng Yên	42614
+TỈNH THANH HÓA	29	X. Quảng Ngọc	42623
+TỈNH THANH HÓA	30	X. Quảng Ninh	42617
+TỈNH THANH HÓA	31	X. Quảng Bình	42621
+TỈNH THANH HÓA	32	X. Tiên Trang	42627
+TỈNH THANH HÓA	33	X. Quảng Chính	42633
+TỈNH THANH HÓA	34	X. Nông Cống	42306
+TỈNH THANH HÓA	35	X. Thắng Lợi	42338
+TỈNH THANH HÓA	36	X. Trung Chính	42324
+TỈNH THANH HÓA	37	X. Trường Văn	42339
+TỈNH THANH HÓA	38	X. Thăng Bình	42328
+TỈNH THANH HÓA	39	X. Tượng Lĩnh	42332
+TỈNH THANH HÓA	40	X. Công Chính	42335
+TỈNH THANH HÓA	41	X. Thiệu Hóa	40934
+TỈNH THANH HÓA	42	X. Thiệu Quang	40911
+TỈNH THANH HÓA	43	X. Thiệu Tiến	40921
+TỈNH THANH HÓA	44	X. Thiệu Toán	40922
+TỈNH THANH HÓA	45	X. Thiệu Trung	40931
+TỈNH THANH HÓA	46	X. Yên Định	41035
+TỈNH THANH HÓA	47	X. Yên Trường	41025
+TỈNH THANH HÓA	48	X. Yên Phú	41027
+TỈNH THANH HÓA	49	X. Quý Lộc	41032
+TỈNH THANH HÓA	50	X. Yên Ninh	41020
+TỈNH THANH HÓA	51	X. Định Tân	41009
+TỈNH THANH HÓA	52	X. Định Hòa	41015
+TỈNH THANH HÓA	53	X. Thọ Xuân	41606
+TỈNH THANH HÓA	54	X. Thọ Long	41647
+TỈNH THANH HÓA	55	X. Xuân Hòa	41613
+TỈNH THANH HÓA	56	X. Sao Vàng	41629
+TỈNH THANH HÓA	57	X. Lam Sơn	41628
+TỈNH THANH HÓA	58	X. Thọ Lập	41621
+TỈNH THANH HÓA	59	X. Xuân Tín	41620
+TỈNH THANH HÓA	60	X. Xuân Lập	41616
+TỈNH THANH HÓA	61	X. Vĩnh Lộc	41106
+TỈNH THANH HÓA	62	X. Tây Đô	41122
+TỈNH THANH HÓA	63	X. Biện Thượng	41123
+TỈNH THANH HÓA	64	X. Triệu Sơn	41506
+TỈNH THANH HÓA	65	X. Thọ Bình	41524
+TỈNH THANH HÓA	66	X. Thọ Ngọc	41519
+TỈNH THANH HÓA	67	X. Thọ Phú	41513
+TỈNH THANH HÓA	68	X. Hợp Tiến	41526
+TỈNH THANH HÓA	69	X. An Nông	41532
+TỈNH THANH HÓA	70	X. Tân Ninh	41542
+TỈNH THANH HÓA	71	X. Đồng Tiến	41540
+TỈNH THANH HÓA	72	X. Hồi Xuân	41906
+TỈNH THANH HÓA	73	X. Nam Xuân	41910
+TỈNH THANH HÓA	74	X. Thiên Phủ	41912
+TỈNH THANH HÓA	75	X. Hiền Kiệt	41913
+TỈNH THANH HÓA	76	X. Phú Lệ	41918
+TỈNH THANH HÓA	77	X. Trung Thành	41921
+TỈNH THANH HÓA	78	X. Tam Lư	42012
+TỈNH THANH HÓA	79	X. Quan Sơn	42019
+TỈNH THANH HÓA	80	X. Trung Hạ	42009
+TỈNH THANH HÓA	81	X. Linh Sơn	41817
+TỈNH THANH HÓA	82	X. Đồng Lương	41807
+TỈNH THANH HÓA	83	X. Văn Phú	41818
+TỈNH THANH HÓA	84	X. Giao An	41815
+TỈNH THANH HÓA	85	X. Bá Thước	41429
+TỈNH THANH HÓA	86	X. Thiết Ống	41425
+TỈNH THANH HÓA	87	X. Văn Nho	41428
+TỈNH THANH HÓA	88	X. Điền Quang	41424
+TỈNH THANH HÓA	89	X. Điền Lư	41419
+TỈNH THANH HÓA	90	X. Quý Lương	41430
+TỈNH THANH HÓA	91	X. Cổ Lũng	41412
+TỈNH THANH HÓA	92	X. Pù Luông	41431
+TỈNH THANH HÓA	93	X. Ngọc Lặc	41706
+TỈNH THANH HÓA	94	X. Thạch Lập	41716
+TỈNH THANH HÓA	95	X. Ngọc Liên	41712
+TỈNH THANH HÓA	96	X. Minh Sơn	41720
+TỈNH THANH HÓA	97	X. Nguyệt Ấn	41723
+TỈNH THANH HÓA	98	X. Kiên Thọ	41727
+TỈNH THANH HÓA	99	X. Cẩm Thạch	41314
+TỈNH THANH HÓA	100	X. Cẩm Thủy	41326
+TỈNH THANH HÓA	101	X. Cẩm Tú	41309
+TỈNH THANH HÓA	102	X. Cẩm Vân	41325
+TỈNH THANH HÓA	103	X. Cẩm Tân	41323
+TỈNH THANH HÓA	104	X. Kim Tân	41206
+TỈNH THANH HÓA	105	X. Vân Du	41207
+TỈNH THANH HÓA	106	X. Ngọc Trạo	41233
+TỈNH THANH HÓA	107	X. Thạch Bình	41221
+TỈNH THANH HÓA	108	X. Thành Vinh	41213
+TỈNH THANH HÓA	109	X. Thạch Quảng	41218
+TỈNH THANH HÓA	110	X. Như Xuân	42524
+TỈNH THANH HÓA	111	X. Thượng Ninh	42509
+TỈNH THANH HÓA	112	X. Xuân Bình	42522
+TỈNH THANH HÓA	113	X. Hóa Quỳ	42511
+TỈNH THANH HÓA	114	X. Thanh Phong	42516
+TỈNH THANH HÓA	115	X. Thanh Quân	42515
+TỈNH THANH HÓA	116	X. Xuân Du	42410
+TỈNH THANH HÓA	117	X. Mậu Lâm	42408
+TỈNH THANH HÓA	118	X. Như Thanh	42423
+TỈNH THANH HÓA	119	X. Yên Thọ	42418
+TỈNH THANH HÓA	120	X. Thanh Kỳ	42422
+TỈNH THANH HÓA	121	X. Thường Xuân	42206
+TỈNH THANH HÓA	122	X. Luận Thành	42220
+TỈNH THANH HÓA	123	X. Tân Thành	42221
+TỈNH THANH HÓA	124	X. Thắng Lộc	42223
+TỈNH THANH HÓA	125	X. Xuân Chinh	42217
+TỈNH THANH HÓA	126	X. Mường Lát	42106
+TỈNH THANH HÓA	127	P. Hạc Thành	40143
+TỈNH THANH HÓA	128	P. Quảng Phú	40140
+TỈNH THANH HÓA	129	P. Đông Quang	40819
+TỈNH THANH HÓA	130	P. Đông Sơn	40144
+TỈNH THANH HÓA	131	P. Đông Tiến	40807
+TỈNH THANH HÓA	132	P. Hàm Rồng	40106
+TỈNH THANH HÓA	133	P. Nguyệt Viên	40145
+TỈNH THANH HÓA	134	P. Sầm Sơn	40217
+TỈNH THANH HÓA	135	P. Nam Sầm Sơn	40218
+TỈNH THANH HÓA	136	P. Bỉm Sơn	40714
+TỈNH THANH HÓA	137	P. Quang Trung	40710
+TỈNH THANH HÓA	138	P. Ngọc Sơn	42740
+TỈNH THANH HÓA	139	P. Tân Dân	42712
+TỈNH THANH HÓA	140	P. Hải Lĩnh	42711
+TỈNH THANH HÓA	141	P. Tĩnh Gia	42741
+TỈNH THANH HÓA	142	P. Đào Duy Từ	42742
+TỈNH THANH HÓA	143	P. Hải Bình	42727
+TỈNH THANH HÓA	144	P. Trúc Lâm	42730
+TỈNH THANH HÓA	145	P. Nghi Sơn	42739
+TỈNH THANH HÓA	146	X. Phú Xuân	41917
+TỈNH THANH HÓA	147	X. Mường Chanh	42114
+TỈNH THANH HÓA	148	X. Quang Chiểu	42113
+TỈNH THANH HÓA	149	X. Tam Chung	42109
+TỈNH THANH HÓA	150	X. Pù Nhi	42112
+TỈNH THANH HÓA	151	X. Nhi Sơn	42111
+TỈNH THANH HÓA	152	X. Mường Lý	42108
+TỈNH THANH HÓA	153	X. Trung Lý	42107
+TỈNH THANH HÓA	154	X. Trung Sơn	41923
+TỈNH THANH HÓA	155	X. Na Mèo	42017
+TỈNH THANH HÓA	156	X. Sơn Thủy	42018
+TỈNH THANH HÓA	157	X. Sơn Điện	42015
+TỈNH THANH HÓA	158	X. Mường Mìn	42016
+TỈNH THANH HÓA	159	X. Tam Thanh	42014
+TỈNH THANH HÓA	160	X. Yên Khương	41812
+TỈNH THANH HÓA	161	X. Yên Thắng	41813
+TỈNH THANH HÓA	162	X. Xuân Thái	42416
+TỈNH THANH HÓA	163	X. Bát Mọt	42212
+TỈNH THANH HÓA	164	X. Yên Nhân	42211
+TỈNH THANH HÓA	165	X. Lương Sơn	42210
+TỈNH THANH HÓA	166	X. Vạn Xuân	42213
+TỈNH VĨNH LONG	1	X. Cái Nhum	85806
+TỈNH VĨNH LONG	2	X. Tân Long Hội	85818
+TỈNH VĨNH LONG	3	X. Nhơn Phú	85813
+TỈNH VĨNH LONG	4	X. Bình Phước	85815
+TỈNH VĨNH LONG	5	X. An Bình	85211
+TỈNH VĨNH LONG	6	X. Long Hồ	85206
+TỈNH VĨNH LONG	7	X. Phú Quới	85216
+TỈNH VĨNH LONG	8	X. Quới Thiện	85722
+TỈNH VĨNH LONG	9	X. Trung Thành	85714
+TỈNH VĨNH LONG	10	X. Trung Ngãi	85719
+TỈNH VĨNH LONG	11	X. Quới An	85708
+TỈNH VĨNH LONG	12	X. Trung Hiệp	85712
+TỈNH VĨNH LONG	13	X. Hiếu Phụng	85716
+TỈNH VĨNH LONG	14	X. Hiếu Thành	85724
+TỈNH VĨNH LONG	15	X. Lục Sĩ Thành	85618
+TỈNH VĨNH LONG	16	X. Trà Ôn	85606
+TỈNH VĨNH LONG	17	X. Trà Côn	85611
+TỈNH VĨNH LONG	18	X. Vĩnh Xuân	85609
+TỈNH VĨNH LONG	19	X. Hòa Bình	85615
+TỈNH VĨNH LONG	20	X. Hòa Hiệp	85308
+TỈNH VĨNH LONG	21	X. Tam Bình	85306
+TỈNH VĨNH LONG	22	X. Ngãi Tứ	85321
+TỈNH VĨNH LONG	23	X. Song Phú	85314
+TỈNH VĨNH LONG	24	X. Cái Ngang	85323
+TỈNH VĨNH LONG	25	X. Tân Quới	85406
+TỈNH VĨNH LONG	26	X. Tân Lược	85414
+TỈNH VĨNH LONG	27	X. Mỹ Thuận	85408
+TỈNH VĨNH LONG	28	P. Thanh Đức	85117
+TỈNH VĨNH LONG	29	P. Long Châu	85118
+TỈNH VĨNH LONG	30	P. Phước Hậu	85119
+TỈNH VĨNH LONG	31	P. Tân Hạnh	85120
+TỈNH VĨNH LONG	32	P. Tân Ngãi	85114
+TỈNH VĨNH LONG	33	P. Bình Minh	85514
+TỈNH VĨNH LONG	34	P. Cái Vồn	85506
+TỈNH VĨNH LONG	35	P. Đông Thành	85513
+TỈNH VĨNH LONG	36	X. Long Hữu	87609
+TỈNH VĨNH LONG	37	X. Càng Long	87206
+TỈNH VĨNH LONG	38	X. An Trường	87213
+TỈNH VĨNH LONG	39	X. Tân An	87215
+TỈNH VĨNH LONG	40	X. Nhị Long	87207
+TỈNH VĨNH LONG	41	X. Bình Phú	87219
+TỈNH VĨNH LONG	42	X. Châu Thành	87906
+TỈNH VĨNH LONG	43	X. Song Lộc	87915
+TỈNH VĨNH LONG	44	X. Hưng Mỹ	87908
+TỈNH VĨNH LONG	45	X. Cầu Kè	87306
+TỈNH VĨNH LONG	46	X. Phong Thạnh	87314
+TỈNH VĨNH LONG	47	X. An Phú Tân	87311
+TỈNH VĨNH LONG	48	X. Tam Ngãi	87310
+TỈNH VĨNH LONG	49	X. Tiểu Cần	87406
+TỈNH VĨNH LONG	50	X. Tân Hòa	87413
+TỈNH VĨNH LONG	51	X. Hùng Hòa	87414
+TỈNH VĨNH LONG	52	X. Tập Ngãi	87407
+TỈNH VĨNH LONG	53	X. Cầu Ngang	87806
+TỈNH VĨNH LONG	54	X. Mỹ Long	87807
+TỈNH VĨNH LONG	55	X. Vinh Kim	87809
+TỈNH VĨNH LONG	56	X. Nhị Trường	87815
+TỈNH VĨNH LONG	57	X. Hiệp Mỹ	87821
+TỈNH VĨNH LONG	58	X. Trà Cú	87506
+TỈNH VĨNH LONG	59	X. Đại An	87520
+TỈNH VĨNH LONG	60	X. Lưu Nghiệp Anh	87514
+TỈNH VĨNH LONG	61	X. Hàm Giang	87521
+TỈNH VĨNH LONG	62	X. Long Hiệp	87508
+TỈNH VĨNH LONG	63	X. Tập Sơn	87511
+TỈNH VĨNH LONG	64	X. Long Thành	87706
+TỈNH VĨNH LONG	65	X. Đôn Châu	87708
+TỈNH VĨNH LONG	66	X. Ngũ Lạc	87710
+TỈNH VĨNH LONG	67	P. Trà Vinh	87116
+TỈNH VĨNH LONG	68	P. Long Đức	87115
+TỈNH VĨNH LONG	69	P. Nguyệt Hóa	87117
+TỈNH VĨNH LONG	70	P. Hòa Thuận	87118
+TỈNH VĨNH LONG	71	P. Duyên Hải	87613
+TỈNH VĨNH LONG	72	P. Trường Long Hòa	87612
+TỈNH VĨNH LONG	73	X. Long Hòa	87919
+TỈNH VĨNH LONG	74	X. Đông Hải	87712
+TỈNH VĨNH LONG	75	X. Long Vĩnh	87711
+TỈNH VĨNH LONG	76	X. Hòa Minh	87918
+TỈNH VĨNH LONG	77	X. Phú Túc	86222
+TỈNH VĨNH LONG	78	X. Giao Long	86213
+TỈNH VĨNH LONG	79	X. Tiên Thủy	86225
+TỈNH VĨNH LONG	80	X. Tân Phú	86227
+TỈNH VĨNH LONG	81	X. Phú Phụng	86314
+TỈNH VĨNH LONG	82	X. Chợ Lách	86306
+TỈNH VĨNH LONG	83	X. Vĩnh Thành	86311
+TỈNH VĨNH LONG	84	X. Hưng Khánh Trung	86317
+TỈNH VĨNH LONG	85	X. Phước Mỹ Trung	86406
+TỈNH VĨNH LONG	86	X. Tân Thành Bình	86409
+TỈNH VĨNH LONG	87	X. Nhuận Phú Tân	86415
+TỈNH VĨNH LONG	88	X. Đồng Khởi	86523
+TỈNH VĨNH LONG	89	X. Mỏ Cày	86506
+TỈNH VĨNH LONG	90	X. Thành Thới	86524
+TỈNH VĨNH LONG	91	X. An Định	86514
+TỈNH VĨNH LONG	92	X. Hương Mỹ	86522
+TỈNH VĨNH LONG	93	X. Đại Điền	86912
+TỈNH VĨNH LONG	94	X. Quới Điền	86910
+TỈNH VĨNH LONG	95	X. Thạnh Phú	86906
+TỈNH VĨNH LONG	96	X. An Qui	86923
+TỈNH VĨNH LONG	97	X. Thạnh Hải	86921
+TỈNH VĨNH LONG	98	X. Thạnh Phong	86920
+TỈNH VĨNH LONG	99	X. Tân Thủy	86828
+TỈNH VĨNH LONG	100	X. Bảo Thạnh	86809
+TỈNH VĨNH LONG	101	X. Ba Tri	86806
+TỈNH VĨNH LONG	102	X. Tân Xuân	86811
+TỈNH VĨNH LONG	103	X. Mỹ Chánh Hòa	86830
+TỈNH VĨNH LONG	104	X. An Ngãi Trung	86819
+TỈNH VĨNH LONG	105	X. An Hiệp	86823
+TỈNH VĨNH LONG	106	X. Hưng Nhượng	86626
+TỈNH VĨNH LONG	107	X. Giồng Trôm	86606
+TỈNH VĨNH LONG	108	X. Tân Hào	86623
+TỈNH VĨNH LONG	109	X. Phước Long	86619
+TỈNH VĨNH LONG	110	X. Lương Phú	86615
+TỈNH VĨNH LONG	111	X. Châu Hòa	86609
+TỈNH VĨNH LONG	112	X. Lương Hòa	86613
+TỈNH VĨNH LONG	113	X. Thới Thuận	86725
+TỈNH VĨNH LONG	114	X. Thạnh Phước	86723
+TỈNH VĨNH LONG	115	X. Bình Đại	86706
+TỈNH VĨNH LONG	116	X. Thạnh Trị	86710
+TỈNH VĨNH LONG	117	X. Lộc Thuận	86713
+TỈNH VĨNH LONG	118	X. Châu Hưng	86719
+TỈNH VĨNH LONG	119	X. Phú Thuận	86718
+TỈNH VĨNH LONG	120	P. An Hội	86106
+TỈNH VĨNH LONG	121	P. Phú Khương	86111
+TỈNH VĨNH LONG	122	P. Bến Tre	86123
+TỈNH VĨNH LONG	123	P. Sơn Đông	86113
+TỈNH VĨNH LONG	124	P. Phú Tân	86112

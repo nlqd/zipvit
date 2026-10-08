@@ -1,0 +1,10 @@
+{
+  "name": "zipvit",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test 'test/*.test.js'",
+    "build:data": "node tools/build-data.js",
+    "fetch:sources": "uv run --no-project tools/fetch_sources.py"
+  }
+}

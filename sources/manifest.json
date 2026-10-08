@@ -1,0 +1,69 @@
+[
+  {
+    "file": "qd2334-communes.tsv",
+    "title": "Danh mục mã bưu chính quốc gia cho phường, xã (phụ lục QĐ 2334/QĐ-BKHCN, 24/08/2025)",
+    "url": "https://mic.mediacdn.vn/document/2025/8/27/danh-muc-ma-buu-chinh-quoc-gia-cho-doi-tuong-la-phuong-xa-va-don-vi-hanh-chinh-tuong-duong-1756261572483234512520.pdf",
+    "page": "https://mst.gov.vn/van-ban-phap-luat/25175.htm",
+    "sha256": "22417f6b46759273ac869ac1926dc2acbc1cfb57573976b763a4d6e7f4ebf3aa",
+    "rows": 3321,
+    "method": "pdftotext -layout, one row per line ending in a postal code; values as printed",
+    "retrieved": "2026-10-08"
+  },
+  {
+    "file": "qd2334-provinces.tsv",
+    "title": "Mục lục phụ lục QĐ 2334/QĐ-BKHCN: hai chữ số đầu mã bưu chính của từng tỉnh",
+    "url": "https://mic.mediacdn.vn/document/2025/8/27/danh-muc-ma-buu-chinh-quoc-gia-cho-doi-tuong-la-phuong-xa-va-don-vi-hanh-chinh-tuong-duong-1756261572483234512520.pdf",
+    "page": "https://mst.gov.vn/van-ban-phap-luat/25175.htm",
+    "sha256": "22417f6b46759273ac869ac1926dc2acbc1cfb57573976b763a4d6e7f4ebf3aa",
+    "rows": 34,
+    "method": "pdftotext -layout, table of contents on page 1",
+    "retrieved": "2026-10-08"
+  },
+  {
+    "file": "nso-old-to-new.tsv",
+    "title": "Bảng chuyển đổi ĐVHC mới - cũ (Cục Thống kê)",
+    "url": "https://danhmuchanhchinh.nso.gov.vn/TAPTIN/BangChuyendoi%C4%90VHCmoi_cu_final.xlsx",
+    "last_modified": "Thu, 23 Oct 2025 01:28:19 GMT",
+    "sheet": "Tổng hợp_không merge ",
+    "sha256": "213966723785859dedd7c88965d6f12f8c3c508c91796e003804cf60a1054fc2",
+    "rows": 10571,
+    "retrieved": "2026-10-08"
+  },
+  {
+    "file": "nso-provinces.tsv",
+    "title": "Danh mục tỉnh (Cục Thống kê)",
+    "url": "https://danhmuchanhchinh.nso.gov.vn/DMDVHC.asmx",
+    "operation": "DanhMucTinh",
+    "as_of": "08/10/2026",
+    "sha256": "f3fb4b3d5d04c6d7f8776ce756bcafed9340913d6cad36471a75aa8827a1202b",
+    "rows": 34,
+    "retrieved": "2026-10-08"
+  },
+  {
+    "file": "nso-communes.tsv",
+    "title": "Danh mục phường, xã (Cục Thống kê)",
+    "url": "https://danhmuchanhchinh.nso.gov.vn/DMDVHC.asmx",
+    "operation": "DanhMucPhuongXa",
+    "as_of": "08/10/2026",
+    "sha256": "0ff480b1febabf7d3ea2e2dede4af923fc79427a1c967043d541ce0dc4925013",
+    "rows": 3321,
+    "retrieved": "2026-10-08"
+  },
+  {
+    "file": "mabuudien-2017.json",
+    "title": "Mã bưu chính QĐ 2475/QĐ-BTTTT (2017) theo phường, xã cũ, kèm tọa độ",
+    "url": "https://mabuudien.net/",
+    "retrieved": "2026-03-10",
+    "method": "scrape.sh"
+  },
+  {
+    "file": "qd2334-fixes.tsv",
+    "title": "Hand corrections for two misprinted rows of the QĐ 2334 annex",
+    "method": "written by hand; each row states what was printed and why it was changed"
+  },
+  {
+    "file": "regions.tsv",
+    "title": "Region of each new province, for map colours",
+    "method": "written by hand from the 8-region labels of the old zipcodes.js, taking the old province whose name the new one kept"
+  }
+]

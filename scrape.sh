@@ -1,16 +1,16 @@
 #!/usr/bin/env bash
 # Scrapes Vietnamese zip code data from mabuudien.net
-# Outputs: data/provinces.json (province → district → ward hierarchy with zip codes)
+# Outputs: sources/mabuudien-2017.json (province → district → ward hierarchy with zip codes)
 #
 # Usage: ./scrape.sh
 # Requires: rodney, jq
 #
-# Supports resuming — skips provinces already in data/provinces.json.
+# Supports resuming — skips provinces already in sources/mabuudien-2017.json.
 # Data source: mabuudien.net (Decision 2475/QD-BTTTT)
 
 set -euo pipefail
 
-DATA_DIR="$(dirname "$0")/data"
+DATA_DIR="$(dirname "$0")/sources"
 mkdir -p "$DATA_DIR"
 
 DELAY=1.5  # seconds between requests to be polite
@@ -34,8 +34,8 @@ PROVINCE_COUNT=$(echo "$PROVINCES" | jq 'length')
 log "Found $PROVINCE_COUNT unique provinces"
 
 # --- Step 3: Load existing progress ---
-if [ -f "$DATA_DIR/provinces.json" ]; then
-  RESULT=$(cat "$DATA_DIR/provinces.json")
+if [ -f "$DATA_DIR/mabuudien-2017.json" ]; then
+  RESULT=$(cat "$DATA_DIR/mabuudien-2017.json")
   DONE_SLUGS=$(echo "$RESULT" | jq -r '[.[].slug] | join(",")')
   DONE_COUNT=$(echo "$RESULT" | jq 'length')
   log "Resuming: $DONE_COUNT provinces already scraped"
@@ -112,14 +112,14 @@ for i in $(seq 0 $((PROVINCE_COUNT - 1))); do
   DONE_SLUGS="$DONE_SLUGS,$PSLUG"
 
   # Save incremental progress
-  echo "$RESULT" | jq '.' > "$DATA_DIR/provinces.json"
+  echo "$RESULT" | jq '.' > "$DATA_DIR/mabuudien-2017.json"
   log "  Saved progress ($DONE_COUNT/$PROVINCE_COUNT provinces done)"
 done
 
 # --- Step 5: Cleanup ---
 rodney stop 2>/dev/null
 
-log "Done! Data saved to $DATA_DIR/provinces.json"
+log "Done! Data saved to $DATA_DIR/mabuudien-2017.json"
 log "Provinces: $(echo "$RESULT" | jq 'length')"
 log "Total districts: $(echo "$RESULT" | jq '[.[].districts | length] | add')"
 log "Total wards: $(echo "$RESULT" | jq '[.[].districts[].wards | length] | add')"

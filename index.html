@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mã Bưu Điện Việt Nam - Vietnam Zip Code Map</title>
-  <meta name="description" content="Tra cứu mã bưu điện Việt Nam (zip code) theo tỉnh, quận huyện, phường xã trên bản đồ. Cập nhật 34 tỉnh thành 2025. Search all 11,000+ Vietnam postal codes by province, district, ward.">
+  <title>Mã Bưu Chính Việt Nam - Vietnam Zip Code Map</title>
+  <meta name="description" content="Tra cứu mã bưu chính (zip code) mới của 3.321 xã, phường trong 34 tỉnh, thành phố theo QĐ 2334/QĐ-BKHCN trên bản đồ. Search Vietnam's 2025 postal codes by province and commune.">
   <meta name="keywords" content="mã bưu điện, zip code vietnam, mã bưu chính, postal code, bưu điện việt nam, tra cứu mã bưu điện, vietnam zip code map, zipcode">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://zipcode.dzungngo.com/">
@@ -12,8 +12,8 @@
   <link rel="alternate" hreflang="x-default" href="https://zipcode.dzungngo.com/">
 
   <!-- Open Graph -->
-  <meta property="og:title" content="Mã Bưu Điện Việt Nam - Vietnam Zip Code Map">
-  <meta property="og:description" content="Tra cứu mã bưu điện Việt Nam theo tỉnh, quận huyện, phường xã trên bản đồ. 34 tỉnh thành, 709 quận huyện, 11,000+ phường xã.">
+  <meta property="og:title" content="Mã Bưu Chính Việt Nam - Vietnam Zip Code Map">
+  <meta property="og:description" content="Tra cứu mã bưu chính mới của 3.321 xã, phường trong 34 tỉnh, thành phố trên bản đồ.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://zipcode.dzungngo.com/">
   <meta property="og:locale" content="vi_VN">
@@ -21,8 +21,8 @@
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Mã Bưu Điện Việt Nam - Vietnam Zip Code Map">
-  <meta name="twitter:description" content="Tra cứu mã bưu điện Việt Nam theo tỉnh, quận huyện, phường xã trên bản đồ tương tác.">
+  <meta name="twitter:title" content="Mã Bưu Chính Việt Nam - Vietnam Zip Code Map">
+  <meta name="twitter:description" content="Tra cứu mã bưu chính mới theo tỉnh, thành phố và xã, phường trên bản đồ tương tác.">
 
   <!-- Structured Data -->
   <script type="application/ld+json">
@@ -32,7 +32,7 @@
     "name": "Vietnam Zip Code Map",
     "alternateName": "Mã Bưu Điện Việt Nam",
     "url": "https://zipcode.dzungngo.com/",
-    "description": "Interactive map of all Vietnam zip codes. Search by province, district, or ward.",
+    "description": "Interactive map of Vietnam's 2025 postal codes. Search by province or commune.",
     "applicationCategory": "UtilityApplication",
     "operatingSystem": "Any",
     "inLanguage": ["vi", "en"],
@@ -50,7 +50,7 @@
     "@type": "Dataset",
     "name": "Mã Bưu Điện Việt Nam 2025",
     "alternateName": "Vietnam Postal Codes 2025",
-    "description": "Bộ dữ liệu mã bưu điện đầy đủ của Việt Nam: 34 tỉnh thành (sau sáp nhập 2025), 709 quận huyện, 11.162 phường xã.",
+    "description": "Mã bưu chính của 3.321 xã, phường thuộc 34 tỉnh, thành phố (sau sắp xếp năm 2025) theo QĐ 2334/QĐ-BKHCN.",
     "url": "https://zipcode.dzungngo.com/",
     "isAccessibleForFree": true,
     "spatialCoverage": {
@@ -70,31 +70,29 @@
 <body>
   <aside id="sidebar">
     <header>
-      <h1>Mã Bưu Điện Việt Nam</h1>
-      <label for="search" class="sr-only">Tìm kiếm mã bưu điện</label>
-      <input type="search" id="search" placeholder="Tìm tỉnh, quận huyện, phường xã, hoặc mã zip..." autocomplete="off" />
+      <h1>Mã Bưu Chính Việt Nam</h1>
+      <label for="search" class="sr-only">Tìm kiếm mã bưu chính</label>
+      <input type="search" id="search" placeholder="Tìm tỉnh, xã, phường hoặc mã bưu chính" autocomplete="off" />
     </header>
-    <nav id="breadcrumb" aria-label="Breadcrumb"></nav>
-    <div id="region-filters" role="group" aria-label="Filter by region"></div>
-    <ul id="list" role="list"></ul>
+    <nav id="breadcrumb" aria-label="Breadcrumb" hidden></nav>
+    <div id="region-filters" role="group" aria-label="Lọc theo vùng"></div>
+    <ul id="list"></ul>
     <footer id="sidebar-footer">
-      <p>Dữ liệu mã bưu điện theo QĐ 2475/QĐ-BTTTT. Bản đồ cập nhật 34 tỉnh thành theo NQ 60-NQ/TW (01/07/2025).</p>
-      <p class="stale-warning">⚠ Dữ liệu có thể chưa cập nhật mới nhất. Vui lòng kiểm tra lại với bưu điện địa phương.</p>
+      <p>Mã bưu chính theo <a href="https://mst.gov.vn/van-ban-phap-luat/25175.htm">QĐ 2334/QĐ-BKHCN</a> (24/08/2025). Đơn vị hành chính từ 01/07/2025 theo NQ 202/2025/QH15 và danh mục, bảng chuyển đổi của Cục Thống kê.</p>
+      <p class="stale-warning">Vị trí trên bản đồ là tâm ước tính từ các xã, phường cũ, không phải ranh giới. Hãy kiểm tra lại với bưu điện địa phương.</p>
     </footer>
   </aside>
   <main id="map" role="application" aria-label="Vietnam zip code map"></main>
 
   <noscript>
     <div style="padding:2em;max-width:600px;margin:auto">
-      <h1>Mã Bưu Điện Việt Nam - Vietnam Zip Code Map</h1>
-      <p>Tra cứu mã bưu điện (zip code / postal code) Việt Nam theo 34 tỉnh thành, 709 quận huyện, hơn 11,000 phường xã. Cập nhật theo Nghị quyết 60-NQ/TW 2025.</p>
+      <h1>Mã Bưu Chính Việt Nam - Vietnam Zip Code Map</h1>
+      <p>Tra cứu mã bưu chính (zip code / postal code) mới của 3.321 xã, phường trong 34 tỉnh, thành phố theo Quyết định 2334/QĐ-BKHCN.</p>
       <p>This application requires JavaScript to display the interactive map. Please enable JavaScript in your browser.</p>
     </div>
   </noscript>
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin="anonymous"></script>
-  <script src="zipcodes.js"></script>
-  <script src="mergers.js"></script>
-  <script src="app.js"></script>
+  <script type="module" src="app.js"></script>
 </body>
 </html>

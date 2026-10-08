@@ -1,0 +1,3 @@
+province	stt	printed_name	printed_zip	name	zip	note
+TP. HẢI PHÒNG	34	#VALUE!	05127	X. Nghi Dương	05127	Phụ lục QĐ 2334 in lỗi "#VALUE!" thay cho tên xã. Xã Nghi Dương là xã duy nhất của Hải Phòng chưa có dòng nào, nên mã 05127 được gán cho xã này.
+TỈNH PHÚ THỌ	83	X. Tam Dương Bắc	152213	X. Tam Dương Bắc	15221	Phụ lục QĐ 2334 in mã 152213 (6 chữ số). 15221 là mã suy ra, nối tiếp 15219 và 15220 của các xã cùng huyện Tam Dương cũ; nên hỏi lại bưu điện.

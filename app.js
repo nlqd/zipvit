@@ -1,4 +1,7 @@
-var REGION_COLORS = {
+import { buildModel, prefixRange } from "./lib/model.js";
+import { fold } from "./lib/text.js";
+
+const REGION_COLORS = {
   "Red River Delta": "#e53935",
   "Northeast": "#8e24aa",
   "Northwest": "#3949ab",
@@ -8,480 +11,207 @@ var REGION_COLORS = {
   "Southeast": "#fb8c00",
   "Mekong Delta": "#43a047",
 };
+const HOME_VIEW = { center: [16.0, 106.0], zoom: 6 };
+const BASE_TITLE = "Mã Bưu Chính Việt Nam";
 
-var map = L.map("map").setView([16.0, 106.0], 6);
-
+const $ = (id) => document.getElementById(id);
+const map = L.map("map").setView(HOME_VIEW.center, HOME_VIEW.zoom);
 L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
   attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
   maxZoom: 18,
 }).addTo(map);
+const markers = L.layerGroup().addTo(map);
 
-// State
-var currentMarkers = [];
-var detailData = null;
-var currentLevel = "province";
-var currentProvince = null;
-var currentOldProvince = null;
-var currentDistrict = null;
-var activeRegion = null;
+let model = null;
+let activeRegion = null;
 
-// Index old provinces by slug for fast lookup
-var oldBySlug = {};
-VIETNAM_ZIPCODES.forEach(function (p) { oldBySlug[p.slug] = p; });
+const esc = (text) =>
+  String(text).replace(/[&<>"']/g, (ch) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[ch]);
 
-// Load detailed scrape data, re-render when ready
-fetch("data/provinces.json")
-  .then(function (r) { return r.ok ? r.json() : null; })
-  .then(function (data) {
-    if (data) {
-      detailData = {};
-      data.forEach(function (p) { detailData[p.slug] = p; });
-      if (currentLevel === "province") { showProvinces(); applyQParam(); }
-    }
-  })
-  .catch(function () { detailData = null; });
+const colorOf = (province) => REGION_COLORS[province.region] || "#666";
+const kindLabel = (province) => (province.city ? "Thành phố" : "Tỉnh");
 
-function clearMarkers() {
-  currentMarkers.forEach(function (m) { map.removeLayer(m); });
-  currentMarkers = [];
-}
-
-function addMarker(lat, lng, color, label, popupHtml, onClick) {
-  var marker = L.circleMarker([lat, lng], {
-    radius: 7,
-    fillColor: color,
-    color: "#fff",
-    weight: 2,
-    fillOpacity: 0.85,
-  }).addTo(map);
-
-  marker.bindPopup(popupHtml);
+function addMarker({ lat, lng, color, label, popup, onClick }) {
+  if (lat == null) return null;
+  const marker = L.circleMarker([lat, lng], { radius: 7, fillColor: color, color: "#fff", weight: 2, fillOpacity: 0.85 })
+    .bindPopup(popup)
+    .addTo(markers);
   if (onClick) marker.on("click", onClick);
-
-  var labelMarker = L.marker([lat, lng], {
-    icon: L.divIcon({
-      className: "zip-label",
-      html: label,
-      iconAnchor: [-10, 12],
-    }),
-  }).addTo(map);
-
-  currentMarkers.push(marker, labelMarker);
+  L.marker([lat, lng], {
+    icon: L.divIcon({ className: "zip-label", html: esc(label), iconAnchor: [-10, 12] }),
+    interactive: false,
+  }).addTo(markers);
   return marker;
 }
 
-// --- Breadcrumb ---
-
-function updateBreadcrumb() {
-  var bc = document.getElementById("breadcrumb");
-  if (currentLevel === "province") {
-    bc.className = "";
-    bc.innerHTML = "";
-    return;
-  }
-  bc.className = "visible";
-  var parts = ['<a onclick="showProvinces()">34 Provinces</a>'];
-
-  if (currentLevel === "old-province" && currentProvince) {
-    parts.push('<span class="sep">&rsaquo;</span><span>' + currentProvince.name + '</span>');
-  }
-  if (currentLevel === "district" && currentProvince && currentOldProvince) {
-    parts.push('<span class="sep">&rsaquo;</span><a onclick="showOldProvinces(\'' + currentProvince.slug + '\')">' + currentProvince.name + '</a>');
-    parts.push('<span class="sep">&rsaquo;</span><span>' + oldBySlug[currentOldProvince].name + '</span>');
-  }
-  if (currentLevel === "ward" && currentProvince && currentOldProvince && currentDistrict) {
-    parts.push('<span class="sep">&rsaquo;</span><a onclick="showOldProvinces(\'' + currentProvince.slug + '\')">' + currentProvince.name + '</a>');
-    parts.push('<span class="sep">&rsaquo;</span><a onclick="showDistricts(\'' + currentProvince.slug + '\', \'' + currentOldProvince + '\')">' + oldBySlug[currentOldProvince].name + '</a>');
-    parts.push('<span class="sep">&rsaquo;</span><span>' + currentDistrict.name + '</span>');
-  }
-  bc.innerHTML = parts.join("");
+function row({ title, sub, zip, drill, onClick, data = {} }) {
+  const li = document.createElement("li");
+  Object.assign(li.dataset, data);
+  const button = document.createElement("button");
+  button.type = "button";
+  button.className = "row";
+  button.innerHTML =
+    `<span class="row-text"><span class="item-name">${esc(title)}</span>` +
+    (sub ? `<span class="item-sub">${esc(sub)}</span>` : "") +
+    `</span>` +
+    (zip ? `<span class="item-zip">${esc(zip)}</span>` : "") +
+    (drill ? `<span class="drill-arrow" aria-hidden="true">&rsaquo;</span>` : "");
+  button.addEventListener("click", onClick);
+  li.append(button);
+  return li;
 }
 
-// --- Province level (34 new provinces) ---
-
-function showProvinces() {
-  currentLevel = "province";
-  currentProvince = null;
-  currentOldProvince = null;
-  currentDistrict = null;
-  activeRegion = null;
-
-  clearMarkers();
-  updateBreadcrumb();
-  document.getElementById("search").value = "";
-  document.getElementById("region-filters").style.display = "";
-  buildRegionFilters();
-  map.setView([16.0, 106.0], 6);
-
-  var list = document.getElementById("list");
-  list.innerHTML = "";
-
-  PROVINCE_MERGERS.forEach(function (merger) {
-    var oldProvs = merger.old.map(function (s) { return oldBySlug[s]; }).filter(Boolean);
-    if (oldProvs.length === 0) return;
-
-    // Use the first old province's coordinates and region as primary
-    var primary = oldBySlug[merger.slug] || oldProvs[0];
-    var color = REGION_COLORS[primary.region] || "#666";
-
-    // Average coordinates for merged provinces
-    var lat = oldProvs.reduce(function (s, p) { return s + p.lat; }, 0) / oldProvs.length;
-    var lng = oldProvs.reduce(function (s, p) { return s + p.lng; }, 0) / oldProvs.length;
-
-    var isMerged = merger.old.length > 1;
-    var mergedNames = isMerged ? oldProvs.map(function (p) { return p.name; }).join(" + ") : "";
-    var zipCodes = oldProvs.map(function (p) { return p.zipCode; });
-    var displayZip = zipCodes[0] + (zipCodes.length > 1 ? "..." : "");
-
-    // Place markers for each constituent province
-    oldProvs.forEach(function (p) {
-      addMarker(p.lat, p.lng, color, p.zipCode,
-        "<strong>" + merger.name + "</strong>" +
-        (isMerged ? '<br/><span style="font-size:0.85em;color:#666">Includes: ' + mergedNames + "</span>" : "") +
-        '<br/><span style="font-family:monospace;font-size:1.1em;color:' + color + ';font-weight:700">' + p.zipCode + "</span>" +
-        ' <span style="color:#888;font-size:0.85em">(' + p.name + ")</span>" +
-        '<br/><span style="font-size:0.85em;color:#666">' + primary.region + "</span>",
-        function () { showOldProvinces(merger.slug); }
-      );
-    });
-
-    var li = document.createElement("li");
-    li.dataset.name = merger.name.toLowerCase();
-    li.dataset.nameEn = oldProvs.map(function (p) { return p.nameEn.toLowerCase(); }).join(" ");
-    li.dataset.zip = zipCodes.join(" ");
-    li.dataset.region = primary.region;
-    li.innerHTML =
-      '<span class="drill-arrow">&#9654;</span>' +
-      '<span class="item-zip">' + displayZip + "</span>" +
-      '<div class="item-name">' + merger.name + "</div>" +
-      (isMerged ? '<div class="item-sub">' + mergedNames + "</div>" : '<div class="item-name-en">' + primary.nameEn + "</div>") +
-      '<div class="item-region">' + primary.region + "</div>";
-    li.addEventListener("click", function () { showOldProvinces(merger.slug); });
-    list.appendChild(li);
+function setBreadcrumb(parts) {
+  const nav = $("breadcrumb");
+  nav.hidden = parts.length === 0;
+  nav.replaceChildren();
+  parts.forEach((part, i) => {
+    if (i > 0) nav.insertAdjacentHTML("beforeend", '<span class="sep" aria-hidden="true">&rsaquo;</span>');
+    const el = document.createElement(part.onClick ? "button" : "span");
+    el.textContent = part.label;
+    if (part.onClick) {
+      el.type = "button";
+      el.addEventListener("click", part.onClick);
+    }
+    nav.append(el);
   });
+}
+
+function provinceSummary(p) {
+  const formerly = p.formerly.length > 1 ? `Gồm ${p.formerly.join(" + ")}` : kindLabel(p);
+  return `${formerly} · ${p.communes.length} xã, phường`;
+}
+
+function showHome() {
+  document.title = `${BASE_TITLE} - 34 tỉnh, thành phố`;
+  setBreadcrumb([]);
+  $("search").value = "";
+  $("region-filters").hidden = false;
+  markers.clearLayers();
+  map.setView(HOME_VIEW.center, HOME_VIEW.zoom);
+
+  const list = $("list");
+  list.replaceChildren();
+  for (const p of model.provinces) {
+    const prefixes = prefixRange(p.prefixes);
+    addMarker({
+      lat: p.lat,
+      lng: p.lng,
+      color: colorOf(p),
+      label: `${p.name} ${prefixes}`,
+      popup:
+        `<strong>${esc(p.full)}</strong><br>` +
+        `<span class="popup-zip">${esc(prefixes)}xxx</span><br>` +
+        `<span class="popup-sub">${esc(provinceSummary(p))}</span>`,
+      onClick: () => showProvince(p),
+    });
+    list.append(
+      row({
+        title: p.name,
+        sub: provinceSummary(p),
+        zip: prefixes,
+        drill: true,
+        onClick: () => showProvince(p),
+        data: { search: fold(`${p.full} ${p.formerly.join(" ")} ${p.prefixes.join(" ")}`), region: p.region },
+      }),
+    );
+  }
+  applyFilter();
+}
+
+function showProvince(province, selected = null) {
+  document.title = `${selected ? `${selected.name}, ` : ""}${province.name} - ${BASE_TITLE}`;
+  setBreadcrumb([{ label: "34 tỉnh, thành phố", onClick: showHome }, { label: province.full }]);
+  $("search").value = "";
+  $("region-filters").hidden = true;
+  markers.clearLayers();
+
+  const list = $("list");
+  list.replaceChildren();
+  const placed = province.communes.filter((c) => c.lat != null);
+  if (placed.length) map.fitBounds(L.latLngBounds(placed.map((c) => [c.lat, c.lng])).pad(0.1));
+  for (const c of province.communes) {
+    const marker = addMarker({
+      lat: c.lat,
+      lng: c.lng,
+      color: colorOf(province),
+      label: c.zip,
+      popup: communePopup(c),
+    });
+    const li = row({
+      title: c.name,
+      sub: c.lat == null ? "Chưa có vị trí trên bản đồ" : "",
+      zip: c.zip,
+      onClick: () => selectCommune(c, marker, li),
+      data: { search: fold(`${c.name} ${c.zip}`) },
+    });
+    list.append(li);
+    if (c === selected) selectCommune(c, marker, li);
+  }
+}
+
+function communePopup(c) {
+  return (
+    `<strong>${esc(c.name)}</strong><br>` +
+    `<span class="popup-zip">${esc(c.zip)}</span><br>` +
+    `<span class="popup-sub">${esc(c.province.full)}</span>` +
+    (c.note ? `<br><span class="popup-note">${esc(c.note)}</span>` : "")
+  );
+}
+
+function selectCommune(c, marker, li) {
+  document.querySelectorAll("#list li.active").forEach((el) => el.classList.remove("active"));
+  li.classList.add("active");
+  if (marker) {
+    map.setView([c.lat, c.lng], Math.max(map.getZoom(), 12));
+    marker.openPopup();
+  }
+}
+
+function applyFilter() {
+  const query = fold($("search").value);
+  for (const li of $("list").children) {
+    const matchesSearch = !query || li.dataset.search.includes(query);
+    const matchesRegion = !activeRegion || li.dataset.region === activeRegion;
+    li.hidden = !(matchesSearch && matchesRegion);
+  }
 }
 
 function buildRegionFilters() {
-  var container = document.getElementById("region-filters");
-  container.innerHTML = "";
-  Object.keys(REGION_COLORS).forEach(function (region) {
-    var tag = document.createElement("span");
+  const container = $("region-filters");
+  for (const [region, color] of Object.entries(REGION_COLORS)) {
+    const tag = document.createElement("button");
+    tag.type = "button";
     tag.className = "region-tag";
     tag.textContent = region;
-    tag.addEventListener("click", function () {
-      if (activeRegion === region) {
-        activeRegion = null;
-        tag.classList.remove("active");
-        tag.style.background = "";
-        tag.style.color = "";
-      } else {
-        document.querySelectorAll(".region-tag").forEach(function (t) {
-          t.classList.remove("active");
-          t.style.background = "";
-          t.style.color = "";
-        });
-        activeRegion = region;
-        tag.classList.add("active");
-        tag.style.background = REGION_COLORS[region];
-        tag.style.color = "#fff";
-      }
+    tag.style.setProperty("--region", color);
+    tag.addEventListener("click", () => {
+      activeRegion = activeRegion === region ? null : region;
+      container.querySelectorAll(".region-tag").forEach((t) => t.classList.toggle("active", t === tag && !!activeRegion));
       applyFilter();
     });
-    container.appendChild(tag);
-  });
+    container.append(tag);
+  }
 }
 
-// --- Old province level (constituent provinces of a merged province) ---
+$("search").addEventListener("input", applyFilter);
+buildRegionFilters();
 
-function showOldProvinces(mergerSlug) {
-  var merger = PROVINCE_MERGERS.find(function (m) { return m.slug === mergerSlug; });
-  if (!merger) return;
-
-  // If only one old province, skip directly to districts
-  if (merger.old.length === 1) {
-    showDistricts(mergerSlug, merger.old[0]);
-    return;
-  }
-
-  currentLevel = "old-province";
-  currentProvince = merger;
-  currentOldProvince = null;
-  currentDistrict = null;
-
-  clearMarkers();
-  updateBreadcrumb();
-  document.getElementById("search").value = "";
-  document.getElementById("region-filters").style.display = "none";
-
-  var oldProvs = merger.old.map(function (s) { return oldBySlug[s]; }).filter(Boolean);
-  var bounds = L.latLngBounds(oldProvs.map(function (p) { return [p.lat, p.lng]; }));
-  map.fitBounds(bounds.pad(0.3));
-
-  var list = document.getElementById("list");
-  list.innerHTML = "";
-
-  oldProvs.forEach(function (p) {
-    var color = REGION_COLORS[p.region] || "#666";
-    var detail = detailData && detailData[p.slug];
-    var districtCount = detail ? detail.districts.length : 0;
-
-    addMarker(p.lat, p.lng, color, p.zipCode,
-      "<strong>" + p.name + "</strong><br/>" +
-      '<span style="color:#888">' + p.nameEn + "</span><br/>" +
-      '<span style="font-family:monospace;font-size:1.1em;color:' + color + ';font-weight:700">' + p.zipCode + "</span>" +
-      (districtCount ? '<br/><span style="font-size:0.85em;color:#666">' + districtCount + " districts</span>" : ""),
-      function () { showDistricts(mergerSlug, p.slug); }
-    );
-
-    var li = document.createElement("li");
-    li.dataset.name = p.name.toLowerCase();
-    li.dataset.nameEn = p.nameEn.toLowerCase();
-    li.dataset.zip = p.zipCode;
-    li.innerHTML =
-      '<span class="drill-arrow">&#9654;</span>' +
-      '<span class="item-zip">' + p.zipCode + "</span>" +
-      '<div class="item-name">' + p.name + "</div>" +
-      '<div class="item-name-en">' + p.nameEn + "</div>" +
-      (districtCount ? '<div class="item-sub">' + districtCount + " districts</div>" : "");
-    li.addEventListener("click", function () { showDistricts(mergerSlug, p.slug); });
-    list.appendChild(li);
-  });
-}
-
-// --- District level ---
-
-function showDistricts(mergerSlug, oldSlug) {
-  var detail = detailData && detailData[oldSlug];
-  var provInfo = oldBySlug[oldSlug];
-  if (!provInfo) return;
-
-  var merger = PROVINCE_MERGERS.find(function (m) { return m.slug === mergerSlug; });
-
-  if (!detail || !detail.districts || detail.districts.length === 0) {
-    map.setView([provInfo.lat, provInfo.lng], 10);
-    return;
-  }
-
-  currentLevel = "district";
-  currentProvince = merger;
-  currentOldProvince = oldSlug;
-  currentDistrict = null;
-
-  clearMarkers();
-  updateBreadcrumb();
-  document.getElementById("search").value = "";
-  document.getElementById("region-filters").style.display = "none";
-
-  // If districts have coordinates, fit bounds; else center on province
-  var geocodedDistricts = detail.districts.filter(function (d) { return d.lat && d.lng; });
-  if (geocodedDistricts.length > 1) {
-    map.fitBounds(L.latLngBounds(geocodedDistricts.map(function (d) { return [d.lat, d.lng]; })).pad(0.2));
-  } else {
-    map.setView([provInfo.lat, provInfo.lng], 10);
-  }
-
-  var list = document.getElementById("list");
-  list.innerHTML = "";
-
-  detail.districts.forEach(function (d, idx) {
-    var angle = (idx / detail.districts.length) * 2 * Math.PI;
-    var dlat = d.lat || (provInfo.lat + 0.08 * Math.cos(angle));
-    var dlng = d.lng || (provInfo.lng + 0.08 * Math.sin(angle));
-
-    var hasWards = d.wards && d.wards.length > 0;
-
-    addMarker(dlat, dlng, "#1976d2", d.zip,
-      "<strong>" + d.name + "</strong><br/>" +
-      '<span style="font-family:monospace;font-size:1.1em;color:#1976d2;font-weight:700">' + d.zip + "</span><br/>" +
-      '<span style="font-size:0.85em;color:#666">' + provInfo.name + "</span>" +
-      (hasWards ? '<br/><span style="font-size:0.8em;color:#999">' + d.wards.length + " wards</span>" : ""),
-      hasWards ? (function (district) { return function () { showWards(mergerSlug, oldSlug, district); }; })(d) : null
-    );
-
-    var li = document.createElement("li");
-    li.dataset.name = d.name.toLowerCase();
-    li.dataset.zip = d.zip;
-    li.innerHTML =
-      (hasWards ? '<span class="drill-arrow">&#9654;</span>' : "") +
-      '<span class="item-zip">' + d.zip + "</span>" +
-      '<div class="item-name">' + d.name + "</div>" +
-      (hasWards ? '<div class="item-sub">' + d.wards.length + " wards</div>" : "");
-    li.addEventListener("click", function () {
-      if (hasWards) {
-        showWards(mergerSlug, oldSlug, d);
-      } else {
-        map.setView([dlat, dlng], 13);
-      }
-    });
-    list.appendChild(li);
-  });
-}
-
-// --- Ward level ---
-
-function showWards(mergerSlug, oldSlug, district) {
-  var detail = detailData && detailData[oldSlug];
-  var provInfo = oldBySlug[oldSlug];
-  if (!detail || !provInfo) return;
-
-  var merger = PROVINCE_MERGERS.find(function (m) { return m.slug === mergerSlug; });
-
-  currentLevel = "ward";
-  currentProvince = merger;
-  currentOldProvince = oldSlug;
-  currentDistrict = district;
-
-  clearMarkers();
-  updateBreadcrumb();
-  document.getElementById("search").value = "";
-  document.getElementById("region-filters").style.display = "none";
-
-  map.setView([provInfo.lat, provInfo.lng], 13);
-
-  var list = document.getElementById("list");
-  list.innerHTML = "";
-
-  // Use district center if geocoded, else province center
-  var centerLat = district.lat || provInfo.lat;
-  var centerLng = district.lng || provInfo.lng;
-  var geocodedWards = district.wards.filter(function (w) { return w.lat && w.lng; });
-  if (geocodedWards.length > 1) {
-    map.fitBounds(L.latLngBounds(geocodedWards.map(function (w) { return [w.lat, w.lng]; })).pad(0.2));
-  } else if (district.lat && district.lng) {
-    map.setView([district.lat, district.lng], 13);
-  }
-
-  district.wards.forEach(function (w, idx) {
-    var angle = (idx / district.wards.length) * 2 * Math.PI;
-    var wlat = w.lat || (centerLat + 0.02 * Math.cos(angle));
-    var wlng = w.lng || (centerLng + 0.02 * Math.sin(angle));
-
-    addMarker(wlat, wlng, "#43a047", w.zip,
-      "<strong>" + w.name + "</strong><br/>" +
-      '<span style="font-family:monospace;font-size:1.1em;color:#43a047;font-weight:700">' + w.zip + "</span><br/>" +
-      '<span style="font-size:0.85em;color:#666">' + district.name + ", " + provInfo.name + "</span>"
-    );
-
-    var li = document.createElement("li");
-    li.dataset.name = w.name.toLowerCase();
-    li.dataset.zip = w.zip;
-    li.innerHTML =
-      '<span class="item-zip">' + w.zip + "</span>" +
-      '<div class="item-name">' + w.name + "</div>";
-    li.addEventListener("click", function () {
-      map.setView([wlat, wlng], 15);
-    });
-    list.appendChild(li);
-  });
-}
-
-// --- Search/filter ---
-
-function applyFilter() {
-  var query = document.getElementById("search").value.toLowerCase().trim();
-  var items = document.querySelectorAll("#list li");
-  items.forEach(function (li) {
-    var matchesSearch = !query ||
-      (li.dataset.name && li.dataset.name.indexOf(query) >= 0) ||
-      (li.dataset.nameEn && li.dataset.nameEn.indexOf(query) >= 0) ||
-      (li.dataset.zip && li.dataset.zip.indexOf(query) >= 0);
-    var matchesRegion = !activeRegion || li.dataset.region === activeRegion;
-    li.style.display = (matchesSearch && matchesRegion) ? "" : "none";
-  });
-}
-
-document.getElementById("search").addEventListener("input", applyFilter);
-
-// --- Hash routing & dynamic title ---
-
-var BASE_TITLE = "Mã Bưu Điện Việt Nam";
-
-function updateTitle() {
-  var parts = [BASE_TITLE];
-  if (currentLevel === "old-province" && currentProvince) {
-    parts.unshift(currentProvince.name);
-  } else if (currentLevel === "district" && currentOldProvince) {
-    parts.unshift(oldBySlug[currentOldProvince].name);
-  } else if (currentLevel === "ward" && currentDistrict && currentOldProvince) {
-    parts.unshift(currentDistrict.name + ", " + oldBySlug[currentOldProvince].name);
-  }
-  document.title = parts.join(" - ");
-}
-
-function pushHash() {
-  var hash = "";
-  if (currentLevel === "old-province" && currentProvince) {
-    hash = "#/" + currentProvince.slug;
-  } else if (currentLevel === "district" && currentProvince && currentOldProvince) {
-    hash = "#/" + currentProvince.slug + "/" + currentOldProvince;
-  } else if (currentLevel === "ward" && currentProvince && currentOldProvince && currentDistrict) {
-    var dslug = currentDistrict.name.toLowerCase().replace(/\s+/g, "-");
-    hash = "#/" + currentProvince.slug + "/" + currentOldProvince + "/" + dslug;
-  }
-  if (hash && location.hash !== hash) {
-    history.pushState(null, "", hash);
-  } else if (!hash && location.hash) {
-    history.pushState(null, "", location.pathname);
-  }
-  updateTitle();
-}
-
-// Wrap navigation functions to push hash
-var _showProvinces = showProvinces;
-showProvinces = function () { _showProvinces(); pushHash(); };
-var _showOldProvinces = showOldProvinces;
-showOldProvinces = function (s) { _showOldProvinces(s); pushHash(); };
-var _showDistricts = showDistricts;
-showDistricts = function (a, b) { _showDistricts(a, b); pushHash(); };
-var _showWards = showWards;
-showWards = function (a, b, c) { _showWards(a, b, c); pushHash(); };
-
-function handleHash() {
-  var hash = location.hash.replace(/^#\/?/, "");
-  if (!hash) { showProvinces(); return; }
-  var parts = hash.split("/");
-
-  var merger = PROVINCE_MERGERS.find(function (m) { return m.slug === parts[0]; });
-  if (!merger) { showProvinces(); return; }
-
-  if (parts.length === 1) {
-    showOldProvinces(merger.slug);
-  } else if (parts.length === 2) {
-    showDistricts(merger.slug, parts[1]);
-  } else if (parts.length >= 3) {
-    // Find the district by slug-ified name
-    var detail = detailData && detailData[parts[1]];
-    if (detail) {
-      var dslug = parts[2];
-      var district = detail.districts.find(function (d) {
-        return d.name.toLowerCase().replace(/\s+/g, "-") === dslug;
-      });
-      if (district) { showWards(merger.slug, parts[1], district); return; }
+fetch("data/communes.json")
+  .then((r) => {
+    if (!r.ok) throw new Error(`data/communes.json: HTTP ${r.status}`);
+    return r.json();
+  })
+  .then((json) => {
+    model = buildModel(json);
+    showHome();
+    const q = new URLSearchParams(location.search).get("q");
+    if (q) {
+      $("search").value = q;
+      applyFilter();
     }
-    showDistricts(merger.slug, parts[1]);
-  }
-}
-
-window.addEventListener("popstate", handleHash);
-
-// --- Init ---
-if (location.hash) {
-  // Wait for detailData to load before routing
-  var _initInterval = setInterval(function () {
-    if (detailData) { clearInterval(_initInterval); handleHash(); }
-  }, 100);
-  // Fallback: show provinces after 3s if data never loads
-  setTimeout(function () { clearInterval(_initInterval); if (!detailData) showProvinces(); }, 3000);
-} else {
-  showProvinces();
-  applyQParam();
-}
-
-// Support ?q= query parameter for Google SearchAction
-var _qParam = new URLSearchParams(location.search).get("q");
-function applyQParam() {
-  if (!_qParam) return;
-  document.getElementById("search").value = _qParam;
-  applyFilter();
-  _qParam = null;
-}
+  })
+  .catch((error) => {
+    $("list").innerHTML = `<li class="list-error">Không tải được dữ liệu (${esc(error.message)}).</li>`;
+    throw error;
+  });
