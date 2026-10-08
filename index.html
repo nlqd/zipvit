@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mã Bưu Chính Việt Nam - Vietnam Zip Code Map</title>
-  <meta name="description" content="Tra cứu mã bưu chính (zip code) mới của 3.321 xã, phường trong 34 tỉnh, thành phố theo QĐ 2334/QĐ-BKHCN trên bản đồ. Search Vietnam's 2025 postal codes by province and commune.">
+  <meta name="description" content="Tra cứu mã bưu chính (zip code) mới của 3.321 xã, phường trong 34 tỉnh, thành phố theo QĐ 2334/QĐ-BKHCN trên bản đồ, kể cả từ địa chỉ cũ trước 01/07/2025. Search Vietnam's 2025 postal codes by province, commune or old address.">
   <meta name="keywords" content="mã bưu điện, zip code vietnam, mã bưu chính, postal code, bưu điện việt nam, tra cứu mã bưu điện, vietnam zip code map, zipcode">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://zipcode.dzungngo.com/">
@@ -72,7 +72,11 @@
     <header>
       <h1><a href="#/">Mã Bưu Chính Việt Nam</a></h1>
       <label for="search" class="sr-only">Tìm kiếm mã bưu chính</label>
-      <input type="search" id="search" placeholder="Tìm tỉnh, xã, phường hoặc mã bưu chính" autocomplete="off" />
+      <input type="search" id="search" placeholder="Tìm tỉnh, xã, phường mới hoặc cũ, hoặc mã bưu chính" autocomplete="off" />
+      <nav id="tabs" aria-label="Chọn danh sách">
+        <a href="#/" data-tab="new">34 tỉnh, thành mới</a>
+        <a href="#/cu" data-tab="old">Tra địa chỉ cũ</a>
+      </nav>
     </header>
     <nav id="breadcrumb" aria-label="Breadcrumb" hidden></nav>
     <div id="region-filters" role="group" aria-label="Lọc theo vùng"></div>

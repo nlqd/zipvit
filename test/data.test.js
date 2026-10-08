@@ -2,7 +2,7 @@ import { test } from "node:test";
 import assert from "node:assert/strict";
 import fs from "node:fs";
 import { slugify } from "../lib/text.js";
-import { buildModel, routeOf, resolve } from "../lib/model.js";
+import { buildModel, attachOldWards, routeOf, resolve } from "../lib/model.js";
 import { parseHash, formatHash } from "../lib/route.js";
 import { searchIndex, search } from "../lib/search.js";
 
@@ -45,16 +45,17 @@ test("every old ward maps to at least one existing new commune", () => {
   assert.deepEqual(broken, []);
 });
 
-test("province slugs are unique and do not collide with the old-address route", () => {
+test("province slugs are unique and do not collide with the old-address route #/cu", () => {
   const slugs = provinces.map((p) => slugify(p.name));
   assert.equal(new Set([...slugs, "cu"]).size, slugs.length + 1);
 });
 
-test("every province and commune link opens that same item", () => {
-  const model = buildModel(read("communes.json"));
-  const broken = [...model.provinces, ...model.communes].filter((item) => {
+test("every province, commune and old ward link opens that same item", () => {
+  const model = attachOldWards(buildModel(read("communes.json")), oldWards);
+  const items = [...model.provinces, ...model.communes, ...model.old.wards];
+  const broken = items.filter((item) => {
     const view = resolve(model, parseHash(formatHash(routeOf(item))));
-    return (view.commune || view.province) !== item;
+    return (view.oldWard || view.commune || view.province) !== item;
   });
   assert.deepEqual(broken.map((item) => item.name), []);
 });
@@ -65,12 +66,15 @@ test("every pre-2025 province slug leads to its new province", () => {
 });
 
 test("the acceptance queries return what the home page promises", () => {
-  const index = searchIndex(buildModel(read("communes.json")));
+  const index = searchIndex(attachOldWards(buildModel(read("communes.json")), oldWards));
   const top = (query) => {
     const [hit] = search(index, query);
     return `${hit.kind}:${hit.item.name}`;
   };
-  assert.deepEqual(["ha noi", "Sài Gòn"].map(top), ["province:Hà Nội", "commune:Phường Sài Gòn"]);
+  assert.deepEqual(
+    ["ha noi", "71006", "Bến Nghé", "Sài Gòn"].map(top),
+    ["province:Hà Nội", "oldWard:Phường Bến Nghé", "oldWard:Phường Bến Nghé", "commune:Phường Sài Gòn"],
+  );
 });
 
 test("the #VALUE! row of QĐ 2334 is Xã Nghi Dương in Hải Phòng", () => {
@@ -81,4 +85,10 @@ test("the #VALUE! row of QĐ 2334 is Xã Nghi Dương in Hải Phòng", () => {
 test("Đồng Nai, Quảng Ninh and Bắc Ninh are centrally run cities", () => {
   const cities = provinces.filter((p) => ["Đồng Nai", "Quảng Ninh", "Bắc Ninh"].includes(p.name));
   assert.deepEqual(cities.map((p) => p.full), ["Thành phố Quảng Ninh", "Thành phố Bắc Ninh", "Thành phố Đồng Nai"]);
+});
+
+test("Phường Bến Nghé now belongs to Phường Sài Gòn", () => {
+  const model = attachOldWards(buildModel(read("communes.json")), oldWards);
+  const benNghe = model.old.wards.find((w) => w.name === "Phường Bến Nghé" && w.district.name === "Quận 1");
+  assert.deepEqual(benNghe.targets.map((t) => `${t.commune.name} ${t.commune.zip}`), ["Phường Sài Gòn 71016"]);
 });

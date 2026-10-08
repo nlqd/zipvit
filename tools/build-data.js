@@ -5,7 +5,7 @@
 // The NSO old->new table names the pre-July-2025 units; the 2017 wards scraped from
 // mabuudien.net are matched to them by name to borrow their coordinates. Each new commune
 // is pinned at the centroid of its old wards. 2017 wards that no longer existed in 2025
-// get the successor of their nearest matched neighbour and are flagged as approximate.
+// get a likely successor (see successorByName) and are flagged as approximate.
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
@@ -196,17 +196,34 @@ function matchWards(wards, units) {
   }
 }
 
-// A 2017 ward missing from the 2025 table was merged away between 2019 and 2025.
-// Its successor is most likely the nearest matched ward of the same old province.
+// A 2017 ward missing from the 2025 table was merged away between 2019 and 2025, into a
+// neighbour of the same district. Mergers then often built the new name from syllables of
+// the old ones ("Cao Dương" + "Xuân Dương" -> "Cao Xuân Dương"), so a unique best syllable
+// overlap with an unmatched unit of the district wins. Otherwise the nearest matched ward
+// of the district (or else of the province) is the likeliest successor.
+const syllables = (name) => new Set(baseName(name).split(" "));
+
+function successorByName(ward, units) {
+  const own = syllables(ward.name);
+  const scored = units.map((unit) => [unit, [...syllables(unit.name)].filter((s) => own.has(s)).length]);
+  const best = Math.max(0, ...scored.map(([, n]) => n));
+  const top = scored.filter(([, n]) => n === best);
+  return best > 0 && top.length === 1 ? top[0][0] : null;
+}
+
 function nearestMatched(ward, matched) {
   if (ward.lat == null) return null;
-  let best = null;
-  for (const other of matched) {
-    if (other.province !== ward.province || other.lat == null) continue;
-    const d = distanceKm(ward, other);
-    if (!best || d < best.d) best = { d, other };
-  }
-  return best && best.other;
+  const nearest = (pool) => {
+    let best = null;
+    for (const other of pool) {
+      if (other.lat == null) continue;
+      const d = distanceKm(ward, other);
+      if (!best || d < best.d) best = { d, other };
+    }
+    return best?.other;
+  };
+  const province = matched.filter((w) => w.province === ward.province);
+  return nearest(province.filter((w) => w.district === ward.district)) || nearest(province);
 }
 
 function centroid(points) {
@@ -240,6 +257,10 @@ function oldEntries(units, wards) {
   const entryOfUnit = new Map(entries.map((e) => [e.unit, e]));
   const matched = wards.filter((w) => w.unit);
   const wholeDistricts = units.filter((u) => !u.district);
+  const unmatchedUnits = groupBy(
+    units.filter((u) => !u.ward && u.district),
+    (u) => `${provinceKey(u.province)}|${baseName(u.district)}`,
+  );
 
   for (const ward of wards.filter((w) => !w.unit)) {
     const entry = {
@@ -254,12 +275,13 @@ function oldEntries(units, wards) {
     const zone = wholeDistricts.find(
       (u) => provinceKey(u.province) === provinceKey(ward.province) && baseName(u.name) === baseName(ward.district),
     );
-    const near = !zone && nearestMatched(ward, matched);
+    const sameDistrict = unmatchedUnits.get(`${provinceKey(ward.province)}|${baseName(ward.district)}`) || [];
+    const successor = !zone && (successorByName(ward, sameDistrict) || nearestMatched(ward, matched)?.unit);
     if (zone) {
       entry.targets = zone.targets;
-    } else if (near) {
-      entry.targets = near.unit.targets;
-      entry.via = entryOfUnit.get(near.unit);
+    } else if (successor) {
+      entry.targets = successor.targets;
+      entry.via = entryOfUnit.get(successor);
     } else {
       const sameDistrict = matched.filter((w) => w.province === ward.province && w.district === ward.district);
       const target = mostCommon(sameDistrict.flatMap((w) => w.unit.targets.map((t) => t.code)));

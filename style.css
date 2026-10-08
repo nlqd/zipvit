@@ -61,6 +61,31 @@ button {
   border-color: #d32f2f;
 }
 
+#tabs {
+  display: flex;
+  margin: 0 12px 10px;
+  border: 1px solid #d32f2f;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+#tabs a {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #d32f2f;
+  text-decoration: none;
+}
+
+#tabs a[aria-current="page"] {
+  background: #d32f2f;
+  color: #fff;
+}
+
 #breadcrumb {
   display: flex;
   flex-wrap: wrap;
@@ -141,6 +166,38 @@ button {
   margin-top: 6px;
   font-size: 0.8rem;
   color: #b71c1c;
+}
+
+.detail-note a {
+  color: inherit;
+}
+
+.detail-label {
+  margin-top: 8px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #555;
+}
+
+.former {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 12px;
+  font-size: 0.85rem;
+}
+
+.former a {
+  color: #d32f2f;
+}
+
+.targets {
+  list-style: none;
+  margin: 4px -14px 0;
+}
+
+.targets li + li {
+  border-top: 1px solid #f3c7c7;
 }
 
 .show-map {
@@ -339,7 +396,9 @@ button {
     display: none;
   }
 
-  #breadcrumb a {
+  #breadcrumb a,
+  .former a,
+  .detail-note a {
     display: inline-flex;
     align-items: center;
     min-height: 44px;
