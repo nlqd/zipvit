@@ -70,12 +70,14 @@
 <body>
   <aside id="sidebar">
     <header>
-      <h1>Mã Bưu Chính Việt Nam</h1>
+      <h1><a href="#/">Mã Bưu Chính Việt Nam</a></h1>
       <label for="search" class="sr-only">Tìm kiếm mã bưu chính</label>
       <input type="search" id="search" placeholder="Tìm tỉnh, xã, phường hoặc mã bưu chính" autocomplete="off" />
     </header>
     <nav id="breadcrumb" aria-label="Breadcrumb" hidden></nav>
     <div id="region-filters" role="group" aria-label="Lọc theo vùng"></div>
+    <section id="detail" aria-live="polite" hidden></section>
+    <p id="status" role="status"></p>
     <ul id="list"></ul>
     <footer id="sidebar-footer">
       <p>Mã bưu chính theo <a href="https://mst.gov.vn/van-ban-phap-luat/25175.htm">QĐ 2334/QĐ-BKHCN</a> (24/08/2025). Đơn vị hành chính từ 01/07/2025 theo NQ 202/2025/QH15 và danh mục, bảng chuyển đổi của Cục Thống kê.</p>
@@ -83,6 +85,10 @@
     </footer>
   </aside>
   <main id="map" role="application" aria-label="Vietnam zip code map"></main>
+  <nav id="mode-toggle" aria-label="Chế độ xem">
+    <button type="button" data-mode="list" aria-pressed="true">Danh sách</button>
+    <button type="button" data-mode="map" aria-pressed="false">Bản đồ</button>
+  </nav>
 
   <noscript>
     <div style="padding:2em;max-width:600px;margin:auto">

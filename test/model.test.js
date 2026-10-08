@@ -1,6 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { buildModel, prefixRange } from "../lib/model.js";
+import { buildModel, routeOf, resolve, prefixRange } from "../lib/model.js";
 
 const communesJson = {
   provinces: [
@@ -14,6 +14,7 @@ const communesJson = {
   ],
 };
 
+
 test("provinces get slugs from their short names", () => {
   assert.deepEqual(buildModel(communesJson).provinces.map((p) => p.slug), ["ho-chi-minh", "hue"]);
 });
@@ -24,6 +25,39 @@ test("a commune knows its province", () => {
 
 test("a commune carries its note", () => {
   assert.equal(buildModel(communesJson).byZip.get("49006").note, "Chưa có vị trí");
+});
+
+test("routeOf a commune ends in its postal code", () => {
+  const model = buildModel(communesJson);
+  assert.deepEqual(routeOf(model.byZip.get("71016")), {
+    view: "commune",
+    province: "ho-chi-minh",
+    commune: "phuong-sai-gon-71016",
+  });
+});
+
+test("resolve finds a commune from its route", () => {
+  const model = buildModel(communesJson);
+  assert.equal(resolve(model, routeOf(model.byZip.get("71008"))).commune.name, "Phường Tân Định");
+});
+
+test("resolve finds a commune from the postal code alone", () => {
+  const model = buildModel(communesJson);
+  assert.equal(resolve(model, { view: "commune", province: "ho-chi-minh", commune: "71016" }).commune.name, "Phường Sài Gòn");
+});
+
+test("resolve falls back to the province for an unknown commune", () => {
+  const view = resolve(buildModel(communesJson), { view: "commune", province: "ho-chi-minh", commune: "binh-duong" });
+  assert.deepEqual([view.view, view.province.name], ["province", "Hồ Chí Minh"]);
+});
+
+test("resolve maps a pre-2025 province slug to its new province", () => {
+  const view = resolve(buildModel(communesJson), { view: "province", province: "thua-thien-hue" });
+  assert.equal(view.province.name, "Huế");
+});
+
+test("resolve sends an unknown province home", () => {
+  assert.equal(resolve(buildModel(communesJson), { view: "province", province: "atlantis" }).view, "home");
 });
 
 test("prefixRange collapses consecutive two-digit prefixes", () => {

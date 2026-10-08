@@ -35,9 +35,14 @@ button {
 
 #sidebar h1 {
   font-size: 1.25rem;
-  padding: 16px;
   background: #d32f2f;
+}
+
+#sidebar h1 a {
+  display: block;
+  padding: 14px 16px;
   color: #fff;
+  text-decoration: none;
 }
 
 #search {
@@ -108,6 +113,50 @@ button {
   color: #fff;
 }
 
+#detail {
+  margin: 0 12px 8px;
+  padding: 12px 14px;
+  border: 1px solid #f3c7c7;
+  border-radius: 8px;
+  background: #fff8f8;
+}
+
+#detail h2 {
+  font-size: 1.05rem;
+}
+
+.detail-zip {
+  font-family: "Courier New", monospace;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #d32f2f;
+}
+
+.detail-sub {
+  font-size: 0.85rem;
+  color: #555;
+}
+
+.detail-note {
+  margin-top: 6px;
+  font-size: 0.8rem;
+  color: #b71c1c;
+}
+
+.show-map {
+  display: none;
+}
+
+#status {
+  padding: 0 16px 6px;
+  font-size: 0.75rem;
+  color: #888;
+}
+
+#status:empty {
+  display: none;
+}
+
 #list {
   list-style: none;
   overflow-y: auto;
@@ -130,6 +179,7 @@ button {
   width: 100%;
   min-height: 48px;
   padding: 8px 16px;
+  color: inherit;
   text-decoration: none;
   transition: background 0.1s;
 }
@@ -237,16 +287,125 @@ button {
   border: 0;
 }
 
+#mode-toggle {
+  display: none;
+}
+
+/* Phones: the list and the map each get the whole screen, switched from a bottom bar. */
 @media (max-width: 768px) {
   body {
     flex-direction: column;
+    height: 100dvh;
   }
 
   #sidebar {
+    flex: 1;
     width: 100%;
-    min-width: unset;
-    max-height: 40vh;
+    min-width: 0;
+    min-height: 0;
+    overflow-y: auto;
     border-right: none;
-    border-bottom: 1px solid #ddd;
+  }
+
+  #sidebar > * {
+    flex-shrink: 0;
+  }
+
+  #sidebar-footer a {
+    display: inline-block;
+    padding: 15px 0;
+    margin: -15px 0;
+  }
+
+  #sidebar header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background: #fff;
+  }
+
+  #list {
+    flex: none;
+    overflow: visible;
+  }
+
+  #map {
+    flex: 1;
+    min-height: 0;
+  }
+
+  body[data-mode="list"] #map,
+  body[data-mode="map"] #sidebar {
+    display: none;
+  }
+
+  #breadcrumb a {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+  }
+
+  #region-filters {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+  }
+
+  .region-tag {
+    flex: none;
+    min-height: 44px;
+    padding: 0 14px;
+    border-radius: 22px;
+  }
+
+  .show-map {
+    display: block;
+    width: 100%;
+    min-height: 44px;
+    margin-top: 10px;
+    border-radius: 6px;
+    background: #d32f2f;
+    color: #fff;
+    text-align: center;
+    font-weight: 600;
+  }
+
+  #mode-toggle {
+    display: flex;
+    flex: none;
+    padding-bottom: env(safe-area-inset-bottom);
+    border-top: 1px solid #ddd;
+    background: #fff;
+    z-index: 1001;
+  }
+
+  #mode-toggle button {
+    flex: 1;
+    min-height: 52px;
+    text-align: center;
+    font-weight: 600;
+    color: #555;
+  }
+
+  #mode-toggle button[aria-pressed="true"] {
+    color: #d32f2f;
+    box-shadow: inset 0 3px #d32f2f;
+  }
+
+  .leaflet-touch .leaflet-bar a {
+    width: 44px;
+    height: 44px;
+    line-height: 44px;
+  }
+
+  .leaflet-container a.leaflet-popup-close-button {
+    width: 44px;
+    height: 44px;
+    font: 24px/44px Tahoma, Verdana, sans-serif;
+  }
+
+  .leaflet-popup-content a {
+    display: inline-block;
+    min-height: 44px;
+    line-height: 44px;
   }
 }

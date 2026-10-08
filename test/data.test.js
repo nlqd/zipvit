@@ -2,6 +2,9 @@ import { test } from "node:test";
 import assert from "node:assert/strict";
 import fs from "node:fs";
 import { slugify } from "../lib/text.js";
+import { buildModel, routeOf, resolve } from "../lib/model.js";
+import { parseHash, formatHash } from "../lib/route.js";
+import { searchIndex, search } from "../lib/search.js";
 
 const read = (name) => JSON.parse(fs.readFileSync(new URL(`../data/${name}`, import.meta.url), "utf8"));
 const { provinces, communes } = read("communes.json");
@@ -45,6 +48,29 @@ test("every old ward maps to at least one existing new commune", () => {
 test("province slugs are unique and do not collide with the old-address route", () => {
   const slugs = provinces.map((p) => slugify(p.name));
   assert.equal(new Set([...slugs, "cu"]).size, slugs.length + 1);
+});
+
+test("every province and commune link opens that same item", () => {
+  const model = buildModel(read("communes.json"));
+  const broken = [...model.provinces, ...model.communes].filter((item) => {
+    const view = resolve(model, parseHash(formatHash(routeOf(item))));
+    return (view.commune || view.province) !== item;
+  });
+  assert.deepEqual(broken.map((item) => item.name), []);
+});
+
+test("every pre-2025 province slug leads to its new province", () => {
+  const legacy = provinces.flatMap((p) => p.legacy);
+  assert.equal(new Set(legacy).size, 63);
+});
+
+test("the acceptance queries return what the home page promises", () => {
+  const index = searchIndex(buildModel(read("communes.json")));
+  const top = (query) => {
+    const [hit] = search(index, query);
+    return `${hit.kind}:${hit.item.name}`;
+  };
+  assert.deepEqual(["ha noi", "Sài Gòn"].map(top), ["province:Hà Nội", "commune:Phường Sài Gòn"]);
 });
 
 test("the #VALUE! row of QĐ 2334 is Xã Nghi Dương in Hải Phòng", () => {
