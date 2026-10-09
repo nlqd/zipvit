@@ -368,6 +368,12 @@ button {
     flex-shrink: 0;
   }
 
+  /* The footer follows the list here, so it waits for the list instead of being pushed down
+     when the list fills in (a layout shift). */
+  #list:empty + #sidebar-footer {
+    display: none;
+  }
+
   #sidebar-footer a {
     display: inline-block;
     padding: 15px 0;

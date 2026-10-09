@@ -2,6 +2,7 @@
 // (through an import map) and the data files app.js fetches. GitHub Pages lets browsers cache
 // files for 10 minutes; with the tags a deploy switches a visitor over all at once instead of
 // mixing cached old files with new ones. Run after changing any of them: node tools/stamp.js
+// Vendored libraries never change in place: their folder name (vendor/leaflet-1.9.4/) is the key.
 import { createHash } from "node:crypto";
 import fs from "node:fs";
 import path from "node:path";

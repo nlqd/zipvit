@@ -33,3 +33,11 @@ test("stamping twice changes nothing", () => {
   const twice = stamped((file) => once[file] ?? read(file), modules());
   assert.deepEqual(twice, once);
 });
+
+test("every local script and stylesheet is tagged or in a versioned vendor folder", () => {
+  const loaded = [...read("index.html").matchAll(/<script\b[^>]*\bsrc="([^"]+)"|<link\b[^>]*\brel="stylesheet"[^>]*\bhref="([^"]+)"/g)]
+    .map((m) => m[1] ?? m[2])
+    .filter((url) => !/^https?:/.test(url));
+  assert.ok(loaded.length >= 4);
+  for (const url of loaded) assert.match(url, /\?v=[0-9a-f]{10}$|^vendor\/[\w-]+-\d+\.\d+\.\d+\//, url);
+});

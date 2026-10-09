@@ -64,8 +64,10 @@
   </script>
   <meta name="google-site-verification" content="9sUETd6JsKCUZkYVoYFfDPWuZ0cRcfAoZtA_h7UCQao" />
 
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="anonymous" />
-  <link rel="stylesheet" href="style.css?v=c9f8ace7ae" />
+  <link rel="stylesheet" href="vendor/leaflet-1.9.4/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" />
+  <link rel="stylesheet" href="style.css?v=3407f64afc" />
+  <!-- defer keeps document order: Leaflet still runs before the app.js module at the end of <body>. -->
+  <script defer src="vendor/leaflet-1.9.4/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="></script>
 </head>
 <body>
   <aside id="sidebar">
@@ -102,7 +104,6 @@
     </div>
   </noscript>
 
-  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin="anonymous"></script>
   <script type="importmap">
 {
   "imports": {
