@@ -6,6 +6,7 @@ import { REGIONS } from "./lib/regions.js";
 
 const HOME_VIEW = { center: [16.0, 106.0], zoom: 6 };
 const BASE_TITLE = "Mã Bưu Chính Việt Nam";
+const HOME_TITLE = document.title;
 const SEARCH_LIMIT = 50;
 const OLD_COLOR = "#757575";
 
@@ -134,7 +135,7 @@ function communePopup(c) {
 // --- Views ---
 
 function showHome() {
-  document.title = `${BASE_TITLE} - 34 tỉnh, thành phố`;
+  document.title = HOME_TITLE;
   setBreadcrumb([]);
   setDetail("");
   $("region-filters").hidden = false;

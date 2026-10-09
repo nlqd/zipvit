@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!-- Source of og-image.png, the 1200x630 share card. Serve the repo, open this page at a
+     1200x630 viewport and screenshot it into og-image.png. -->
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<style>
+  * { margin: 0; box-sizing: border-box; }
+  body {
+    width: 1200px;
+    height: 630px;
+    display: flex;
+    flex-direction: column;
+    font-family: "Noto Sans", "Segoe UI", Roboto, sans-serif;
+    background: #fff;
+    color: #222;
+  }
+  header {
+    display: flex;
+    align-items: center;
+    gap: 36px;
+    height: 330px;
+    padding: 0 72px;
+    background: #d32f2f;
+    color: #fff;
+  }
+  header img { width: 128px; height: 128px; border-radius: 28px; box-shadow: 0 0 0 4px #fff; }
+  h1 { font-size: 72px; font-weight: 700; line-height: 1.1; }
+  main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding: 0 72px;
+  }
+  .stats { font-size: 35px; font-weight: 600; }
+  .site { font-size: 30px; color: #6b6b6b; }
+</style>
+</head>
+<body>
+  <header>
+    <img src="../favicon.svg" alt="">
+    <h1>Mã Bưu Chính Việt Nam</h1>
+  </header>
+  <main>
+    <p class="stats">3.321 xã, phường · 34 tỉnh, thành phố · mã mới 2025</p>
+    <p class="site">zipcode.dzungngo.com</p>
+  </main>
+</body>
+</html>

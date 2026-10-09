@@ -8,6 +8,7 @@
   <meta name="keywords" content="mã bưu điện, zip code vietnam, mã bưu chính, postal code, bưu điện việt nam, tra cứu mã bưu điện, vietnam zip code map, zipcode">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://zipcode.dzungngo.com/">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="alternate" hreflang="vi" href="https://zipcode.dzungngo.com/">
   <link rel="alternate" hreflang="x-default" href="https://zipcode.dzungngo.com/">
 
@@ -18,11 +19,16 @@
   <meta property="og:url" content="https://zipcode.dzungngo.com/">
   <meta property="og:locale" content="vi_VN">
   <meta property="og:site_name" content="Vietnam Zip Code Map">
+  <meta property="og:image" content="https://zipcode.dzungngo.com/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Mã Bưu Chính Việt Nam: 3.321 xã, phường, 34 tỉnh, thành phố, mã mới 2025">
 
   <!-- Twitter Card -->
-  <meta name="twitter:card" content="summary">
+  <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Mã Bưu Chính Việt Nam - Vietnam Zip Code Map">
   <meta name="twitter:description" content="Tra cứu mã bưu chính mới theo tỉnh, thành phố và xã, phường trên bản đồ tương tác.">
+  <meta name="twitter:image" content="https://zipcode.dzungngo.com/og-image.png">
 
   <!-- Structured Data -->
   <script type="application/ld+json">
@@ -65,12 +71,12 @@
   <meta name="google-site-verification" content="9sUETd6JsKCUZkYVoYFfDPWuZ0cRcfAoZtA_h7UCQao" />
 
   <link rel="stylesheet" href="vendor/leaflet-1.9.4/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" />
-  <link rel="stylesheet" href="style.css?v=3407f64afc" />
+  <link rel="stylesheet" href="style.css?v=56b75edb21" />
   <!-- defer keeps document order: Leaflet still runs before the app.js module at the end of <body>. -->
   <script defer src="vendor/leaflet-1.9.4/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="></script>
 </head>
 <body>
-  <aside id="sidebar">
+  <main id="sidebar">
     <header>
       <h1><a href="#/">Mã Bưu Chính Việt Nam</a></h1>
       <label for="search" class="sr-only">Tìm kiếm mã bưu chính</label>
@@ -89,8 +95,8 @@
       <p>Mã bưu chính theo <a href="https://mst.gov.vn/van-ban-phap-luat/25175.htm">QĐ 2334/QĐ-BKHCN</a> (24/08/2025). Đơn vị hành chính từ 01/07/2025 theo NQ 202/2025/QH15 và danh mục, bảng chuyển đổi của Cục Thống kê.</p>
       <p class="stale-warning">Vị trí trên bản đồ là tâm ước tính từ các xã, phường cũ, không phải ranh giới. Hãy kiểm tra lại với bưu điện địa phương.</p>
     </footer>
-  </aside>
-  <main id="map" role="application" aria-label="Bản đồ mã bưu chính Việt Nam"></main>
+  </main>
+  <div id="map" role="region" aria-label="Bản đồ mã bưu chính Việt Nam"></div>
   <nav id="mode-toggle" aria-label="Chế độ xem">
     <button type="button" data-mode="list" aria-pressed="true">Danh sách</button>
     <button type="button" data-mode="map" aria-pressed="false">Bản đồ</button>
@@ -116,6 +122,6 @@
   }
 }
 </script>
-  <script type="module" src="app.js?v=ba3e706d09"></script>
+  <script type="module" src="app.js?v=0b29be703c"></script>
 </body>
 </html>
