@@ -4,7 +4,8 @@
   "type": "module",
   "scripts": {
     "test": "node --test 'test/*.test.js'",
-    "build:data": "node tools/build-data.js",
+    "build:data": "node tools/build-data.js && node tools/stamp.js",
+    "stamp": "node tools/stamp.js",
     "fetch:sources": "uv run --no-project tools/fetch_sources.py"
   }
 }

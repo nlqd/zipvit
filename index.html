@@ -65,7 +65,7 @@
   <meta name="google-site-verification" content="9sUETd6JsKCUZkYVoYFfDPWuZ0cRcfAoZtA_h7UCQao" />
 
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="anonymous" />
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css?v=c9f8ace7ae" />
 </head>
 <body>
   <aside id="sidebar">
@@ -103,6 +103,17 @@
   </noscript>
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin="anonymous"></script>
-  <script type="module" src="app.js"></script>
+  <script type="importmap">
+{
+  "imports": {
+    "./lib/declutter.js": "./lib/declutter.js?v=4ebd5ce854",
+    "./lib/model.js": "./lib/model.js?v=86423dd4db",
+    "./lib/route.js": "./lib/route.js?v=a99c2deb7f",
+    "./lib/search.js": "./lib/search.js?v=2a261458b5",
+    "./lib/text.js": "./lib/text.js?v=cd99a2df36"
+  }
+}
+</script>
+  <script type="module" src="app.js?v=35a6c4d236"></script>
 </body>
 </html>

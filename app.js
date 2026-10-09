@@ -227,7 +227,7 @@ function formerWardsHtml(c) {
 // --- Old addresses (before 1 July 2025) ---
 
 function loadOldWards() {
-  oldWardsLoad ??= fetch("data/old-wards.json")
+  oldWardsLoad ??= fetch("data/old-wards.json?v=4940d86077")
     .then((r) => {
       if (!r.ok) throw new Error(`data/old-wards.json: HTTP ${r.status}`);
       return r.json();
@@ -484,7 +484,7 @@ window.addEventListener("hashchange", () => {
 buildRegionFilters();
 setMode("list");
 
-fetch("data/communes.json")
+fetch("data/communes.json?v=1e4ab65b06")
   .then((r) => {
     if (!r.ok) throw new Error(`data/communes.json: HTTP ${r.status}`);
     return r.json();
