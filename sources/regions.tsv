@@ -1,35 +1,35 @@
 province_code	name	region
-01	Thành phố Hà Nội	Red River Delta
-04	Tỉnh Cao Bằng	Northeast
-08	Tỉnh Tuyên Quang	Northeast
-11	Tỉnh Điện Biên	Northwest
-12	Tỉnh Lai Châu	Northwest
-14	Tỉnh Sơn La	Northwest
-15	Tỉnh Lào Cai	Northeast
-19	Tỉnh Thái Nguyên	Northeast
-20	Tỉnh Lạng Sơn	Northeast
-22	Thành phố Quảng Ninh	Red River Delta
-24	Thành phố Bắc Ninh	Red River Delta
-25	Tỉnh Phú Thọ	Northeast
-31	Thành phố Hải Phòng	Red River Delta
-33	Tỉnh Hưng Yên	Red River Delta
-37	Tỉnh Ninh Bình	Red River Delta
-38	Tỉnh Thanh Hóa	North Central Coast
-40	Tỉnh Nghệ An	North Central Coast
-42	Tỉnh Hà Tĩnh	North Central Coast
-44	Tỉnh Quảng Trị	North Central Coast
-46	Thành phố Huế	North Central Coast
-48	Thành phố Đà Nẵng	South Central Coast
-51	Tỉnh Quảng Ngãi	South Central Coast
-52	Tỉnh Gia Lai	Central Highlands
-56	Tỉnh Khánh Hòa	South Central Coast
-66	Tỉnh Đắk Lắk	Central Highlands
-68	Tỉnh Lâm Đồng	Central Highlands
-75	Thành phố Đồng Nai	Southeast
-79	Thành phố Hồ Chí Minh	Southeast
-80	Tỉnh Tây Ninh	Southeast
-82	Tỉnh Đồng Tháp	Mekong Delta
-86	Tỉnh Vĩnh Long	Mekong Delta
-91	Tỉnh An Giang	Mekong Delta
-92	Thành phố Cần Thơ	Mekong Delta
-96	Tỉnh Cà Mau	Mekong Delta
+01	Thành phố Hà Nội	Đồng bằng sông Hồng
+04	Tỉnh Cao Bằng	Đông Bắc Bộ
+08	Tỉnh Tuyên Quang	Đông Bắc Bộ
+11	Tỉnh Điện Biên	Tây Bắc Bộ
+12	Tỉnh Lai Châu	Tây Bắc Bộ
+14	Tỉnh Sơn La	Tây Bắc Bộ
+15	Tỉnh Lào Cai	Đông Bắc Bộ
+19	Tỉnh Thái Nguyên	Đông Bắc Bộ
+20	Tỉnh Lạng Sơn	Đông Bắc Bộ
+22	Thành phố Quảng Ninh	Đồng bằng sông Hồng
+24	Thành phố Bắc Ninh	Đồng bằng sông Hồng
+25	Tỉnh Phú Thọ	Đông Bắc Bộ
+31	Thành phố Hải Phòng	Đồng bằng sông Hồng
+33	Tỉnh Hưng Yên	Đồng bằng sông Hồng
+37	Tỉnh Ninh Bình	Đồng bằng sông Hồng
+38	Tỉnh Thanh Hóa	Bắc Trung Bộ
+40	Tỉnh Nghệ An	Bắc Trung Bộ
+42	Tỉnh Hà Tĩnh	Bắc Trung Bộ
+44	Tỉnh Quảng Trị	Bắc Trung Bộ
+46	Thành phố Huế	Bắc Trung Bộ
+48	Thành phố Đà Nẵng	Duyên hải Nam Trung Bộ
+51	Tỉnh Quảng Ngãi	Duyên hải Nam Trung Bộ
+52	Tỉnh Gia Lai	Tây Nguyên
+56	Tỉnh Khánh Hòa	Duyên hải Nam Trung Bộ
+66	Tỉnh Đắk Lắk	Tây Nguyên
+68	Tỉnh Lâm Đồng	Tây Nguyên
+75	Thành phố Đồng Nai	Đông Nam Bộ
+79	Thành phố Hồ Chí Minh	Đông Nam Bộ
+80	Tỉnh Tây Ninh	Đông Nam Bộ
+82	Tỉnh Đồng Tháp	Đồng bằng sông Cửu Long
+86	Tỉnh Vĩnh Long	Đồng bằng sông Cửu Long
+91	Tỉnh An Giang	Đồng bằng sông Cửu Long
+92	Thành phố Cần Thơ	Đồng bằng sông Cửu Long
+96	Tỉnh Cà Mau	Đồng bằng sông Cửu Long

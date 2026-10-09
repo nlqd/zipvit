@@ -2,26 +2,22 @@ import { buildModel, attachOldWards, prefixRange, routeOf, resolve } from "./lib
 import { parseHash, formatHash } from "./lib/route.js";
 import { searchIndex, search } from "./lib/search.js";
 import { declutter } from "./lib/declutter.js";
+import { REGIONS } from "./lib/regions.js";
 
-const REGION_COLORS = {
-  "Red River Delta": "#e53935",
-  "Northeast": "#8e24aa",
-  "Northwest": "#3949ab",
-  "North Central Coast": "#00897b",
-  "South Central Coast": "#f9a825",
-  "Central Highlands": "#6d4c41",
-  "Southeast": "#fb8c00",
-  "Mekong Delta": "#43a047",
-};
 const HOME_VIEW = { center: [16.0, 106.0], zoom: 6 };
 const BASE_TITLE = "Mã Bưu Chính Việt Nam";
 const SEARCH_LIMIT = 50;
 const OLD_COLOR = "#757575";
 
 const $ = (id) => document.getElementById(id);
-const map = L.map("map").setView(HOME_VIEW.center, HOME_VIEW.zoom);
+const map = L.map("map", { zoomControl: false }).setView(HOME_VIEW.center, HOME_VIEW.zoom);
+L.control.zoom({ zoomInTitle: "Phóng to", zoomOutTitle: "Thu nhỏ" }).addTo(map);
+map.attributionControl.setPrefix(
+  map.attributionControl.options.prefix.replace("A JavaScript library for interactive maps", "Thư viện JavaScript cho bản đồ tương tác"),
+);
+map.on("popupopen", (e) => e.popup.getElement()?.querySelector(".leaflet-popup-close-button")?.setAttribute("aria-label", "Đóng"));
 L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-  attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+  attribution: '&copy; Những người đóng góp <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
   maxZoom: 18,
 }).addTo(map);
 const markers = L.layerGroup().addTo(map);
@@ -35,7 +31,7 @@ let oldWardsLoad = null;
 const esc = (text) =>
   String(text).replace(/[&<>"']/g, (ch) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[ch]);
 const hrefOf = (item) => formatHash(routeOf(item)) || "#/";
-const colorOf = (province) => REGION_COLORS[province.region] || "#666";
+const colorOf = (province) => REGIONS[province.region] || "#666";
 const kindLabel = (province) => (province.city ? "Thành phố" : "Tỉnh");
 const isPhone = () => matchMedia("(max-width: 768px)").matches;
 
@@ -427,7 +423,7 @@ function applyRegion() {
 
 function buildRegionFilters() {
   const container = $("region-filters");
-  for (const [region, color] of Object.entries(REGION_COLORS)) {
+  for (const [region, color] of Object.entries(REGIONS)) {
     const tag = document.createElement("button");
     tag.type = "button";
     tag.className = "region-tag";
@@ -484,7 +480,7 @@ window.addEventListener("hashchange", () => {
 buildRegionFilters();
 setMode("list");
 
-fetch("data/communes.json?v=1e4ab65b06")
+fetch("data/communes.json?v=dc87f92a63")
   .then((r) => {
     if (!r.ok) throw new Error(`data/communes.json: HTTP ${r.status}`);
     return r.json();

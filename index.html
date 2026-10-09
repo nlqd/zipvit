@@ -78,7 +78,7 @@
         <a href="#/cu" data-tab="old">Tra địa chỉ cũ</a>
       </nav>
     </header>
-    <nav id="breadcrumb" aria-label="Breadcrumb" hidden></nav>
+    <nav id="breadcrumb" aria-label="Đường dẫn" hidden></nav>
     <div id="region-filters" role="group" aria-label="Lọc theo vùng"></div>
     <section id="detail" aria-live="polite" hidden></section>
     <p id="status" role="status"></p>
@@ -88,7 +88,7 @@
       <p class="stale-warning">Vị trí trên bản đồ là tâm ước tính từ các xã, phường cũ, không phải ranh giới. Hãy kiểm tra lại với bưu điện địa phương.</p>
     </footer>
   </aside>
-  <main id="map" role="application" aria-label="Vietnam zip code map"></main>
+  <main id="map" role="application" aria-label="Bản đồ mã bưu chính Việt Nam"></main>
   <nav id="mode-toggle" aria-label="Chế độ xem">
     <button type="button" data-mode="list" aria-pressed="true">Danh sách</button>
     <button type="button" data-mode="map" aria-pressed="false">Bản đồ</button>
@@ -98,7 +98,7 @@
     <div style="padding:2em;max-width:600px;margin:auto">
       <h1>Mã Bưu Chính Việt Nam - Vietnam Zip Code Map</h1>
       <p>Tra cứu mã bưu chính (zip code / postal code) mới của 3.321 xã, phường trong 34 tỉnh, thành phố theo Quyết định 2334/QĐ-BKHCN.</p>
-      <p>This application requires JavaScript to display the interactive map. Please enable JavaScript in your browser.</p>
+      <p>Trang này cần JavaScript để hiển thị bản đồ tương tác. Hãy bật JavaScript trong trình duyệt.</p>
     </div>
   </noscript>
 
@@ -108,12 +108,13 @@
   "imports": {
     "./lib/declutter.js": "./lib/declutter.js?v=4ebd5ce854",
     "./lib/model.js": "./lib/model.js?v=86423dd4db",
+    "./lib/regions.js": "./lib/regions.js?v=abf7e26068",
     "./lib/route.js": "./lib/route.js?v=a99c2deb7f",
     "./lib/search.js": "./lib/search.js?v=2a261458b5",
     "./lib/text.js": "./lib/text.js?v=cd99a2df36"
   }
 }
 </script>
-  <script type="module" src="app.js?v=35a6c4d236"></script>
+  <script type="module" src="app.js?v=ba3e706d09"></script>
 </body>
 </html>
